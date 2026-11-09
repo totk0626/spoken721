@@ -14,7 +14,7 @@ const FILTERS = [{ id: 'all', label: '전체' }, ...Object.entries(STATUS).map((
 const INTERVAL = { 1: 1, 2: 3, 3: 7, 4: 14, 5: 30 };
 const MAX_BOX = 5;
 const MASTERED_BOX = 4;
-const VERDICTS = { know: { box: 2, retry: false }, unsure: { box: 1, retry: true } };
+const VERDICT_BOX = { cold: 3, know: 2, unsure: 1 };
 const GOAL_MIN = 5;
 const GOAL_MAX = 100;
 const GOAL_STEP = 5;
@@ -84,7 +84,7 @@ const NEW_ORDER = shuffle(WORDS.map(w => w.id), mulberry32(ORDER_SEED));
 /* ---------- progress: persisted state and its pure transitions ---------- */
 
 function initialState() {
-  return { v: 1, goal: DEFAULT_GOAL, onboarded: false, cards: {}, log: {} };
+  return { v: 1, goal: DEFAULT_GOAL, onboarded: false, swiped: false, cards: {}, log: {} };
 }
 
 function bumpLog(log, today, field) {
@@ -96,7 +96,7 @@ const schedule = (card, box, today) => ({ ...card, box, due: addDays(today, INTE
 
 function learnWord(state, id, verdict, today) {
   const prev = state.cards[id];
-  const card = schedule(prev || { box: 1, due: today, seen: today, right: 0, wrong: 0 }, VERDICTS[verdict].box, today);
+  const card = schedule(prev || { box: 1, due: today, seen: today, right: 0, wrong: 0 }, VERDICT_BOX[verdict], today);
   return {
     ...state,
     cards: { ...state.cards, [id]: card },
@@ -118,7 +118,8 @@ const clampGoal = n => Math.min(GOAL_MAX, Math.max(GOAL_MIN, Math.round(n / GOAL
 const stepGoal = (goal, direction) => clampGoal(goal + direction * GOAL_STEP);
 const setGoal = (state, goal) => ({ ...state, goal });
 const finishOnboarding = (state, goal) => ({ ...state, goal, onboarded: true });
-const resetProgress = state => ({ ...initialState(), goal: state.goal, onboarded: true });
+const markSwiped = state => ({ ...state, swiped: true });
+const resetProgress = state => ({ ...initialState(), goal: state.goal, onboarded: true, swiped: state.swiped });
 
 const statusOf = card => (!card ? 'new' : card.box >= MASTERED_BOX ? 'mastered' : 'learning');
 const learnedIds = state => Object.keys(state.cards).map(Number);
@@ -180,7 +181,7 @@ function overview(state, today) {
 
 const QUESTION_TYPES = {
   meaning: { label: '알맞은 뜻을 고르세요', answer: headline, optionLang: 'ko', prompt: word => wordPrompt(word) },
-  word: { label: '이 영영 정의에 맞는 단어는?', answer: word => word.w, optionLang: 'en', prompt: word => defPrompt(word) },
+  word: { label: '이 영영 정의에 맞는 단어는?', answer: word => word.w, optionLang: 'en', prompt: word => defPrompt(word), gloss: headline },
 };
 const QUESTION_ROTATION = ['meaning', 'word'];
 
@@ -207,23 +208,39 @@ function buildQuiz(state, today, rng) {
 
 /* ---------- sessions: learn and quiz flows as small reducers ---------- */
 
+// The moves each card phase accepts: `to` turns the card over, `verdict` answers it and moves on.
+const LEARN_MOVES = {
+  front: { reveal: { to: 'back' }, know: { verdict: 'cold' }, unsure: { to: 'confirm' } },
+  back: { know: { verdict: 'know' }, unsure: { verdict: 'unsure' } },
+  confirm: { unsure: { verdict: 'unsure' } },
+  done: {},
+};
+
 function learnStart(ids) {
-  return { queue: ids.slice(), i: 0, phase: ids.length ? 'front' : 'done', retried: [], total: ids.length };
+  return { queue: ids.slice(), phase: ids.length ? 'front' : 'done', total: ids.length, results: {} };
 }
 
-const learnReveal = s => (s.phase === 'front' ? { ...s, phase: 'back' } : s);
-
-function learnAnswer(s, verdict) {
-  const id = s.queue[s.i];
-  const retry = VERDICTS[verdict].retry && !s.retried.includes(id);
-  const queue = retry ? [...s.queue, id] : s.queue;
-  const i = s.i + 1;
+function learnMove(state, s, move, today) {
+  const step = LEARN_MOVES[s.phase][move];
+  if (!step) return { state, session: s, answered: false };
+  if (step.to) return { state, session: { ...s, phase: step.to }, answered: false };
+  const [id, ...rest] = s.queue;
+  // A word missed once this session stays due tomorrow, even when a later pass says 알아요.
+  const verdict = s.results[id] === 'unsure' ? 'unsure' : step.verdict;
+  const queue = step.verdict === 'unsure' ? [...rest, id] : rest;
   return {
-    ...s,
-    queue,
-    retried: retry ? [...s.retried, id] : s.retried,
-    i,
-    phase: i < queue.length ? 'front' : 'done',
+    state: learnWord(state, id, verdict, today),
+    session: { ...s, queue, phase: queue.length ? 'front' : 'done', results: { ...s.results, [id]: verdict } },
+    answered: true,
+  };
+}
+
+function learnTally(s) {
+  return {
+    total: s.total,
+    known: s.total - s.queue.length,
+    unsure: s.queue.filter(id => s.results[id] === 'unsure').length,
+    reviewed: Object.values(s.results).filter(v => v === 'unsure').length,
   };
 }
 
@@ -273,6 +290,7 @@ function parseState(raw) {
     v: 1,
     goal: Number.isFinite(data.goal) ? clampGoal(data.goal) : base.goal,
     onboarded: data.onboarded === true,
+    swiped: data.swiped === true,
     cards,
     log,
   };
@@ -296,9 +314,9 @@ function saveState(next) {
 
 window.Spoken = {
   dayKey, addDays, weekKeys, mulberry32, shuffle, NEW_ORDER, headline,
-  initialState, parseState, clampGoal, stepGoal, learnWord, answerQuiz, setGoal, finishOnboarding, resetProgress,
+  initialState, parseState, clampGoal, stepGoal, learnWord, answerQuiz, setGoal, finishOnboarding, markSwiped, resetProgress,
   statusOf, nextNewIds, dueIds, streak, overview, buildQuiz,
-  learnStart, learnReveal, learnAnswer, quizStart, quizPick, quizNext,
+  learnStart, learnMove, learnTally, quizStart, quizPick, quizNext,
 };
 
 /* ---------- app shell state ---------- */
@@ -321,8 +339,10 @@ const BAR_DELAY_MS = 160;
 const ENTER_MS = 560;
 const COUNT_MS = 1100;
 const SPLASH_MS = 2100;
+const SWIPE = { start: 8, commit: 96, flick: 0.5, tilt: 0.05, maxTilt: 12, sampleMs: 100, flyMs: 280, backMs: 260 };
 
 const prefersReducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, n));
 
 function animate(el, frames, duration, { easing = EASE_SCREEN, fill = 'none' } = {}) {
   if (prefersReducedMotion() || !el.animate) return Promise.resolve();
@@ -378,6 +398,92 @@ function playMounted(root) {
   requestAnimationFrame(() => requestAnimationFrame(() => {
     root.querySelectorAll('[data-fill]').forEach(el => FILLS[el.dataset.kind](el, Number(el.dataset.fill)));
   }));
+}
+
+function releaseVelocity(samples, now) {
+  const recent = samples.filter(s => now - s.t <= SWIPE.sampleMs);
+  if (recent.length < 2) return 0;
+  const first = recent[0];
+  const last = recent[recent.length - 1];
+  return (last.x - first.x) / Math.max(1, last.t - first.t);
+}
+
+// The card only claims a gesture once it is clearly horizontal; touch-action: pan-y leaves vertical drags to the scroller.
+function swipeCard(card, stamps, { canStart, onCommit }) {
+  let drag = null;
+  let swallowClick = false;
+  const tilt = dx => (prefersReducedMotion() ? 0 : clamp(dx * SWIPE.tilt, -SWIPE.maxTilt, SWIPE.maxTilt));
+
+  function place(dx) {
+    card.style.transform = `translateX(${dx}px) rotate(${tilt(dx)}deg)`;
+    stamps.know.style.opacity = String(clamp(dx / SWIPE.commit, 0, 1));
+    stamps.unsure.style.opacity = String(clamp(-dx / SWIPE.commit, 0, 1));
+  }
+
+  function springBack() {
+    const from = card.style.transform || 'none';
+    card.style.transform = '';
+    animate(card, [{ transform: from }, { transform: 'none' }], SWIPE.backMs);
+    for (const stamp of [stamps.know, stamps.unsure]) {
+      const shown = Number(stamp.style.opacity || 0);
+      stamp.style.opacity = '';
+      if (shown) animate(stamp, [{ opacity: shown }, { opacity: 0 }], SWIPE.backMs);
+    }
+  }
+
+  function release(e, completed) {
+    if (!drag || e.pointerId !== drag.id) return;
+    const { live, dx, samples } = drag;
+    drag = null;
+    if (!live) return;
+    card.classList.remove('is-dragging');
+    swallowClick = true;
+    const dir = Math.sign(dx);
+    const flung = completed && dir !== 0
+      && (Math.abs(dx) > SWIPE.commit || releaseVelocity([...samples, { x: e.clientX, t: e.timeStamp }], e.timeStamp) * dir > SWIPE.flick);
+    if (!flung || !onCommit(dir)) springBack();
+  }
+
+  card.addEventListener('pointerdown', e => {
+    swallowClick = false;
+    if (drag || !e.isPrimary || e.button !== 0 || !canStart()) return;
+    drag = { id: e.pointerId, x0: e.clientX, y0: e.clientY, dx: 0, live: false, samples: [{ x: e.clientX, t: e.timeStamp }] };
+  });
+  card.addEventListener('pointermove', e => {
+    if (!drag || e.pointerId !== drag.id) return;
+    const dx = e.clientX - drag.x0;
+    const dy = e.clientY - drag.y0;
+    if (!drag.live) {
+      if (Math.abs(dy) > SWIPE.start && Math.abs(dy) >= Math.abs(dx)) {
+        drag = null;
+        return;
+      }
+      if (Math.abs(dx) <= SWIPE.start || Math.abs(dx) <= Math.abs(dy)) return;
+      drag.live = true;
+      card.setPointerCapture(e.pointerId);
+      card.getAnimations({ subtree: true }).forEach(a => a.cancel());
+      card.classList.add('is-dragging');
+    }
+    drag.dx = dx;
+    drag.samples = [...drag.samples.filter(s => e.timeStamp - s.t <= SWIPE.sampleMs), { x: e.clientX, t: e.timeStamp }];
+    place(dx);
+  });
+  card.addEventListener('pointerup', e => release(e, true));
+  card.addEventListener('pointercancel', e => release(e, false));
+  // A drag that ends over a button inside the card must not also press it.
+  card.addEventListener('click', e => {
+    if (!swallowClick) return;
+    swallowClick = false;
+    e.stopPropagation();
+    e.preventDefault();
+  }, true);
+}
+
+function flyOff(card, stamp, dir) {
+  const x = dir * (card.parentNode.clientWidth + card.offsetHeight / 4);
+  animate(stamp, [{ opacity: Number(stamp.style.opacity || 0) }, { opacity: 1 }], SWIPE.flyMs / 2, { fill: 'forwards' });
+  return animate(card, [{ transform: card.style.transform || 'none' }, { transform: `translateX(${x}px) rotate(${dir * SWIPE.maxTilt}deg)` }],
+    SWIPE.flyMs, { easing: EASE_OUT, fill: 'forwards' });
 }
 
 /* ---------- DOM building blocks ---------- */
@@ -523,9 +629,13 @@ function wordDetail(word) {
         h('span', { class: 'phrase-ko' }, p.ko))))) : null,
     h('section', { 'data-enter': '' },
       h('h3', { class: 'section-title' }, '예문'),
-      h('div', { class: 'example' },
-        h('p', { class: 'example-en', lang: 'en' }, emphasize(word.ex.en, word.w)),
-        h('p', { class: 'example-ko' }, word.ex.ko))));
+      example(word)));
+}
+
+function example(word) {
+  return h('div', { class: 'example' },
+    h('p', { class: 'example-en', lang: 'en' }, emphasize(word.ex.en, word.w)),
+    h('p', { class: 'example-ko' }, word.ex.ko));
 }
 
 function wordRow(word, trailing, onclick) {
@@ -872,47 +982,102 @@ function topbar(progressFill, counter) {
     counter);
 }
 
+function setCount(el, n) {
+  if (el.textContent === String(n)) return;
+  el.textContent = String(n);
+  animate(el.parentNode, [{ transform: 'scale(1)' }, { transform: 'scale(1.12)' }, { transform: 'scale(1)' }], 320, { easing: EASE_OUT });
+}
+
+const doneStat = (label, n, tone) => h('section', { class: `card stat stat-${tone}` },
+  h('p', { class: 'stat-label' }, label),
+  h('p', { class: 'stat-value' }, count(n), h('span', {}, '개')));
+
 function LearnScreen({ ids }) {
   let session = learnStart(ids);
+  let card = null;
+  let busy = false;
   const screen = h('section', { class: 'screen' });
   const fill = h('i');
   const counter = h('span', { class: 'progress-text' });
+  const unsureCount = h('b', {}, '0');
+  const knownCount = h('b', {}, '0');
   const body = h('div', { class: 'scroll scroll-flush' });
-  const unsure = btn('헷갈려요', 'secondary', () => answer('unsure'));
-  const know = btn('알아요', 'primary', () => answer('know'));
-  screen.append(topbar(fill, counter), body, h('div', { class: 'bar', 'data-bar': '' }, unsure, know));
+  const hint = h('p', { class: 'swipe-hint', 'aria-hidden': 'true' },
+    h('span', { class: 'hint-unsure' }, '← 헷갈려요'), ' · ', h('span', { class: 'hint-know' }, '알아요 →'));
+  const unsure = btn('헷갈려요', 'secondary', () => act('unsure'));
+  const know = btn('알아요', 'primary', () => act('know'));
+  const confirm = btn('확인했어요', 'primary', () => act('unsure'));
+  const bar = h('div', { class: 'bar', 'data-bar': '' }, unsure, know);
+  screen.append(
+    topbar(fill, counter),
+    h('div', { class: 'tally', 'data-enter': '' },
+      h('span', { class: 'pill pill-warn' }, '헷갈려요', unsureCount),
+      h('span', { class: 'pill pill-ok' }, '알아요', knownCount)),
+    body,
+    bar);
 
   function sync() {
-    const total = session.queue.length;
-    fill.style.transform = `scaleX(${total ? session.i / total : 1})`;
-    counter.textContent = `${Math.min(session.i + 1, total)} / ${total}`;
-    unsure.disabled = know.disabled = session.phase !== 'back';
+    const t = learnTally(session);
+    fill.style.transform = `scaleX(${t.total ? t.known / t.total : 1})`;
+    counter.textContent = `${t.known} / ${t.total}`;
+    setCount(unsureCount, t.unsure);
+    setCount(knownCount, t.known);
+    hint.hidden = state.swiped || session.phase === 'confirm';
   }
 
-  function showCard(slideIn) {
-    const word = BY_ID.get(session.queue[session.i]);
-    const detail = wordDetail(word);
-    const reveal = btn('뜻 보기', 'secondary btn-reveal', () => {
-      session = learnReveal(session);
-      reveal.replaceWith(detail);
-      playEntrance(detail);
-      sync();
+  function showCard(enter) {
+    const word = BY_ID.get(session.queue[0]);
+    const stamps = {
+      know: h('span', { class: 'stamp stamp-know' }, '알아요'),
+      unsure: h('span', { class: 'stamp stamp-unsure' }, '헷갈려요'),
+    };
+    const reveal = btn('뜻 보기', 'secondary btn-reveal', () => act('reveal'));
+    const el = h('article', { class: 'card learn-card', 'data-enter': '' },
+      h('div', { class: 'stamps', 'aria-hidden': 'true' }, stamps.know, stamps.unsure),
+      wordHead(word),
+      reveal);
+    card = { el, stamps, reveal, detail: wordDetail(word) };
+    swipeCard(el, stamps, {
+      canStart: () => !busy && session.phase !== 'confirm',
+      onCommit: dir => {
+        if (!state.swiped) commit(markSwiped(state));
+        return act(dir > 0 ? 'know' : 'unsure', dir);
+      },
     });
-    const card = h('article', { class: 'card learn-card', 'data-enter': '' }, wordHead(word), reveal);
-    body.replaceChildren(card);
+    if (bar.firstChild === confirm) bar.replaceChildren(unsure, know);
+    body.replaceChildren(el, hint);
     body.scrollTop = 0;
     sync();
-    if (slideIn) animate(card, [{ opacity: 0, transform: 'translateX(36px)' }, { opacity: 1, transform: 'none' }], 420, { easing: EASE_OUT });
+    if (enter) animate(el, [{ opacity: 0, transform: 'scale(.94)' }, { opacity: 1, transform: 'none' }], 320, { easing: EASE_OUT });
+  }
+
+  function turnOver() {
+    if (card.reveal.isConnected) {
+      card.reveal.replaceWith(card.detail);
+      playEntrance(card.detail);
+    }
+    if (session.phase === 'confirm') {
+      bar.replaceChildren(confirm);
+      animate(confirm, [{ opacity: 0, transform: 'translateY(16px)' }, { opacity: 1, transform: 'none' }], 420, { easing: EASE_OUT });
+      confirm.focus({ preventScroll: true });
+    }
+    sync();
   }
 
   function showDone(played) {
+    const t = learnTally(session);
     screen.replaceChildren(
       topbar(null, null),
       h('div', { class: 'scroll scroll-flush done' },
         illo('check'),
-        h('p', { class: 'done-count', 'data-enter': '' }, count(session.total), h('span', {}, '개')),
+        h('p', { class: 'done-count', 'data-enter': '' }, count(t.total), h('span', {}, '개')),
         title('오늘의 단어를 익혔어요', 'title center'),
-        h('p', { class: 'body center', 'data-enter': '' }, '복습 일정에 맞춰 퀴즈로 다시 만나요.')),
+        h('div', { class: 'stats done-split', 'data-enter': '' },
+          doneStat('한 번에 알았어요', t.total - t.reviewed, 'ok'),
+          doneStat('다시 보고 외웠어요', t.reviewed, 'warn')),
+        h('p', { class: 'body center', 'data-enter': '' }, t.reviewed
+          ? `다시 본 ${t.reviewed}개는 내일 복습 퀴즈에 나와요.`
+          : '복습 일정에 맞춰 퀴즈로 다시 만나요.')),
       h('div', { class: 'bar', 'data-bar': '' },
         btn('홈으로', 'secondary', back),
         btn('퀴즈로 복습', 'primary', () => replaceTop('quiz'))));
@@ -922,13 +1087,25 @@ function LearnScreen({ ids }) {
     }
   }
 
-  function answer(verdict) {
-    if (session.phase !== 'back') return;
-    commit(learnWord(state, session.queue[session.i], verdict, todayKey()));
-    session = learnAnswer(session, verdict);
+  // Returns whether the card leaves, so a swipe that only turned it over springs back.
+  function act(move, dir = move === 'know' ? 1 : -1) {
+    if (busy) return false;
+    const next = learnMove(state, session, move, todayKey());
+    if (next.session === session) return false;
+    session = next.session;
+    if (!next.answered) {
+      turnOver();
+      return false;
+    }
+    commit(next.state);
+    busy = true;
     sync();
-    animate(body.firstElementChild, [{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateX(-36px)' }], 180, { easing: 'ease-in', fill: 'forwards' })
-      .then(() => (session.phase === 'done' ? showDone(true) : showCard(true)));
+    flyOff(card.el, dir > 0 ? card.stamps.know : card.stamps.unsure, dir).then(() => {
+      busy = false;
+      if (session.phase === 'done') showDone(true);
+      else showCard(true);
+    });
+    return true;
   }
 
   if (session.phase === 'done') showDone(false);
@@ -951,6 +1128,40 @@ const SCORE_MESSAGES = [
   { min: 0, text: '복습이 더 필요해요' },
 ];
 
+const FEEDBACK = {
+  correct: {
+    title: '정답이에요',
+    icon: 'check',
+    summary: word => h('p', { class: 'qf-word' }, h('strong', { lang: 'en' }, word.w), h('span', {}, headline(word))),
+  },
+  wrong: {
+    title: '다시 볼 단어예요',
+    icon: 'close',
+    summary: (word, q, picked) => {
+      const type = QUESTION_TYPES[q.type];
+      return h('dl', { class: 'qf-rows' },
+        h('dt', {}, '정답'),
+        h('dd', { class: 'qf-right' },
+          h('span', { lang: type.optionLang }, q.answer),
+          type.gloss ? h('span', { class: 'qf-gloss' }, type.gloss(word)) : null),
+        h('dt', {}, '내가 고른 답'),
+        h('dd', { class: 'qf-picked', lang: type.optionLang }, picked));
+    },
+  },
+};
+
+function feedbackSheet(q, picked, next) {
+  const word = BY_ID.get(q.id);
+  const result = picked === q.answer ? 'correct' : 'wrong';
+  const fb = FEEDBACK[result];
+  return h('div', { class: 'qsheet', 'data-result': result },
+    h('div', { class: 'qfeed' },
+      h('p', { class: 'qf-head' }, icon(fb.icon), fb.title),
+      fb.summary(word, q, picked),
+      example(word)),
+    h('div', { class: 'bar' }, next));
+}
+
 function QuizEmpty() {
   const learned = learnedIds(state).length;
   return h('section', { class: 'screen' },
@@ -971,9 +1182,9 @@ function QuizScreen() {
   const fill = h('i');
   const counter = h('span', { class: 'progress-text' });
   const body = h('div', { class: 'scroll scroll-flush' });
-  const bar = h('div', { class: 'bar' });
+  const dock = h('div', { class: 'dock' });
   const announcer = h('p', { class: 'sr', 'aria-live': 'polite' });
-  screen.append(topbar(fill, counter), body, bar, announcer);
+  screen.append(topbar(fill, counter), body, dock, announcer);
   let optionEls = [];
 
   function sync() {
@@ -996,7 +1207,6 @@ function QuizScreen() {
       h('div', { class: 'options', 'data-enter': '' }, optionEls));
     body.replaceChildren(view);
     body.scrollTop = 0;
-    bar.replaceChildren();
     sync();
     if (slideIn) animate(view, [{ opacity: 0, transform: 'translateX(36px)' }, { opacity: 1, transform: 'none' }], 420, { easing: EASE_OUT });
   }
@@ -1014,11 +1224,13 @@ function QuizScreen() {
       el.disabled = true;
       if (mark !== 'rest') el.lastChild.replaceChildren(icon(mark === 'correct' ? 'check' : 'close'));
     });
-    announcer.textContent = correct ? '정답이에요' : `오답이에요. 정답은 ${q.answer}`;
+    announcer.textContent = correct ? FEEDBACK.correct.title : `${FEEDBACK.wrong.title}. 정답은 ${q.answer}`;
     const last = session.i === session.questions.length - 1;
     const next = btn(last ? '결과 보기' : '다음', 'primary', advance);
-    bar.replaceChildren(next);
-    animate(next, [{ opacity: 0, transform: 'translateY(16px)' }, { opacity: 1, transform: 'none' }], 420, { easing: EASE_OUT });
+    const sheet = feedbackSheet(q, text, next);
+    dock.replaceChildren(sheet);
+    animate(sheet, OVERLAYS.sheet.frames, OVERLAYS.sheet.inMs);
+    body.scrollTo({ top: body.scrollHeight, behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
     next.focus({ preventScroll: true });
     sync();
   }
@@ -1026,7 +1238,8 @@ function QuizScreen() {
   function advance() {
     if (session.phase !== 'answered') return;
     session = quizNext(session);
-    bar.replaceChildren();
+    const sheet = dock.firstElementChild;
+    animate(sheet, [...OVERLAYS.sheet.frames].reverse(), OVERLAYS.sheet.outMs, { fill: 'forwards' }).then(() => sheet.remove());
     animate(body.firstElementChild, [{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateX(-36px)' }], 180, { easing: 'ease-in', fill: 'forwards' })
       .then(() => (session.phase === 'done' ? showResult() : showQuestion(true)));
   }
