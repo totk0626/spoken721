@@ -1,0 +1,607 @@
+[
+ {
+  "id": 243,
+  "word": "four",
+  "def": "the number 4"
+ },
+ {
+  "id": 244,
+  "word": "free",
+  "def": "without control by others"
+ },
+ {
+  "id": 245,
+  "word": "friend",
+  "def": "a person who you like and enjoy being with"
+ },
+ {
+  "id": 246,
+  "word": "from",
+  "def": "indicating the starting point of motion or action"
+ },
+ {
+  "id": 247,
+  "word": "front",
+  "def": "the forward part of an object"
+ },
+ {
+  "id": 248,
+  "word": "full",
+  "def": "containing or holding as much as possible"
+ },
+ {
+  "id": 249,
+  "word": "fun",
+  "def": "someone or something that is amusing or enjoyable"
+ },
+ {
+  "id": 250,
+  "word": "fund",
+  "def": "a sum of money that is used for a special purpose"
+ },
+ {
+  "id": 251,
+  "word": "funny",
+  "def": "causing laughter"
+ },
+ {
+  "id": 252,
+  "word": "further",
+  "def": "at a more distant place than here"
+ },
+ {
+  "id": 253,
+  "word": "future",
+  "def": "the period of time coming after the present"
+ },
+ {
+  "id": 254,
+  "word": "game",
+  "def": "one of the games that are part of a larger contest"
+ },
+ {
+  "id": 255,
+  "word": "general",
+  "def": "widespread, normal or usual"
+ },
+ {
+  "id": 256,
+  "word": "get",
+  "def": "to obtain, receive or be given something"
+ },
+ {
+  "id": 257,
+  "word": "girl",
+  "def": "a female child, a young woman"
+ },
+ {
+  "id": 258,
+  "word": "give",
+  "def": "to hand over or present something to another"
+ },
+ {
+  "id": 259,
+  "word": "go",
+  "def": "to move or travel from one place to another"
+ },
+ {
+  "id": 260,
+  "word": "good",
+  "def": "of high quality"
+ },
+ {
+  "id": 261,
+  "word": "government",
+  "def": "the group of people who officially control a country"
+ },
+ {
+  "id": 262,
+  "word": "grade",
+  "def": "a level of study that is completed by a student"
+ },
+ {
+  "id": 263,
+  "word": "great",
+  "def": "very large in size, extent or amount"
+ },
+ {
+  "id": 264,
+  "word": "group",
+  "def": "a number of people or things located or gathered together"
+ },
+ {
+  "id": 265,
+  "word": "grow",
+  "def": "to become larger"
+ },
+ {
+  "id": 266,
+  "word": "guess",
+  "def": "to form an opinion or give an answer about something when you do not know much or anything about it"
+ },
+ {
+  "id": 267,
+  "word": "guy",
+  "def": "a man"
+ },
+ {
+  "id": 268,
+  "word": "hair",
+  "def": "a thin threadlike growth from the skin of a person or animal"
+ },
+ {
+  "id": 269,
+  "word": "half",
+  "def": "one of two equal parts something can be divided into"
+ },
+ {
+  "id": 270,
+  "word": "hand",
+  "def": "the body parts at the end of a person's arm"
+ },
+ {
+  "id": 271,
+  "word": "hang",
+  "def": "to attach or place something so that it is held up without support from below"
+ },
+ {
+  "id": 272,
+  "word": "happen",
+  "def": "to take place or occur"
+ },
+ {
+  "id": 273,
+  "word": "happy",
+  "def": "feeling pleasure and enjoyment because of your life"
+ },
+ {
+  "id": 274,
+  "word": "hard",
+  "def": "something that is firm or difficult to bend"
+ },
+ {
+  "id": 275,
+  "word": "hate",
+  "def": "a very strong feeling of dislike"
+ },
+ {
+  "id": 276,
+  "word": "have",
+  "def": "to own, possess, or hold something"
+ },
+ {
+  "id": 277,
+  "word": "he",
+  "def": "used to refer to a male person that is the subject"
+ },
+ {
+  "id": 278,
+  "word": "head",
+  "def": "the upper part of the body"
+ },
+ {
+  "id": 279,
+  "word": "health",
+  "def": "the condition of being well or free from disease"
+ },
+ {
+  "id": 280,
+  "word": "hear",
+  "def": "to be aware of sound, to perceive with the ear"
+ },
+ {
+  "id": 281,
+  "word": "help",
+  "def": "to assist in order to make it easier for someone to do a job"
+ },
+ {
+  "id": 282,
+  "word": "here",
+  "def": "in this place, at this location or position"
+ },
+ {
+  "id": 283,
+  "word": "high",
+  "def": "rising upward a great distance"
+ },
+ {
+  "id": 284,
+  "word": "hit",
+  "def": "to move your hand, a bat, etc., quickly so that it touches someone or something in a forceful or violent way"
+ },
+ {
+  "id": 285,
+  "word": "hold",
+  "def": "to have or keep in your hand"
+ },
+ {
+  "id": 286,
+  "word": "holiday",
+  "def": "a special day of celebration"
+ },
+ {
+  "id": 287,
+  "word": "home",
+  "def": "the place where a person or a family lives"
+ },
+ {
+  "id": 288,
+  "word": "hope",
+  "def": "a feeling of expectation, to want something to happen"
+ },
+ {
+  "id": 289,
+  "word": "hospital",
+  "def": "a place where sick or injured people are given care or treatment and where children are often born"
+ },
+ {
+  "id": 290,
+  "word": "hot",
+  "def": "having a high temperature"
+ },
+ {
+  "id": 291,
+  "word": "hour",
+  "def": "a period of time equal to 60 minutes"
+ },
+ {
+  "id": 292,
+  "word": "house",
+  "def": "a building in which a family lives"
+ },
+ {
+  "id": 293,
+  "word": "how",
+  "def": "by what means or manner?"
+ },
+ {
+  "id": 294,
+  "word": "hundred",
+  "def": "the number 100"
+ },
+ {
+  "id": 295,
+  "word": "husband",
+  "def": "a married man : the man someone is married to"
+ },
+ {
+  "id": 296,
+  "word": "I",
+  "def": "the person who is speaking or writing"
+ },
+ {
+  "id": 297,
+  "word": "idea",
+  "def": "a thought, suggestion, opinion or plan"
+ },
+ {
+  "id": 298,
+  "word": "if",
+  "def": "introducing a condition for something to happen"
+ },
+ {
+  "id": 299,
+  "word": "imagine",
+  "def": "to think of or create something in one's mind that is not real"
+ },
+ {
+  "id": 300,
+  "word": "important",
+  "def": "having great significance"
+ },
+ {
+  "id": 301,
+  "word": "in",
+  "def": "used to indicate being inside of or surrounded by something else"
+ },
+ {
+  "id": 302,
+  "word": "include",
+  "def": "to have as a part of a group"
+ },
+ {
+  "id": 303,
+  "word": "increase",
+  "def": "to become larger or greater in size, amount, or degree"
+ },
+ {
+  "id": 304,
+  "word": "individual",
+  "def": "existing as just one member"
+ },
+ {
+  "id": 305,
+  "word": "information",
+  "def": "facts or data about a situation, person, event, etc."
+ },
+ {
+  "id": 306,
+  "word": "instead",
+  "def": "used to say that one thing is done or is chosen when another is not chosen"
+ },
+ {
+  "id": 307,
+  "word": "interest",
+  "def": "a feeling of wanting to know or learn about something"
+ },
+ {
+  "id": 308,
+  "word": "into",
+  "def": "introduce movement toward the inside of something"
+ },
+ {
+  "id": 309,
+  "word": "involve",
+  "def": "to have or include in a part of something"
+ },
+ {
+  "id": 310,
+  "word": "issue",
+  "def": "problems that people are talking or thinking about"
+ },
+ {
+  "id": 311,
+  "word": "it",
+  "def": "a thing that has been previously mentioned"
+ },
+ {
+  "id": 312,
+  "word": "item",
+  "def": "an individual article, unit or piece of information"
+ },
+ {
+  "id": 313,
+  "word": "itself",
+  "def": "the reflexive form of the pronoun 'it'"
+ },
+ {
+  "id": 314,
+  "word": "job",
+  "def": "the regular work of earning money"
+ },
+ {
+  "id": 315,
+  "word": "just",
+  "def": "exactly, to an exact degree or manner"
+ },
+ {
+  "id": 316,
+  "word": "keep",
+  "def": "to continue holding or retaining possession of"
+ },
+ {
+  "id": 317,
+  "word": "kid",
+  "def": "a child or young person"
+ },
+ {
+  "id": 318,
+  "word": "kill",
+  "def": "to cause the death of a person, animal or plant"
+ },
+ {
+  "id": 319,
+  "word": "kind",
+  "def": "having a friendly, gentle nature"
+ },
+ {
+  "id": 320,
+  "word": "know",
+  "def": "to have in your mind, be aware of something"
+ },
+ {
+  "id": 321,
+  "word": "lady",
+  "def": "a woman who behaves in a polite way"
+ },
+ {
+  "id": 322,
+  "word": "land",
+  "def": "the solid part of the surface of the Earth"
+ },
+ {
+  "id": 323,
+  "word": "language",
+  "def": "the system of words or signs that people use to express thoughts and feelings to each other"
+ },
+ {
+  "id": 324,
+  "word": "large",
+  "def": "great in size, extent, or capacity"
+ },
+ {
+  "id": 325,
+  "word": "last",
+  "def": "coming after others, final"
+ },
+ {
+  "id": 326,
+  "word": "late",
+  "def": "happening near the end of a given time"
+ },
+ {
+  "id": 327,
+  "word": "laugh",
+  "def": "to show that you are happy or that you think something is funny by smiling and making a sound from your throat"
+ },
+ {
+  "id": 328,
+  "word": "laughter",
+  "def": "the action or sound of laughing"
+ },
+ {
+  "id": 329,
+  "word": "law",
+  "def": "the system or rules made by the government"
+ },
+ {
+  "id": 330,
+  "word": "lead",
+  "def": "to guide someone to a place , to go with, be in charge"
+ },
+ {
+  "id": 331,
+  "word": "learn",
+  "def": "to acquire knowledge by study or experience"
+ },
+ {
+  "id": 332,
+  "word": "least",
+  "def": "smallest in amount, extent or degree"
+ },
+ {
+  "id": 333,
+  "word": "leave",
+  "def": "to go away from, depart from"
+ },
+ {
+  "id": 334,
+  "word": "less",
+  "def": "not so much, a smaller amount of"
+ },
+ {
+  "id": 335,
+  "word": "let",
+  "def": "to allow or permit to do something"
+ },
+ {
+  "id": 336,
+  "word": "letter",
+  "def": "a written, typed or printed message"
+ },
+ {
+  "id": 337,
+  "word": "level",
+  "def": "a specific height or line"
+ },
+ {
+  "id": 338,
+  "word": "life",
+  "def": "the existence of a human being or animal"
+ },
+ {
+  "id": 339,
+  "word": "light",
+  "def": "the form of energy that makes things visible"
+ },
+ {
+  "id": 340,
+  "word": "like",
+  "def": "to find something agreeable or enjoyable"
+ },
+ {
+  "id": 341,
+  "word": "line",
+  "def": "a long narrow mark or band on a surface"
+ },
+ {
+  "id": 342,
+  "word": "list",
+  "def": "a series of written names, words or numbers"
+ },
+ {
+  "id": 343,
+  "word": "listen",
+  "def": "to pay attention to someone or something in order to hear what is being said, sung, played, etc."
+ },
+ {
+  "id": 344,
+  "word": "little",
+  "def": "small in size, amount, or degree"
+ },
+ {
+  "id": 345,
+  "word": "live",
+  "def": "to be alive, to remain or continue to be alive"
+ },
+ {
+  "id": 346,
+  "word": "load",
+  "def": "something that is lifted and carried"
+ },
+ {
+  "id": 347,
+  "word": "local",
+  "def": "relating or restricted to a particular area, city, or town"
+ },
+ {
+  "id": 348,
+  "word": "long",
+  "def": "extending a great distance"
+ },
+ {
+  "id": 349,
+  "word": "look",
+  "def": "to direct one's gaze in a particular direction"
+ },
+ {
+  "id": 350,
+  "word": "lose",
+  "def": "to be unable to find something you once had"
+ },
+ {
+  "id": 351,
+  "word": "lot",
+  "def": "a small piece of land that is or could be used for building something or for some other purpose"
+ },
+ {
+  "id": 352,
+  "word": "love",
+  "def": "feel great affection for"
+ },
+ {
+  "id": 353,
+  "word": "lovely",
+  "def": "attractive or beautiful especially in a graceful way"
+ },
+ {
+  "id": 354,
+  "word": "low",
+  "def": "not rising or extending upward"
+ },
+ {
+  "id": 355,
+  "word": "machine",
+  "def": "a piece of equipment with moving parts that does work when it is given power from electricity, gasoline, etc."
+ },
+ {
+  "id": 356,
+  "word": "main",
+  "def": "most important"
+ },
+ {
+  "id": 357,
+  "word": "major",
+  "def": "important, serious, or large in number"
+ },
+ {
+  "id": 358,
+  "word": "make",
+  "def": "to build, create, or produce something"
+ },
+ {
+  "id": 359,
+  "word": "man",
+  "def": "an adult male human being"
+ },
+ {
+  "id": 360,
+  "word": "many",
+  "def": "used to refer a large number of things"
+ },
+ {
+  "id": 361,
+  "word": "market",
+  "def": "a place that products are bought and sold"
+ },
+ {
+  "id": 362,
+  "word": "marry",
+  "def": "to become the husband or wife of (someone)"
+ },
+ {
+  "id": 363,
+  "word": "mathematics",
+  "def": "the study or science of numbers and shapes"
+ }
+]

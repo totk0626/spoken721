@@ -1,0 +1,520 @@
+[
+{"id":606,"word":"tax","pos":[
+ {"p":"noun","senses":[{"ko":"세금","en":"money that people and businesses must pay to the government"}]},
+ {"p":"verb","senses":[{"ko":"세금을 부과하다","en":"to make someone pay money to the government on income or goods"}]}],
+ "phrases":[{"t":"tax return","ko":"세금 신고(서)"},{"t":"before tax","ko":"세전"},{"t":"after tax","ko":"세후"}],
+ "ex":{"en":"Is tax included in the price?","ko":"가격에 세금 포함이에요?"}},
+{"id":607,"word":"tea","pos":[
+ {"p":"noun","senses":[{"ko":"차, 홍차","en":"a hot drink made by pouring boiling water onto dried leaves"},{"ko":"(오후의) 가벼운 식사","en":"a light meal eaten in the afternoon, especially in Britain"}]}],
+ "phrases":[{"t":"a cup of tea","ko":"차 한 잔"},{"t":"not my cup of tea","ko":"내 취향이 아니야"}],
+ "ex":{"en":"Would you like some tea?","ko":"차 좀 드실래요?"}},
+{"id":608,"word":"teach","pos":[
+ {"p":"verb","senses":[{"ko":"가르치다","en":"to help someone learn something by showing or explaining it"},{"ko":"(교사로) 가르치다, 수업하다","en":"to give lessons in a subject as your job"}]}],
+ "phrases":[{"t":"teach someone a lesson","ko":"따끔하게 혼내 주다"},{"t":"That'll teach you.","ko":"그래야 정신 차리지"}],
+ "ex":{"en":"Can you teach me how to cook this?","ko":"이거 요리하는 법 좀 가르쳐 줄래?"}},
+{"id":609,"word":"teacher","pos":[
+ {"p":"noun","senses":[{"ko":"선생님, 교사","en":"a person whose job is teaching, especially in a school"}]}],
+ "phrases":[{"t":"English teacher","ko":"영어 선생님"},{"t":"homeroom teacher","ko":"담임 선생님"}],
+ "ex":{"en":"My sister is a high school teacher.","ko":"우리 언니는 고등학교 선생님이야."}},
+{"id":610,"word":"team","pos":[
+ {"p":"noun","senses":[{"ko":"팀, 단체","en":"a group of people who play a sport or game together against others"},{"ko":"(함께 일하는) 팀, 조","en":"a group of people who work together on a task"}]}],
+ "phrases":[{"t":"team up (with)","ko":"(~와) 팀을 이루다, 협력하다"},{"t":"team player","ko":"협동을 잘하는 사람"}],
+ "ex":{"en":"Which team are you rooting for?","ko":"너 어느 팀 응원해?"}},
+{"id":611,"word":"tell","pos":[
+ {"p":"verb","senses":[{"ko":"말하다, 알려 주다","en":"to give information to someone by speaking or writing"},{"ko":"알다, 구별하다","en":"to know or recognize something from what you see or hear"},{"ko":"시키다, ~하라고 하다","en":"to order or advise someone to do something"}]}],
+ "phrases":[{"t":"I told you so.","ko":"내가 그랬잖아"},{"t":"I can tell.","ko":"딱 보면 알아"},{"t":"to tell you the truth","ko":"솔직히 말하면"}],
+ "ex":{"en":"Can you tell me where the station is?","ko":"역이 어디인지 알려 줄래요?"}},
+{"id":612,"word":"ten","pos":[
+ {"p":"number","senses":[{"ko":"10, 열","en":"the number 10, one more than nine"}]}],
+ "phrases":[{"t":"ten to one","ko":"십중팔구"},{"t":"top ten","ko":"상위 10위"}],
+ "ex":{"en":"I'll be there in ten minutes.","ko":"10분 안에 도착할게."}},
+{"id":613,"word":"tend","pos":[
+ {"p":"verb","senses":[{"ko":"~하는 경향이 있다","en":"to usually do something or be likely to happen"},{"ko":"돌보다, 보살피다","en":"to take care of someone or something"}]}],
+ "phrases":[{"t":"tend to","ko":"~하는 편이다, ~하기 쉽다"}],
+ "ex":{"en":"I tend to wake up early.","ko":"나는 일찍 일어나는 편이야."}},
+{"id":614,"word":"term","pos":[
+ {"p":"noun","senses":[{"ko":"용어, 말","en":"a word or phrase used to name or describe something"},{"ko":"학기","en":"one of the periods that a school year is divided into"},{"ko":"기간, 임기","en":"a fixed period of time that something lasts"}]}],
+ "phrases":[{"t":"in terms of","ko":"~ 면에서, ~에 관해서"},{"t":"on good terms","ko":"사이가 좋은"},{"t":"come to terms with","ko":"(힘든 일을) 받아들이다"}],
+ "ex":{"en":"I don't know that term. What does it mean?","ko":"그 용어 모르겠어. 무슨 뜻이야?"}},
+{"id":615,"word":"test","pos":[
+ {"p":"noun","senses":[{"ko":"시험, 테스트","en":"a set of questions or tasks that measures someone's knowledge or skill"},{"ko":"검사","en":"a medical check of part of your body"}]},
+ {"p":"verb","senses":[{"ko":"시험하다, 검사하다","en":"to check how well something works or what someone knows"}]}],
+ "phrases":[{"t":"take a test","ko":"시험을 보다"},{"t":"put to the test","ko":"시험대에 올리다"},{"t":"test drive","ko":"시운전, 시승"}],
+ "ex":{"en":"I have a math test tomorrow.","ko":"나 내일 수학 시험 있어."}},
+{"id":616,"word":"text","pos":[
+ {"p":"noun","senses":[{"ko":"본문, 글","en":"the written words in a book, document, or speech"},{"ko":"문자 메시지","en":"a written message sent from one mobile phone to another"}]},
+ {"p":"verb","senses":[{"ko":"문자를 보내다","en":"to send someone a written message by mobile phone"}]}],
+ "phrases":[{"t":"Text me.","ko":"문자 줘"},{"t":"text message","ko":"문자 메시지"}],
+ "ex":{"en":"Read the text carefully before you answer.","ko":"답하기 전에 글을 잘 읽어 봐."}},
+{"id":617,"word":"than","pos":[
+ {"p":"conjunction","senses":[{"ko":"~보다","en":"used after a comparison word to introduce the second thing compared"}]}],
+ "phrases":[{"t":"more than","ko":"~ 이상, ~보다 많이"},{"t":"less than","ko":"~ 미만, ~보다 적게"},{"t":"rather than","ko":"~보다는, ~ 대신에"}],
+ "ex":{"en":"She's taller than me.","ko":"걔가 나보다 키 커."}},
+{"id":618,"word":"thank","pos":[
+ {"p":"verb","senses":[{"ko":"감사하다, 고마워하다","en":"to tell someone you are grateful for something they did or gave"}]}],
+ "phrases":[{"t":"Thank you.","ko":"고마워요"},{"t":"Thank God.","ko":"다행이다"},{"t":"No, thank you.","ko":"아니요, 괜찮아요"}],
+ "ex":{"en":"I just want to thank you for your help.","ko":"도와줘서 고맙다고 말하고 싶었어."}},
+{"id":619,"word":"that","pos":[
+ {"p":"determiner","senses":[{"ko":"그, 저","en":"used to point to a particular person or thing, often one farther away"}]},
+ {"p":"pronoun","senses":[{"ko":"그것, 저것","en":"used for a thing or idea already mentioned or farther away"},{"ko":"~하는 (것, 사람)","en":"used to introduce a part that describes a person or thing"}]},
+ {"p":"conjunction","senses":[{"ko":"~라는 것","en":"used to introduce a clause that reports or explains something"}]}],
+ "phrases":[{"t":"That's it.","ko":"바로 그거야; 그게 다야"},{"t":"That's right.","ko":"맞아"},{"t":"That's why","ko":"그래서 ~인 거야"}],
+ "ex":{"en":"Who's that guy over there?","ko":"저기 저 남자 누구야?"}},
+{"id":620,"word":"the","pos":[
+ {"p":"article","senses":[{"ko":"그, 앞서 말한","en":"used before a noun that has already been mentioned or is known"},{"ko":"(유일한 것 앞에서) 그","en":"used before something that there is only one of"}]}],
+ "phrases":[{"t":"by the way","ko":"그나저나, 그건 그렇고"},{"t":"the same","ko":"똑같은 (것)"},{"t":"the more, the better","ko":"많을수록 좋다"}],
+ "ex":{"en":"I loved the movie we saw yesterday.","ko":"어제 본 그 영화 너무 좋았어."}},
+{"id":621,"word":"themselves","pos":[
+ {"p":"pronoun","senses":[{"ko":"그들 자신","en":"used when the people doing an action are also affected by it"},{"ko":"직접, 스스로","en":"used to stress that a group did something without help"}]}],
+ "phrases":[{"t":"by themselves","ko":"자기들끼리, 혼자 힘으로"},{"t":"enjoy themselves","ko":"즐거운 시간을 보내다"}],
+ "ex":{"en":"They really enjoyed themselves at the party.","ko":"걔들 파티에서 진짜 재밌게 놀았어."}},
+{"id":622,"word":"then","pos":[
+ {"p":"adverb","senses":[{"ko":"그때, 그 당시","en":"at a particular time in the past or the future"},{"ko":"그다음에, 그러고 나서","en":"after that; next in order"},{"ko":"그러면, 그렇다면","en":"used to show that something follows from what was just said"}]}],
+ "phrases":[{"t":"See you then.","ko":"그때 봐"},{"t":"back then","ko":"그 시절에, 그때는"},{"t":"now and then","ko":"가끔, 때때로"}],
+ "ex":{"en":"I was living in Busan then.","ko":"나 그때 부산에 살고 있었어."}},
+{"id":623,"word":"there","pos":[
+ {"p":"adverb","senses":[{"ko":"거기에, 그곳에","en":"in, at, or to that place or position"}]},
+ {"p":"pronoun","senses":[{"ko":"(there is) ~이 있다","en":"used with the verb be to say that something exists"}]}],
+ "phrases":[{"t":"over there","ko":"저기, 저쪽에"},{"t":"There you go.","ko":"자, 여기 있어; 그렇지"},{"t":"I'll be there.","ko":"(거기) 갈게"}],
+ "ex":{"en":"I left my bag over there.","ko":"가방 저기 뒀어."}},
+{"id":624,"word":"therefore","pos":[
+ {"p":"adverb","senses":[{"ko":"그러므로, 따라서","en":"for that reason; as a result of that"}]}],
+ "phrases":[],
+ "ex":{"en":"He's sick, and therefore he can't come.","ko":"걔 아파서 못 와."}},
+{"id":625,"word":"they","pos":[
+ {"p":"pronoun","senses":[{"ko":"그들, 그것들","en":"used for two or more people, animals, or things already mentioned"},{"ko":"(성별 모를 때) 그 사람","en":"used for one person when you do not know or say their gender"},{"ko":"(일반적인) 사람들","en":"used for people in general or people in authority"}]}],
+ "phrases":[{"t":"They say ...","ko":"사람들 말이 ~래"}],
+ "ex":{"en":"Where are your parents? Are they home?","ko":"부모님 어디 계셔? 집에 계셔?"}},
+{"id":626,"word":"thing","pos":[
+ {"p":"noun","senses":[{"ko":"것, 물건","en":"an object, idea, or quality that you do not name exactly"},{"ko":"일, 상황","en":"an event, action, or situation"}]}],
+ "phrases":[{"t":"The thing is ...","ko":"문제는 말이야, 사실은"},{"t":"first thing in the morning","ko":"아침에 제일 먼저"},{"t":"It's not my thing.","ko":"내 취향이 아니야"}],
+ "ex":{"en":"What's that thing on the table?","ko":"탁자 위에 저거 뭐야?"}},
+{"id":627,"word":"think","pos":[
+ {"p":"verb","senses":[{"ko":"생각하다, ~라고 여기다","en":"to believe or have an opinion that something is true"},{"ko":"생각하다, 고민하다","en":"to use your mind to consider something"}]}],
+ "phrases":[{"t":"I think so.","ko":"그런 것 같아"},{"t":"think twice","ko":"다시 한번 생각하다"},{"t":"Come to think of it","ko":"생각해 보니"}],
+ "ex":{"en":"I think it's going to rain.","ko":"비 올 것 같아."}},
+{"id":628,"word":"thirty","pos":[
+ {"p":"number","senses":[{"ko":"30, 서른","en":"the number 30, three times ten"}]}],
+ "phrases":[{"t":"in your thirties","ko":"30대에"}],
+ "ex":{"en":"The bus comes every thirty minutes.","ko":"버스가 30분마다 와."}},
+{"id":629,"word":"this","pos":[
+ {"p":"determiner","senses":[{"ko":"이","en":"used to point to a person or thing that is near or being discussed"}]},
+ {"p":"pronoun","senses":[{"ko":"이것","en":"the thing that is near you or that you are talking about"},{"ko":"(소개·전화) 이 사람, 저","en":"used to introduce someone or say who you are on the phone"}]}],
+ "phrases":[{"t":"this time","ko":"이번에는"},{"t":"like this","ko":"이렇게"},{"t":"This is ...","ko":"(전화) 저 ~예요; 이쪽은 ~야"}],
+ "ex":{"en":"Is this seat taken?","ko":"이 자리 주인 있어요?"}},
+{"id":630,"word":"though","pos":[
+ {"p":"conjunction","senses":[{"ko":"비록 ~이지만","en":"despite the fact that; although"}]},
+ {"p":"adverb","senses":[{"ko":"그래도, 하지만","en":"used at the end of a sentence to add a contrast"}]}],
+ "phrases":[{"t":"even though","ko":"비록 ~일지라도"},{"t":"as though","ko":"마치 ~인 것처럼"}],
+ "ex":{"en":"I still went, though I was really tired.","ko":"엄청 피곤했지만 그래도 갔어."}},
+{"id":631,"word":"thousand","pos":[
+ {"p":"number","senses":[{"ko":"1000, 천","en":"the number 1000, ten times one hundred"}]}],
+ "phrases":[{"t":"thousands of","ko":"수천의, 엄청 많은"},{"t":"a thousand times","ko":"수도 없이, 몇 번이고"}],
+ "ex":{"en":"This laptop cost over a thousand dollars.","ko":"이 노트북 천 달러 넘게 줬어."}},
+{"id":632,"word":"three","pos":[
+ {"p":"number","senses":[{"ko":"3, 셋","en":"the number 3, one more than two"}]}],
+ "phrases":[{"t":"two or three","ko":"두세 개(의)"}],
+ "ex":{"en":"I have three brothers.","ko":"나 남자 형제가 셋이야."}},
+{"id":633,"word":"through","pos":[
+ {"p":"preposition","senses":[{"ko":"~을 통과하여, 관통하여","en":"in one side or end of something and out the other"},{"ko":"~ 내내, 처음부터 끝까지","en":"from the beginning to the end of a period or activity"},{"ko":"~을 통해서","en":"by means of someone or something; because of"}]}],
+ "phrases":[{"t":"go through","ko":"겪다; 살펴보다"},{"t":"get through","ko":"견뎌 내다; 통과하다"},{"t":"be through with","ko":"~와 끝내다, ~을 다 하다"}],
+ "ex":{"en":"We drove through the tunnel.","ko":"우리 차로 터널을 통과했어."}},
+{"id":634,"word":"throw","pos":[
+ {"p":"verb","senses":[{"ko":"던지다","en":"to send something through the air by moving your arm quickly"},{"ko":"(파티를) 열다","en":"to organize and hold a party or event"}]}],
+ "phrases":[{"t":"throw away","ko":"버리다"},{"t":"throw up","ko":"토하다"},{"t":"throw a party","ko":"파티를 열다"}],
+ "ex":{"en":"Throw me the ball!","ko":"공 던져 줘!"}},
+{"id":635,"word":"till","pos":[
+ {"p":"preposition","senses":[{"ko":"~까지","en":"up to a particular time; until"}]},
+ {"p":"conjunction","senses":[{"ko":"~할 때까지","en":"up to the time when something happens"}]}],
+ "phrases":[{"t":"till then","ko":"그때까지"},{"t":"not till","ko":"~이 되어서야 비로소"}],
+ "ex":{"en":"The shop is open till nine.","ko":"그 가게 9시까지 열어."}},
+{"id":636,"word":"time","pos":[
+ {"p":"noun","senses":[{"ko":"시간","en":"what is measured in minutes, hours, days, and years"},{"ko":"시각, 때","en":"a particular moment shown on a clock or in the day"},{"ko":"번, 회","en":"an occasion when something happens"}]}],
+ "phrases":[{"t":"on time","ko":"제시간에"},{"t":"Take your time.","ko":"천천히 해"},{"t":"have a good time","ko":"즐거운 시간을 보내다"}],
+ "ex":{"en":"I don't have time for this.","ko":"나 이럴 시간 없어."}},
+{"id":637,"word":"to","pos":[
+ {"p":"preposition","senses":[{"ko":"~로, ~에","en":"used to show the place or direction someone or something moves toward"},{"ko":"~까지","en":"used to show the end of a period or range"},{"ko":"~에게","en":"used to show who receives something or is spoken to"}]}],
+ "phrases":[{"t":"from A to B","ko":"A부터 B까지"},{"t":"next to","ko":"~ 옆에"},{"t":"up to you","ko":"너한테 달렸어"}],
+ "ex":{"en":"I'm heading to the gym.","ko":"나 헬스장 가는 중이야."}},
+{"id":638,"word":"today","pos":[
+ {"p":"adverb","senses":[{"ko":"오늘","en":"on this day, the day that is happening now"},{"ko":"요즘, 오늘날","en":"at the present period of time"}]},
+ {"p":"noun","senses":[{"ko":"오늘","en":"this day, the present day"}]}],
+ "phrases":[{"t":"a week from today","ko":"다음 주 오늘"},{"t":"Today's the day.","ko":"드디어 오늘이야"}],
+ "ex":{"en":"I'm so tired today.","ko":"오늘 너무 피곤해."}},
+{"id":639,"word":"together","pos":[
+ {"p":"adverb","senses":[{"ko":"함께, 같이","en":"with each other, or in one group or place"},{"ko":"동시에","en":"at the same time as each other"}]}],
+ "phrases":[{"t":"get together","ko":"모이다, 만나다"},{"t":"put together","ko":"조립하다; 준비하다"},{"t":"go together","ko":"잘 어울리다"}],
+ "ex":{"en":"Let's have lunch together.","ko":"같이 점심 먹자."}},
+{"id":640,"word":"tomorrow","pos":[
+ {"p":"adverb","senses":[{"ko":"내일","en":"on the day after today"}]},
+ {"p":"noun","senses":[{"ko":"내일, 미래","en":"the day after today, or the future in general"}]}],
+ "phrases":[{"t":"See you tomorrow.","ko":"내일 봐"},{"t":"the day after tomorrow","ko":"모레"}],
+ "ex":{"en":"Let's talk about it tomorrow.","ko":"내일 얘기하자."}},
+{"id":641,"word":"tonight","pos":[
+ {"p":"adverb","senses":[{"ko":"오늘 밤에","en":"during the night of the present day"}]},
+ {"p":"noun","senses":[{"ko":"오늘 밤","en":"the night or evening of the present day"}]}],
+ "phrases":[{"t":"Not tonight.","ko":"오늘 밤은 안 돼"}],
+ "ex":{"en":"Are you free tonight?","ko":"오늘 밤에 시간 돼?"}},
+{"id":642,"word":"too","pos":[
+ {"p":"adverb","senses":[{"ko":"~도, 또한","en":"in addition to someone or something else; also"},{"ko":"너무, 지나치게","en":"more than is wanted, needed, or possible"}]}],
+ "phrases":[{"t":"Me too.","ko":"나도"},{"t":"Too bad.","ko":"안됐다, 아쉽다"},{"t":"too much","ko":"너무 많은, 과한"}],
+ "ex":{"en":"I like pizza too.","ko":"나도 피자 좋아해."}},
+{"id":643,"word":"top","pos":[
+ {"p":"noun","senses":[{"ko":"맨 위, 꼭대기","en":"the highest part, point, or level of something"},{"ko":"뚜껑","en":"a cover that closes a bottle or container"},{"ko":"윗옷, 상의","en":"a piece of clothing worn on the upper body"}]},
+ {"p":"adjective","senses":[{"ko":"최고의, 맨 위의","en":"highest in position, rank, or amount"}]}],
+ "phrases":[{"t":"on top of","ko":"~ 위에; ~에 더해"},{"t":"off the top of my head","ko":"얼핏 떠오르는 대로"},{"t":"top up","ko":"(가득) 채우다, 충전하다"}],
+ "ex":{"en":"We climbed to the top of the hill.","ko":"우리 언덕 꼭대기까지 올라갔어."}},
+{"id":644,"word":"totally","pos":[
+ {"p":"adverb","senses":[{"ko":"완전히, 전적으로","en":"completely; in every way"},{"ko":"정말, 완전 (맞장구)","en":"used in casual speech to strongly agree"}]}],
+ "phrases":[{"t":"totally different","ko":"완전히 다른"},{"t":"I totally agree.","ko":"완전 동의해"}],
+ "ex":{"en":"I totally forgot about it.","ko":"그거 완전히 까먹었어."}},
+{"id":645,"word":"toward","pos":[
+ {"p":"preposition","senses":[{"ko":"~ 쪽으로, ~을 향해","en":"in the direction of someone or something"},{"ko":"~에 대한","en":"in relation to someone or something"},{"ko":"~ 무렵에","en":"near a particular time"}]}],
+ "phrases":[{"t":"toward the end","ko":"끝 무렵에"}],
+ "ex":{"en":"He walked toward the door.","ko":"그가 문 쪽으로 걸어갔어."}},
+{"id":646,"word":"town","pos":[
+ {"p":"noun","senses":[{"ko":"마을, 소도시","en":"a place where people live that is bigger than a village but smaller than a city"},{"ko":"시내, 번화가","en":"the main shopping or business area of a place"}]}],
+ "phrases":[{"t":"go into town","ko":"시내에 나가다"},{"t":"out of town","ko":"타지에 (가 있는)"},{"t":"paint the town red","ko":"밤새 신나게 놀다"}],
+ "ex":{"en":"I grew up in a small town.","ko":"나 작은 마을에서 자랐어."}},
+{"id":647,"word":"trade","pos":[
+ {"p":"noun","senses":[{"ko":"무역, 거래","en":"the activity of buying, selling, or exchanging goods"},{"ko":"직업, 기술","en":"a job that needs special skill, especially with your hands"}]},
+ {"p":"verb","senses":[{"ko":"교환하다, 거래하다","en":"to give something and get something else in return"}]}],
+ "phrases":[{"t":"trade places","ko":"자리를 바꾸다, 입장을 바꾸다"},{"t":"trade in","ko":"(중고품을) 보상 판매하다"}],
+ "ex":{"en":"Trade between the two countries is growing.","ko":"두 나라 간 무역이 늘고 있어."}},
+{"id":648,"word":"train","pos":[
+ {"p":"noun","senses":[{"ko":"기차, 열차","en":"a line of connected cars that travel together on a railway"}]},
+ {"p":"verb","senses":[{"ko":"훈련하다, 교육하다","en":"to teach or learn the skills needed for a job or activity"},{"ko":"(운동) 훈련하다","en":"to exercise in order to prepare for a sports event"}]}],
+ "phrases":[{"t":"catch a train","ko":"기차를 (시간 맞춰) 타다"},{"t":"train of thought","ko":"생각의 흐름"}],
+ "ex":{"en":"I'll take the train to Busan.","ko":"부산까지 기차 타고 갈게."}},
+{"id":649,"word":"travel","pos":[
+ {"p":"verb","senses":[{"ko":"여행하다","en":"to go on a trip, especially to a place that is far away"},{"ko":"이동하다, 다니다","en":"to move from one place to another"}]},
+ {"p":"noun","senses":[{"ko":"여행","en":"the activity of going from place to place"}]}],
+ "phrases":[{"t":"travel light","ko":"짐을 가볍게 다니다"},{"t":"travel agency","ko":"여행사"}],
+ "ex":{"en":"I want to travel around Europe someday.","ko":"언젠가 유럽 여행 다니고 싶어."}},
+{"id":650,"word":"trouble","pos":[
+ {"p":"noun","senses":[{"ko":"문제, 곤란","en":"problems, difficulties, or worries"},{"ko":"수고, 애씀","en":"extra effort or work needed to do something"}]},
+ {"p":"verb","senses":[{"ko":"괴롭히다, 걱정시키다","en":"to make someone feel worried or upset"}]}],
+ "phrases":[{"t":"in trouble","ko":"곤경에 처한, 혼날 상황인"},{"t":"No trouble.","ko":"별거 아니야, 괜찮아"},{"t":"have trouble -ing","ko":"~하는 데 애를 먹다"}],
+ "ex":{"en":"I'm having trouble with my phone.","ko":"폰에 문제가 좀 있어."}},
+{"id":651,"word":"true","pos":[
+ {"p":"adjective","senses":[{"ko":"사실인, 맞는","en":"agreeing with the facts; not false"},{"ko":"진짜의, 진정한","en":"real or genuine, not pretended"},{"ko":"충실한","en":"loyal to a person or belief"}]}],
+ "phrases":[{"t":"come true","ko":"(꿈이) 이루어지다"},{"t":"That's true.","ko":"맞아, 그렇긴 해"},{"t":"true story","ko":"실화"}],
+ "ex":{"en":"Is it true that you're moving?","ko":"너 이사 간다는 거 사실이야?"}},
+{"id":652,"word":"try","pos":[
+ {"p":"verb","senses":[{"ko":"노력하다, 시도하다","en":"to make an effort to do something"},{"ko":"해 보다, 먹어 보다","en":"to use, do, or taste something to see if you like it"}]},
+ {"p":"noun","senses":[{"ko":"시도","en":"an attempt to do something"}]}],
+ "phrases":[{"t":"try on","ko":"입어 보다"},{"t":"give it a try","ko":"한번 해 보다"},{"t":"try your best","ko":"최선을 다하다"}],
+ "ex":{"en":"I'll try to finish it tonight.","ko":"오늘 밤에 끝내 보도록 할게."}},
+{"id":653,"word":"turn","pos":[
+ {"p":"verb","senses":[{"ko":"돌다, 돌리다","en":"to move, or make something move, around a central point"},{"ko":"방향을 바꾸다, 꺾다","en":"to change the direction you are facing or moving in"},{"ko":"~이 되다, 변하다","en":"to become something or change into something"}]},
+ {"p":"noun","senses":[{"ko":"차례, 순서","en":"the time when someone in a group can or must do something"}]}],
+ "phrases":[{"t":"turn on / off","ko":"켜다 / 끄다"},{"t":"It's your turn.","ko":"네 차례야"},{"t":"turn down","ko":"거절하다; (소리를) 줄이다"}],
+ "ex":{"en":"Turn the key to the right.","ko":"열쇠를 오른쪽으로 돌려."}},
+{"id":654,"word":"twelve","pos":[
+ {"p":"number","senses":[{"ko":"12, 열둘","en":"the number 12, one more than eleven"}]}],
+ "phrases":[],
+ "ex":{"en":"Let's meet at twelve for lunch.","ko":"점심 먹게 12시에 만나자."}},
+{"id":655,"word":"twenty","pos":[
+ {"p":"number","senses":[{"ko":"20, 스물","en":"the number 20, two times ten"}]}],
+ "phrases":[{"t":"in your twenties","ko":"20대에"}],
+ "ex":{"en":"I've known her for twenty years.","ko":"걔 안 지 20년 됐어."}},
+{"id":656,"word":"two","pos":[
+ {"p":"number","senses":[{"ko":"2, 둘","en":"the number 2, one more than one"}]}],
+ "phrases":[{"t":"one or two","ko":"한두 개(의)"},{"t":"the two of us","ko":"우리 둘"}],
+ "ex":{"en":"Can I get two coffees, please?","ko":"커피 두 잔 주세요."}},
+{"id":657,"word":"type","pos":[
+ {"p":"noun","senses":[{"ko":"종류, 유형","en":"a group of people or things that share particular qualities"},{"ko":"(좋아하는) 타입","en":"the kind of person someone finds attractive"}]},
+ {"p":"verb","senses":[{"ko":"타자를 치다, 입력하다","en":"to write something using a keyboard"}]}],
+ "phrases":[{"t":"my type","ko":"내 타입, 내 스타일"},{"t":"type in","ko":"(자판으로) 입력하다"}],
+ "ex":{"en":"What type of music do you like?","ko":"어떤 종류의 음악 좋아해?"}},
+{"id":658,"word":"unclear","pos":[
+ {"p":"adjective","senses":[{"ko":"불분명한, 이해하기 어려운","en":"not easy to understand or not clearly explained"},{"ko":"확실히 모르는","en":"not sure or certain about something"}]}],
+ "phrases":[{"t":"It's unclear whether ...","ko":"~인지 확실하지 않다"}],
+ "ex":{"en":"Sorry, your instructions were a bit unclear.","ko":"미안, 설명이 좀 이해하기 어려웠어."}},
+{"id":659,"word":"under","pos":[
+ {"p":"preposition","senses":[{"ko":"~ 아래에, 밑에","en":"below or lower than something, or covered by it"},{"ko":"~ 미만의","en":"less than a certain amount, age, or number"},{"ko":"~ 중인","en":"in the process of something, such as repair or construction"}]}],
+ "phrases":[{"t":"under control","ko":"잘 통제되는, 문제없는"},{"t":"under pressure","ko":"압박을 받는"},{"t":"under the weather","ko":"몸이 좀 안 좋은"}],
+ "ex":{"en":"The cat is hiding under the bed.","ko":"고양이가 침대 밑에 숨어 있어."}},
+{"id":660,"word":"understand","pos":[
+ {"p":"verb","senses":[{"ko":"이해하다, 알다","en":"to know the meaning of something or how it works"},{"ko":"(사정·마음을) 이해하다","en":"to know how someone feels and why they act as they do"}]}],
+ "phrases":[{"t":"I understand.","ko":"알겠어요, 이해해요"},{"t":"make yourself understood","ko":"의사를 전달하다"}],
+ "ex":{"en":"I don't understand what you mean.","ko":"무슨 말인지 모르겠어."}},
+{"id":661,"word":"unless","pos":[
+ {"p":"conjunction","senses":[{"ko":"~하지 않으면, ~하지 않는 한","en":"except if; used to say what happens if something else does not"}]}],
+ "phrases":[],
+ "ex":{"en":"We'll go out, unless it rains.","ko":"비 안 오면 나갈 거야."}},
+{"id":662,"word":"until","pos":[
+ {"p":"preposition","senses":[{"ko":"~까지","en":"up to a particular point in time"}]},
+ {"p":"conjunction","senses":[{"ko":"~할 때까지","en":"up to the time when something happens"}]}],
+ "phrases":[{"t":"until then","ko":"그때까지"},{"t":"not until","ko":"~하고 나서야 비로소"}],
+ "ex":{"en":"Wait until I get there.","ko":"내가 갈 때까지 기다려."}},
+{"id":663,"word":"up","pos":[
+ {"p":"adverb","senses":[{"ko":"위로, 위쪽으로","en":"toward a higher place or position from a lower one"},{"ko":"완전히, 다","en":"so that something is finished, used up, or complete"},{"ko":"(잠에서) 깨어, 일어나","en":"awake and out of bed"}]}],
+ "phrases":[{"t":"What's up?","ko":"무슨 일이야?; 잘 지내?"},{"t":"give up","ko":"포기하다"},{"t":"up to you","ko":"너한테 달렸어"}],
+ "ex":{"en":"Look up at the sky!","ko":"하늘 위를 봐!"}},
+{"id":664,"word":"use","pos":[
+ {"p":"verb","senses":[{"ko":"사용하다, 쓰다","en":"to do something with an object or method for a purpose"},{"ko":"소비하다, 쓰다","en":"to take an amount of something from a supply"}]},
+ {"p":"noun","senses":[{"ko":"사용, 쓸모","en":"the act of using something, or the purpose it serves"}]}],
+ "phrases":[{"t":"used to","ko":"(예전에) ~하곤 했다"},{"t":"It's no use.","ko":"소용없어"},{"t":"make use of","ko":"~을 활용하다"}],
+ "ex":{"en":"Can I use your phone for a second?","ko":"폰 잠깐 써도 돼?"}},
+{"id":665,"word":"usually","pos":[
+ {"p":"adverb","senses":[{"ko":"보통, 대개","en":"in the way that happens most often; normally"}]}],
+ "phrases":[],
+ "ex":{"en":"I usually get up at seven.","ko":"나 보통 7시에 일어나."}},
+{"id":666,"word":"value","pos":[
+ {"p":"noun","senses":[{"ko":"가치, 값","en":"the amount of money that something is worth"},{"ko":"중요성, 유용성","en":"how important or useful something is"}]},
+ {"p":"verb","senses":[{"ko":"소중히 여기다","en":"to think that someone or something is important"}]}],
+ "phrases":[{"t":"good value","ko":"값어치를 하는, 싼 편인"},{"t":"value for money","ko":"가성비"}],
+ "ex":{"en":"The value of our house has gone up.","ko":"우리 집값이 올랐어."}},
+{"id":667,"word":"various","pos":[
+ {"p":"adjective","senses":[{"ko":"여러 가지의, 다양한","en":"several different kinds of things or people"}]}],
+ "phrases":[{"t":"for various reasons","ko":"여러 가지 이유로"}],
+ "ex":{"en":"I've tried various ways to fix it.","ko":"그거 고치려고 여러 방법을 써 봤어."}},
+{"id":668,"word":"very","pos":[
+ {"p":"adverb","senses":[{"ko":"매우, 아주","en":"to a high degree; extremely"}]},
+ {"p":"adjective","senses":[{"ko":"바로 그","en":"used to stress that you mean exactly that one"}]}],
+ "phrases":[{"t":"very much","ko":"대단히, 무척"},{"t":"not very","ko":"별로 ~하지 않은"},{"t":"the very best","ko":"최고 중의 최고"}],
+ "ex":{"en":"It's very cold today.","ko":"오늘 엄청 추워."}},
+{"id":669,"word":"view","pos":[
+ {"p":"noun","senses":[{"ko":"견해, 의견","en":"an opinion or way of thinking about something"},{"ko":"경치, 전망","en":"what you can see from a particular place"}]},
+ {"p":"verb","senses":[{"ko":"보다, 여기다","en":"to think about something in a particular way"}]}],
+ "phrases":[{"t":"in my view","ko":"내 생각에는"},{"t":"point of view","ko":"관점, 시각"},{"t":"in view of","ko":"~을 고려하여"}],
+ "ex":{"en":"What's your view on this?","ko":"이거에 대해 네 생각은 어때?"}},
+{"id":670,"word":"visit","pos":[
+ {"p":"verb","senses":[{"ko":"방문하다, 찾아가다","en":"to go to see a person or place and spend time there"}]},
+ {"p":"noun","senses":[{"ko":"방문","en":"an occasion when you go to see a person or place"}]}],
+ "phrases":[{"t":"pay a visit","ko":"방문하다, 들르다"}],
+ "ex":{"en":"I'm going to visit my grandma this weekend.","ko":"이번 주말에 할머니 뵈러 갈 거야."}},
+{"id":671,"word":"vote","pos":[
+ {"p":"verb","senses":[{"ko":"투표하다","en":"to make an official choice for or against someone or something"}]},
+ {"p":"noun","senses":[{"ko":"투표, 표","en":"a formal choice made in an election or group decision"}]}],
+ "phrases":[{"t":"vote for","ko":"~에게 투표하다, ~을 찍다"},{"t":"take a vote","ko":"표결에 부치다"}],
+ "ex":{"en":"Who did you vote for?","ko":"누구 찍었어?"}},
+{"id":672,"word":"wait","pos":[
+ {"p":"verb","senses":[{"ko":"기다리다","en":"to stay where you are until something happens or someone comes"}]},
+ {"p":"noun","senses":[{"ko":"기다림, 대기 시간","en":"a period of time spent waiting"}]}],
+ "phrases":[{"t":"Wait a minute.","ko":"잠깐만"},{"t":"can't wait","ko":"너무 기대된다"},{"t":"wait and see","ko":"두고 보다"}],
+ "ex":{"en":"Can you wait for me here?","ko":"여기서 나 좀 기다려 줄래?"}},
+{"id":673,"word":"walk","pos":[
+ {"p":"verb","senses":[{"ko":"걷다, 걸어가다","en":"to move on foot at a normal speed"},{"ko":"산책시키다, 바래다주다","en":"to take a person or animal somewhere on foot"}]},
+ {"p":"noun","senses":[{"ko":"산책, 걷기","en":"a trip that you take on foot"}]}],
+ "phrases":[{"t":"go for a walk","ko":"산책하러 가다"},{"t":"walk away","ko":"자리를 뜨다, 손을 떼다"},{"t":"walk someone home","ko":"집까지 바래다주다"}],
+ "ex":{"en":"I usually walk to work.","ko":"나 보통 회사에 걸어가."}},
+{"id":674,"word":"want","pos":[
+ {"p":"verb","senses":[{"ko":"원하다, 바라다","en":"to wish to have or do something"},{"ko":"~해 주길 바라다","en":"to wish that someone would do something"}]}],
+ "phrases":[{"t":"Do you want to ...?","ko":"~할래?"},{"t":"if you want","ko":"원하면"},{"t":"want to","ko":"~하고 싶다"}],
+ "ex":{"en":"Do you want something to drink?","ko":"마실 거 뭐 줄까?"}},
+{"id":675,"word":"war","pos":[
+ {"p":"noun","senses":[{"ko":"전쟁","en":"a period of fighting between countries or large groups"},{"ko":"싸움, 경쟁","en":"a strong fight or competition against something"}]}],
+ "phrases":[{"t":"at war","ko":"전쟁 중인"},{"t":"price war","ko":"가격 전쟁"}],
+ "ex":{"en":"My grandfather fought in the war.","ko":"할아버지가 그 전쟁에 참전하셨어."}},
+{"id":676,"word":"watch","pos":[
+ {"p":"verb","senses":[{"ko":"지켜보다, 보다","en":"to look at something for a time and pay attention to it"},{"ko":"조심하다, 주의하다","en":"to be careful about something"}]},
+ {"p":"noun","senses":[{"ko":"손목시계","en":"a small clock that you wear on your wrist"}]}],
+ "phrases":[{"t":"Watch out!","ko":"조심해!"},{"t":"watch TV","ko":"TV를 보다"},{"t":"Watch your step.","ko":"발밑 조심해"}],
+ "ex":{"en":"Watch how I do it.","ko":"내가 어떻게 하는지 봐."}},
+{"id":677,"word":"water","pos":[
+ {"p":"noun","senses":[{"ko":"물","en":"the clear liquid that falls as rain and fills seas and rivers"}]},
+ {"p":"verb","senses":[{"ko":"(식물에) 물을 주다","en":"to pour water on plants or the ground"}]}],
+ "phrases":[{"t":"a glass of water","ko":"물 한 잔"},{"t":"in hot water","ko":"곤경에 빠진"}],
+ "ex":{"en":"Can I have a glass of water?","ko":"물 한 잔 주실래요?"}},
+{"id":678,"word":"way","pos":[
+ {"p":"noun","senses":[{"ko":"방식, 방법","en":"a manner or method of doing something"},{"ko":"길, 방향","en":"a road or route that leads to a place"}]},
+ {"p":"adverb","senses":[{"ko":"훨씬, 너무","en":"very much or far, used in casual speech"}]}],
+ "phrases":[{"t":"No way!","ko":"말도 안 돼!"},{"t":"by the way","ko":"그건 그렇고"},{"t":"on my way","ko":"가는 중이야"}],
+ "ex":{"en":"I like the way you think.","ko":"네 생각하는 방식이 좋아."}},
+{"id":679,"word":"we","pos":[
+ {"p":"pronoun","senses":[{"ko":"우리","en":"the speaker and one or more other people as the subject"},{"ko":"(일반적인) 우리, 사람들","en":"people in general, including the speaker"}]}],
+ "phrases":[{"t":"Here we go.","ko":"자, 시작이다; 또 시작이네"},{"t":"We'll see.","ko":"두고 보자, 글쎄"}],
+ "ex":{"en":"We should get going.","ko":"우리 이제 가야겠다."}},
+{"id":680,"word":"wear","pos":[
+ {"p":"verb","senses":[{"ko":"입다, 쓰다, 끼다","en":"to have clothes, shoes, glasses, or jewelry on your body"},{"ko":"닳다, 해지다","en":"to become thin or damaged from long use"}]}],
+ "phrases":[{"t":"wear out","ko":"닳다; 지치게 하다"},{"t":"wear makeup","ko":"화장하다"}],
+ "ex":{"en":"What are you wearing to the party?","ko":"파티에 뭐 입고 갈 거야?"}},
+{"id":681,"word":"week","pos":[
+ {"p":"noun","senses":[{"ko":"주, 일주일","en":"a period of seven days, often from Sunday to Saturday"},{"ko":"평일, 주중","en":"the days of the week when people go to work or school"}]}],
+ "phrases":[{"t":"next week","ko":"다음 주"},{"t":"Have a good week.","ko":"좋은 한 주 보내"}],
+ "ex":{"en":"I'll see you next week.","ko":"다음 주에 봐."}},
+{"id":682,"word":"weekend","pos":[
+ {"p":"noun","senses":[{"ko":"주말","en":"Saturday and Sunday, when many people do not work"}]}],
+ "phrases":[{"t":"Have a nice weekend!","ko":"좋은 주말 보내!"},{"t":"on the weekend","ko":"주말에"}],
+ "ex":{"en":"Any plans for the weekend?","ko":"주말에 무슨 계획 있어?"}},
+{"id":683,"word":"well","pos":[
+ {"p":"adverb","senses":[{"ko":"잘, 훌륭하게","en":"in a good, successful, or satisfactory way"},{"ko":"충분히, 완전히","en":"fully, carefully, or to a great degree"}]},
+ {"p":"adjective","senses":[{"ko":"건강한","en":"healthy and not sick"}]},
+ {"p":"interjection","senses":[{"ko":"음, 글쎄, 자","en":"used to pause or before you start to say something"}]}],
+ "phrases":[{"t":"as well","ko":"~도, 또한"},{"t":"Well done!","ko":"잘했어!"},{"t":"Oh well.","ko":"뭐, 어쩔 수 없지"}],
+ "ex":{"en":"You did really well on the test.","ko":"너 시험 진짜 잘 봤더라."}},
+{"id":684,"word":"what","pos":[
+ {"p":"pronoun","senses":[{"ko":"무엇, 뭐","en":"used to ask for information about something"},{"ko":"~하는 것","en":"the thing or things that"}]},
+ {"p":"determiner","senses":[{"ko":"무슨, 어떤","en":"used to ask which thing or what kind of thing"}]}],
+ "phrases":[{"t":"So what?","ko":"그래서 뭐?"},{"t":"What about ...?","ko":"~는 어때?"},{"t":"What if ...?","ko":"만약 ~하면 어떡해?"}],
+ "ex":{"en":"What are you doing tonight?","ko":"오늘 밤에 뭐 해?"}},
+{"id":685,"word":"whatever","pos":[
+ {"p":"pronoun","senses":[{"ko":"무엇이든, 뭐든지","en":"anything or everything that"},{"ko":"무엇을 ~하더라도","en":"no matter what happens or what is true"}]},
+ {"p":"interjection","senses":[{"ko":"아무렴 어때, 됐어","en":"used to show that you do not care"}]}],
+ "phrases":[{"t":"whatever you say","ko":"네 말대로 할게"},{"t":"or whatever","ko":"아니면 뭐 그런 거"}],
+ "ex":{"en":"Take whatever you want.","ko":"원하는 거 뭐든 가져가."}},
+{"id":686,"word":"when","pos":[
+ {"p":"adverb","senses":[{"ko":"언제","en":"at what time, used to ask about time"}]},
+ {"p":"conjunction","senses":[{"ko":"~할 때","en":"at or during the time that something happens"},{"ko":"~하면","en":"after or as soon as something happens"}]}],
+ "phrases":[{"t":"Since when?","ko":"언제부터?"},{"t":"Say when.","ko":"됐으면 말해"}],
+ "ex":{"en":"When are you coming back?","ko":"언제 돌아와?"}},
+{"id":687,"word":"where","pos":[
+ {"p":"adverb","senses":[{"ko":"어디에, 어디로","en":"in, at, or to what place"}]},
+ {"p":"conjunction","senses":[{"ko":"~하는 곳(에)","en":"in, at, or to the place that"}]}],
+ "phrases":[{"t":"Where was I?","ko":"내가 어디까지 얘기했지?"},{"t":"Where to?","ko":"어디로 가세요?"}],
+ "ex":{"en":"Where are you right now?","ko":"너 지금 어디야?"}},
+{"id":688,"word":"whether","pos":[
+ {"p":"conjunction","senses":[{"ko":"~인지 (아닌지)","en":"used to show a doubt or choice between possibilities"},{"ko":"~이든 아니든","en":"used to say something is true in either case"}]}],
+ "phrases":[{"t":"whether or not","ko":"~이든 아니든"}],
+ "ex":{"en":"I'm not sure whether he's coming.","ko":"걔가 올지 안 올지 모르겠어."}},
+{"id":689,"word":"which","pos":[
+ {"p":"determiner","senses":[{"ko":"어느, 어떤","en":"used to ask about one or more from a limited group"}]},
+ {"p":"pronoun","senses":[{"ko":"어느 것","en":"used to ask which one or ones from a group"},{"ko":"~하는 (것)","en":"used to add information about a thing just mentioned"}]}],
+ "phrases":[{"t":"which one","ko":"어느 거"},{"t":"which way","ko":"어느 쪽으로"}],
+ "ex":{"en":"Which one do you want?","ko":"어느 거로 할래?"}},
+{"id":690,"word":"while","pos":[
+ {"p":"conjunction","senses":[{"ko":"~하는 동안","en":"during the time that something is happening"},{"ko":"반면에","en":"used to show a contrast between two things"}]},
+ {"p":"noun","senses":[{"ko":"잠시, 동안","en":"a period of time, usually a short one"}]}],
+ "phrases":[{"t":"for a while","ko":"한동안, 잠시"},{"t":"once in a while","ko":"가끔"},{"t":"worth your while","ko":"할 만한 가치가 있는"}],
+ "ex":{"en":"I listen to music while I work.","ko":"나 일하면서 음악 들어."}},
+{"id":691,"word":"white","pos":[
+ {"p":"adjective","senses":[{"ko":"흰, 하얀","en":"having the color of snow or milk"},{"ko":"창백한","en":"pale in the face because of illness or fear"}]},
+ {"p":"noun","senses":[{"ko":"흰색","en":"the color of snow or milk"}]}],
+ "phrases":[{"t":"white lie","ko":"선의의 거짓말"},{"t":"black and white","ko":"흑백의; 명백한"}],
+ "ex":{"en":"I bought a white shirt.","ko":"흰 셔츠 하나 샀어."}},
+{"id":692,"word":"who","pos":[
+ {"p":"pronoun","senses":[{"ko":"누구","en":"used to ask which person or people"},{"ko":"~하는 (사람)","en":"used to give information about a person just mentioned"}]}],
+ "phrases":[{"t":"Who knows?","ko":"누가 알겠어?"},{"t":"Guess who?","ko":"누구게?"},{"t":"Who cares?","ko":"무슨 상관이야?"}],
+ "ex":{"en":"Who's coming to the party?","ko":"파티에 누구 와?"}},
+{"id":693,"word":"whole","pos":[
+ {"p":"adjective","senses":[{"ko":"전체의, 모든","en":"complete or full; all of something"},{"ko":"통째의","en":"in one piece, not cut or broken into parts"}]},
+ {"p":"noun","senses":[{"ko":"전체","en":"all of something, or a complete thing"}]}],
+ "phrases":[{"t":"the whole time","ko":"그동안 내내"},{"t":"on the whole","ko":"대체로"},{"t":"the whole thing","ko":"그 일 전부"}],
+ "ex":{"en":"I ate the whole pizza by myself.","ko":"피자 한 판 혼자 다 먹었어."}},
+{"id":694,"word":"why","pos":[
+ {"p":"adverb","senses":[{"ko":"왜","en":"for what reason or purpose"}]}],
+ "phrases":[{"t":"Why not?","ko":"왜 안 돼?; 좋지"},{"t":"Why don't you ...?","ko":"~하는 게 어때?"}],
+ "ex":{"en":"Why are you so late?","ko":"왜 이렇게 늦었어?"}},
+{"id":695,"word":"wife","pos":[
+ {"p":"noun","senses":[{"ko":"아내, 부인","en":"the woman that a person is married to"}]}],
+ "phrases":[{"t":"husband and wife","ko":"부부"}],
+ "ex":{"en":"This is my wife, Jenny.","ko":"이쪽은 제 아내 제니예요."}},
+{"id":696,"word":"will","pos":[
+ {"p":"modal","senses":[{"ko":"~할 것이다","en":"used to talk about what is expected to happen in the future"},{"ko":"~할게","en":"used to say that you are willing or plan to do something"},{"ko":"~해 줄래?","en":"used to ask someone to do something"}]},
+ {"p":"noun","senses":[{"ko":"의지; 유언장","en":"strong determination, or a legal paper about property after death"}]}],
+ "phrases":[{"t":"Will do.","ko":"그렇게 할게"},{"t":"against your will","ko":"억지로, 본의 아니게"}],
+ "ex":{"en":"It will be sunny tomorrow.","ko":"내일은 맑을 거야."}},
+{"id":697,"word":"win","pos":[
+ {"p":"verb","senses":[{"ko":"이기다, 승리하다","en":"to be the most successful in a game, fight, or contest"},{"ko":"(상을) 타다, 따다","en":"to get a prize or reward by doing well"}]},
+ {"p":"noun","senses":[{"ko":"승리","en":"a victory in a game or contest"}]}],
+ "phrases":[{"t":"You win.","ko":"네가 이겼어, 네 말대로 해"},{"t":"win-win","ko":"모두에게 좋은"},{"t":"can't win","ko":"뭘 해도 안 된다"}],
+ "ex":{"en":"Did your team win last night?","ko":"어젯밤에 너네 팀 이겼어?"}},
+{"id":698,"word":"window","pos":[
+ {"p":"noun","senses":[{"ko":"창문, 창","en":"an opening in a wall or vehicle, usually filled with glass"},{"ko":"(컴퓨터) 창","en":"an area on a computer screen that shows a program"}]}],
+ "phrases":[{"t":"window shopping","ko":"아이쇼핑"},{"t":"out the window","ko":"물거품이 된, 사라진"}],
+ "ex":{"en":"Can you open the window?","ko":"창문 좀 열어 줄래?"}},
+{"id":699,"word":"wish","pos":[
+ {"p":"verb","senses":[{"ko":"~이면 좋겠다, 바라다","en":"to want something to be true or happen, often when it is unlikely"},{"ko":"빌다, 기원하다","en":"to hope that someone will have something good"}]},
+ {"p":"noun","senses":[{"ko":"소원, 바람","en":"a desire or hope for something"}]}],
+ "phrases":[{"t":"I wish!","ko":"그러면 얼마나 좋을까!"},{"t":"make a wish","ko":"소원을 빌다"},{"t":"best wishes","ko":"행운을 빌어요"}],
+ "ex":{"en":"I wish I could stay longer.","ko":"더 있을 수 있으면 좋겠다."}},
+{"id":700,"word":"with","pos":[
+ {"p":"preposition","senses":[{"ko":"~와 함께","en":"used to show that people or things are together or near each other"},{"ko":"~을 가지고, ~로","en":"using something as a tool or method"},{"ko":"~이 있는","en":"having or carrying something"}]}],
+ "phrases":[{"t":"I'm with you.","ko":"동의해, 네 편이야"},{"t":"What's wrong with ...?","ko":"~에 무슨 문제 있어?"}],
+ "ex":{"en":"Do you want to come with me?","ko":"나랑 같이 갈래?"}},
+{"id":701,"word":"within","pos":[
+ {"p":"preposition","senses":[{"ko":"~ 안에, 내부에","en":"inside a place, group, or thing"},{"ko":"~ 이내에","en":"before a certain period of time has passed"}]}],
+ "phrases":[{"t":"within walking distance","ko":"걸어갈 수 있는 거리에"},{"t":"within reach","ko":"손이 닿는 곳에"}],
+ "ex":{"en":"Smoking isn't allowed within the building.","ko":"건물 안에서는 흡연 금지야."}},
+{"id":702,"word":"without","pos":[
+ {"p":"preposition","senses":[{"ko":"~ 없이","en":"not having or including something or someone"},{"ko":"~하지 않고","en":"not doing a particular thing"}]}],
+ "phrases":[{"t":"without a doubt","ko":"의심의 여지 없이"},{"t":"go without","ko":"~ 없이 지내다"},{"t":"It goes without saying","ko":"말할 필요도 없다"}],
+ "ex":{"en":"I can't live without coffee.","ko":"나 커피 없이는 못 살아."}},
+{"id":703,"word":"woman","pos":[
+ {"p":"noun","senses":[{"ko":"여자, 여성","en":"an adult female human being"}]}],
+ "phrases":[{"t":"young woman","ko":"젊은 여성"}],
+ "ex":{"en":"Who's that woman talking to Mike?","ko":"마이크랑 얘기하는 저 여자 누구야?"}},
+{"id":704,"word":"wonder","pos":[
+ {"p":"noun","senses":[{"ko":"경이, 놀라운 것","en":"something very surprising or amazing, or the feeling it causes"}]},
+ {"p":"verb","senses":[{"ko":"궁금하다, 궁금해하다","en":"to want to know something or think about it"},{"ko":"~해 주실 수 있을까요","en":"used to ask for something politely, as in I wonder if"}]}],
+ "phrases":[{"t":"No wonder.","ko":"어쩐지, 그럴 만하네"},{"t":"I wonder if ...","ko":"~일까?; ~해 줄 수 있을까?"},{"t":"It's a wonder ...","ko":"~라니 신기하다"}],
+ "ex":{"en":"The Grand Canyon is one of nature's wonders.","ko":"그랜드 캐니언은 자연의 경이 중 하나야."}},
+{"id":705,"word":"wonderful","pos":[
+ {"p":"adjective","senses":[{"ko":"아주 좋은, 훌륭한","en":"extremely good, pleasant, or enjoyable"},{"ko":"놀라운, 경이로운","en":"causing a feeling of surprise and admiration"}]}],
+ "phrases":[{"t":"That's wonderful!","ko":"정말 잘됐다!"}],
+ "ex":{"en":"We had a wonderful time.","ko":"정말 즐거운 시간 보냈어."}},
+{"id":706,"word":"word","pos":[
+ {"p":"noun","senses":[{"ko":"단어, 낱말","en":"a unit of language with a meaning that is spoken or written"},{"ko":"말, 이야기","en":"something that someone says, or a short talk"},{"ko":"약속","en":"a promise that you will do something"}]}],
+ "phrases":[{"t":"in other words","ko":"다시 말해"},{"t":"keep your word","ko":"약속을 지키다"},{"t":"have a word with","ko":"~와 잠깐 얘기하다"}],
+ "ex":{"en":"What does this word mean?","ko":"이 단어 무슨 뜻이야?"}},
+{"id":707,"word":"work","pos":[
+ {"p":"verb","senses":[{"ko":"일하다","en":"to do a job or activity that needs mental or physical effort"},{"ko":"작동하다, 효과가 있다","en":"to operate properly or have the result you want"}]},
+ {"p":"noun","senses":[{"ko":"일, 직장","en":"a job, or the place where you do your job"}]}],
+ "phrases":[{"t":"work out","ko":"운동하다; 잘 풀리다"},{"t":"It works for me.","ko":"난 좋아, 괜찮아"},{"t":"at work","ko":"회사에서, 근무 중인"}],
+ "ex":{"en":"I work at a bank.","ko":"나 은행에서 일해."}},
+{"id":708,"word":"world","pos":[
+ {"p":"noun","senses":[{"ko":"세계, 세상","en":"the earth and all the people and things on it"},{"ko":"~계, 분야","en":"a particular area of activity or group of people"}]}],
+ "phrases":[{"t":"It's a small world.","ko":"세상 참 좁다"},{"t":"mean the world to","ko":"~에게 전부다, 아주 소중하다"},{"t":"out of this world","ko":"끝내주는, 최고인"}],
+ "ex":{"en":"I want to see the whole world someday.","ko":"언젠가 온 세상을 다 보고 싶어."}},
+{"id":709,"word":"worry","pos":[
+ {"p":"verb","senses":[{"ko":"걱정하다","en":"to keep thinking about problems or bad things that might happen"},{"ko":"걱정시키다","en":"to make someone feel anxious or upset"}]},
+ {"p":"noun","senses":[{"ko":"걱정, 걱정거리","en":"a feeling of anxiety, or something that causes it"}]}],
+ "phrases":[{"t":"Don't worry.","ko":"걱정 마"},{"t":"No worries.","ko":"괜찮아, 신경 쓰지 마"},{"t":"worry about","ko":"~을 걱정하다"}],
+ "ex":{"en":"I always worry about money.","ko":"나 맨날 돈 걱정해."}},
+{"id":710,"word":"worth","pos":[
+ {"p":"adjective","senses":[{"ko":"~의 가치가 있는","en":"having a particular value, especially in money"},{"ko":"~할 가치가 있는","en":"good or useful enough to do, see, or have"}]},
+ {"p":"noun","senses":[{"ko":"가치, ~어치","en":"the value of something, or an amount of it"}]}],
+ "phrases":[{"t":"worth it","ko":"그럴 만한 가치가 있는"},{"t":"worth a try","ko":"해 볼 만한"},{"t":"for what it's worth","ko":"별건 아니지만, 참고로"}],
+ "ex":{"en":"This ring is worth a lot of money.","ko":"이 반지 값이 꽤 나가."}},
+{"id":711,"word":"would","pos":[
+ {"p":"modal","senses":[{"ko":"~할 것이다 (과거에서 본 미래)","en":"used to say what someone thought or expected would happen"},{"ko":"~할 텐데, ~일 것이다","en":"used to talk about an imagined situation or its result"},{"ko":"~해 주시겠어요?","en":"used to ask for something or offer something politely"}]}],
+ "phrases":[{"t":"Would you like ...?","ko":"~하시겠어요?, ~드릴까요?"},{"t":"I would rather","ko":"차라리 ~하겠다"},{"t":"Would you mind ...?","ko":"~해 주시겠어요?"}],
+ "ex":{"en":"I knew you would come.","ko":"네가 올 줄 알았어."}},
+{"id":712,"word":"write","pos":[
+ {"p":"verb","senses":[{"ko":"쓰다, 적다","en":"to form letters and words on paper or a screen"},{"ko":"(글·책·곡을) 쓰다","en":"to create a book, song, or other piece of writing"},{"ko":"편지를 쓰다","en":"to send a letter or message to someone"}]}],
+ "phrases":[{"t":"write down","ko":"적어 두다"},{"t":"write back","ko":"답장하다"}],
+ "ex":{"en":"Can you write your name here?","ko":"여기 이름 좀 써 줄래요?"}},
+{"id":713,"word":"wrong","pos":[
+ {"p":"adjective","senses":[{"ko":"틀린, 잘못된","en":"not correct or not true"},{"ko":"문제가 있는","en":"not working properly, or causing a problem"},{"ko":"나쁜, 옳지 않은","en":"not morally right or fair"}]},
+ {"p":"adverb","senses":[{"ko":"잘못, 틀리게","en":"in a way that is not correct"}]}],
+ "phrases":[{"t":"What's wrong?","ko":"무슨 일 있어?, 왜 그래?"},{"t":"go wrong","ko":"잘못되다, 틀어지다"},{"t":"Don't get me wrong.","ko":"오해하지 마"}],
+ "ex":{"en":"Sorry, I think you have the wrong number.","ko":"죄송한데 전화 잘못 거신 것 같아요."}},
+{"id":714,"word":"yeah","pos":[
+ {"p":"interjection","senses":[{"ko":"응, 그래","en":"yes, used in casual speech"}]}],
+ "phrases":[{"t":"Oh yeah?","ko":"아 그래?, 정말?"},{"t":"Yeah, right.","ko":"퍽이나, 설마"},{"t":"Yeah, yeah.","ko":"알았어 알았어"}],
+ "ex":{"en":"Yeah, that sounds good to me.","ko":"응, 난 좋아."}},
+{"id":715,"word":"year","pos":[
+ {"p":"noun","senses":[{"ko":"해, 년","en":"a period of time equal to twelve months or 365 days"},{"ko":"학년","en":"a level or stage in school or university"}]}],
+ "phrases":[{"t":"Happy New Year!","ko":"새해 복 많이 받아!"},{"t":"years old","ko":"~살"},{"t":"all year round","ko":"일 년 내내"}],
+ "ex":{"en":"I've lived here for three years.","ko":"나 여기 산 지 3년 됐어."}},
+{"id":716,"word":"yes","pos":[
+ {"p":"interjection","senses":[{"ko":"네, 응","en":"used to give a positive answer or agree with something"},{"ko":"(부를 때 대답) 네?","en":"used to answer when someone calls you or wants your attention"}]},
+ {"p":"noun","senses":[{"ko":"찬성, 승낙","en":"an answer or vote that agrees with something"}]}],
+ "phrases":[{"t":"Yes, please.","ko":"네, 부탁해요"},{"t":"say yes","ko":"승낙하다, 좋다고 하다"}],
+ "ex":{"en":"Yes, I'd love to come!","ko":"응, 꼭 가고 싶어!"}},
+{"id":717,"word":"yesterday","pos":[
+ {"p":"adverb","senses":[{"ko":"어제","en":"on the day before today"}]},
+ {"p":"noun","senses":[{"ko":"어제","en":"the day before today"}]}],
+ "phrases":[{"t":"the day before yesterday","ko":"그저께"},{"t":"yesterday morning","ko":"어제 아침"}],
+ "ex":{"en":"I saw her yesterday.","ko":"나 어제 걔 봤어."}},
+{"id":718,"word":"yet","pos":[
+ {"p":"adverb","senses":[{"ko":"아직","en":"until now; up to the present time"},{"ko":"벌써, 이제 (의문문)","en":"used in questions to ask if something has happened already"}]},
+ {"p":"conjunction","senses":[{"ko":"그런데도, 그렇지만","en":"but at the same time; even so"}]}],
+ "phrases":[{"t":"not yet","ko":"아직 아니야"},{"t":"yet again","ko":"또다시"},{"t":"as yet","ko":"아직까지"}],
+ "ex":{"en":"I haven't eaten yet.","ko":"나 아직 밥 안 먹었어."}},
+{"id":719,"word":"you","pos":[
+ {"p":"pronoun","senses":[{"ko":"너, 당신, 너희","en":"the person or people that the speaker is talking to"},{"ko":"(일반적인) 사람들","en":"people in general, used in casual speech"}]}],
+ "phrases":[{"t":"you know","ko":"있잖아, 그러니까"},{"t":"You know what?","ko":"있잖아, 그거 알아?"},{"t":"See you.","ko":"또 봐"}],
+ "ex":{"en":"Are you okay?","ko":"너 괜찮아?"}},
+{"id":720,"word":"young","pos":[
+ {"p":"adjective","senses":[{"ko":"어린, 젊은","en":"in an early stage of life or growth"}]},
+ {"p":"noun","senses":[{"ko":"젊은이들; (동물의) 새끼","en":"young people as a group, or baby animals"}]}],
+ "phrases":[{"t":"young at heart","ko":"마음이 젊은"},{"t":"when I was young","ko":"내가 어렸을 때"}],
+ "ex":{"en":"She looks so young for her age.","ko":"걔 나이에 비해 엄청 어려 보여."}},
+{"id":721,"word":"yourself","pos":[
+ {"p":"pronoun","senses":[{"ko":"너 자신, 당신 자신","en":"used when the person you are talking to is also affected by the action"},{"ko":"직접, 스스로","en":"used to stress that you do something without help"}]}],
+ "phrases":[{"t":"Help yourself.","ko":"마음껏 드세요"},{"t":"Take care of yourself.","ko":"몸 잘 챙겨"},{"t":"by yourself","ko":"혼자서, 혼자 힘으로"}],
+ "ex":{"en":"Be careful not to hurt yourself.","ko":"다치지 않게 조심해."}}
+]

@@ -1,0 +1,582 @@
+[
+ {
+  "id": 606,
+  "word": "tax",
+  "def": "money that a government requires people to pay"
+ },
+ {
+  "id": 607,
+  "word": "tea",
+  "def": "a drink that is made by soaking the dried leaves of an Asian plant in hot water"
+ },
+ {
+  "id": 608,
+  "word": "teach",
+  "def": "to instruct or help to learn"
+ },
+ {
+  "id": 609,
+  "word": "teacher",
+  "def": "someone whose job is to teach in a school, college, etc."
+ },
+ {
+  "id": 610,
+  "word": "team",
+  "def": "a group of people who compete in a sport, game"
+ },
+ {
+  "id": 611,
+  "word": "tell",
+  "def": "to say or communicate information to someone"
+ },
+ {
+  "id": 612,
+  "word": "ten",
+  "def": "the number 10"
+ },
+ {
+  "id": 613,
+  "word": "tend",
+  "def": "used to describe what often happens or what someone often does or is likely to do"
+ },
+ {
+  "id": 614,
+  "word": "term",
+  "def": "a word or phrase that describes something else"
+ },
+ {
+  "id": 615,
+  "word": "test",
+  "def": "a set of questions designed to measure a person's ability"
+ },
+ {
+  "id": 616,
+  "word": "text",
+  "def": "the original words in main writing or speech"
+ },
+ {
+  "id": 617,
+  "word": "than",
+  "def": "used to introduce a second part that is being compared"
+ },
+ {
+  "id": 618,
+  "word": "thank",
+  "def": "to tell (someone) that you are grateful for something that he or she has done or given"
+ },
+ {
+  "id": 619,
+  "word": "that",
+  "def": "used to identify a specific person, thing, fact or idea"
+ },
+ {
+  "id": 620,
+  "word": "the",
+  "def": "used to point to something already mentioned"
+ },
+ {
+  "id": 621,
+  "word": "themselves",
+  "def": "the reflexive form of the pronoun 'they'"
+ },
+ {
+  "id": 622,
+  "word": "then",
+  "def": "at that time, at the time mentioned, after that"
+ },
+ {
+  "id": 623,
+  "word": "there",
+  "def": "in that place or position, at that location"
+ },
+ {
+  "id": 624,
+  "word": "therefore",
+  "def": "for that reason or because of that"
+ },
+ {
+  "id": 625,
+  "word": "they",
+  "def": "used to refer to two or more people, animals, or things"
+ },
+ {
+  "id": 626,
+  "word": "thing",
+  "def": "an object, animal, or quality doesn't have a specific name"
+ },
+ {
+  "id": 627,
+  "word": "think",
+  "def": "to believe or have a particular idea"
+ },
+ {
+  "id": 628,
+  "word": "thirty",
+  "def": "the number 30"
+ },
+ {
+  "id": 629,
+  "word": "this",
+  "def": "used to identify a specific person, thing, or idea that is close"
+ },
+ {
+  "id": 630,
+  "word": "though",
+  "def": "although, despite the fact that"
+ },
+ {
+  "id": 631,
+  "word": "thousand",
+  "def": "the number 1000"
+ },
+ {
+  "id": 632,
+  "word": "three",
+  "def": "the number 3"
+ },
+ {
+  "id": 633,
+  "word": "through",
+  "def": "into one side and out of the other side"
+ },
+ {
+  "id": 634,
+  "word": "throw",
+  "def": "to cause (something) to move out of your hand and through the air by quickly moving your arm forward"
+ },
+ {
+  "id": 635,
+  "word": "till",
+  "def": "until"
+ },
+ {
+  "id": 636,
+  "word": "time",
+  "def": "something measured in minutes, hours, days, etc."
+ },
+ {
+  "id": 637,
+  "word": "to",
+  "def": "used to indicate place or direction"
+ },
+ {
+  "id": 638,
+  "word": "today",
+  "def": "this day, this present day, at the present time"
+ },
+ {
+  "id": 639,
+  "word": "together",
+  "def": "to be with each other or in one group"
+ },
+ {
+  "id": 640,
+  "word": "tomorrow",
+  "def": "the day after today"
+ },
+ {
+  "id": 641,
+  "word": "tonight",
+  "def": "this night or the night following this day"
+ },
+ {
+  "id": 642,
+  "word": "too",
+  "def": "in addition, also"
+ },
+ {
+  "id": 643,
+  "word": "top",
+  "def": "the highest part, point, or level of something"
+ },
+ {
+  "id": 644,
+  "word": "totally",
+  "def": "completely"
+ },
+ {
+  "id": 645,
+  "word": "toward",
+  "def": "in the direction of"
+ },
+ {
+  "id": 646,
+  "word": "town",
+  "def": "a place people live, larger than a village, smaller than a city"
+ },
+ {
+  "id": 647,
+  "word": "trade",
+  "def": "the activity of buying, selling, or exchanging"
+ },
+ {
+  "id": 648,
+  "word": "train",
+  "def": "a group of connected vehicles traveling on railways"
+ },
+ {
+  "id": 649,
+  "word": "travel",
+  "def": "to go on a trip or journey : to go to a place and especially one that is far away"
+ },
+ {
+  "id": 650,
+  "word": "trouble",
+  "def": "problems or difficulties"
+ },
+ {
+  "id": 651,
+  "word": "true",
+  "def": "agreeing with the facts, not false, real or actual"
+ },
+ {
+  "id": 652,
+  "word": "try",
+  "def": "to make an effort, to attempt to do something"
+ },
+ {
+  "id": 653,
+  "word": "turn",
+  "def": "to move around a central point"
+ },
+ {
+  "id": 654,
+  "word": "twelve",
+  "def": "the number 12"
+ },
+ {
+  "id": 655,
+  "word": "twenty",
+  "def": "the number 20"
+ },
+ {
+  "id": 656,
+  "word": "two",
+  "def": "the number 2"
+ },
+ {
+  "id": 657,
+  "word": "type",
+  "def": "a particular category of people or objects with a common characteristic"
+ },
+ {
+  "id": 658,
+  "word": "unclear",
+  "def": "not easy to understand"
+ },
+ {
+  "id": 659,
+  "word": "under",
+  "def": "to be below something"
+ },
+ {
+  "id": 660,
+  "word": "understand",
+  "def": "to know, to perceive or comprehend something"
+ },
+ {
+  "id": 661,
+  "word": "unless",
+  "def": "used to say what will happen, be done, or be true if something else does not happen, is not done, or is not true"
+ },
+ {
+  "id": 662,
+  "word": "until",
+  "def": "up to, to indicate the point in time when a particular situation"
+ },
+ {
+  "id": 663,
+  "word": "up",
+  "def": "to move towards a high place from a lower one"
+ },
+ {
+  "id": 664,
+  "word": "use",
+  "def": "to do something with another thing"
+ },
+ {
+  "id": 665,
+  "word": "usually",
+  "def": "in the way that most often happens"
+ },
+ {
+  "id": 666,
+  "word": "value",
+  "def": "the amount of money something is worth"
+ },
+ {
+  "id": 667,
+  "word": "various",
+  "def": "used to refer to several different or many different things"
+ },
+ {
+  "id": 668,
+  "word": "very",
+  "def": "to a high degree"
+ },
+ {
+  "id": 669,
+  "word": "view",
+  "def": "an opinion or way of thinking"
+ },
+ {
+  "id": 670,
+  "word": "visit",
+  "def": "to go somewhere to spend time with"
+ },
+ {
+  "id": 671,
+  "word": "vote",
+  "def": "to make an official choice for or against someone or something"
+ },
+ {
+  "id": 672,
+  "word": "wait",
+  "def": "to stay or remain until an expected event happens"
+ },
+ {
+  "id": 673,
+  "word": "walk",
+  "def": "to move with your legs, to go on foot"
+ },
+ {
+  "id": 674,
+  "word": "want",
+  "def": "to desire or wish for"
+ },
+ {
+  "id": 675,
+  "word": "war",
+  "def": "a period of fighting or conflict between countries,"
+ },
+ {
+  "id": 676,
+  "word": "watch",
+  "def": "to pay attention to what is happening"
+ },
+ {
+  "id": 677,
+  "word": "water",
+  "def": "the clear liquid which forms the seas, rivers and rain"
+ },
+ {
+  "id": 678,
+  "word": "way",
+  "def": "a manner or characteristic of something"
+ },
+ {
+  "id": 679,
+  "word": "we",
+  "def": "used to refer to the speaker and another person as the subject"
+ },
+ {
+  "id": 680,
+  "word": "wear",
+  "def": "to use or have as clothing over part of your body"
+ },
+ {
+  "id": 681,
+  "word": "week",
+  "def": "a period of seven days, starts on Sunday and end on Saturday"
+ },
+ {
+  "id": 682,
+  "word": "weekend",
+  "def": "Saturday and Sunday"
+ },
+ {
+  "id": 683,
+  "word": "well",
+  "def": "in a successful way, in a good or satisfactory way"
+ },
+ {
+  "id": 684,
+  "word": "what",
+  "def": "asking for information about someone or something"
+ },
+ {
+  "id": 685,
+  "word": "whatever",
+  "def": "anything or everything that or no matter what"
+ },
+ {
+  "id": 686,
+  "word": "when",
+  "def": "at what time, at, in, during which, how soon"
+ },
+ {
+  "id": 687,
+  "word": "where",
+  "def": "to be in at or in what place?"
+ },
+ {
+  "id": 688,
+  "word": "whether",
+  "def": "expressing a doubt between alternatives"
+ },
+ {
+  "id": 689,
+  "word": "which",
+  "def": "what one or ones of a group, one or more people or things"
+ },
+ {
+  "id": 690,
+  "word": "while",
+  "def": "during the time that, at the same time"
+ },
+ {
+  "id": 691,
+  "word": "white",
+  "def": "having the color of snow, to be light or pale in color"
+ },
+ {
+  "id": 692,
+  "word": "who",
+  "def": "what or which person or people, to ask about, talking about"
+ },
+ {
+  "id": 693,
+  "word": "whole",
+  "def": "complete or full, all of something"
+ },
+ {
+  "id": 694,
+  "word": "why",
+  "def": "for what reason or purpose"
+ },
+ {
+  "id": 695,
+  "word": "wife",
+  "def": "a married woman"
+ },
+ {
+  "id": 696,
+  "word": "will",
+  "def": "expressing the future, to say something is expected to happen"
+ },
+ {
+  "id": 697,
+  "word": "win",
+  "def": "to achieve victory in a fight or game"
+ },
+ {
+  "id": 698,
+  "word": "window",
+  "def": "an opening in a wall or door that usually contains a sheet of glass"
+ },
+ {
+  "id": 699,
+  "word": "wish",
+  "def": "to want something to be true or to happen"
+ },
+ {
+  "id": 700,
+  "word": "with",
+  "def": "used to express that people or things are together"
+ },
+ {
+  "id": 701,
+  "word": "within",
+  "def": "inside something"
+ },
+ {
+  "id": 702,
+  "word": "without",
+  "def": "not having or including something, in the absence of"
+ },
+ {
+  "id": 703,
+  "word": "woman",
+  "def": "an adult female human being"
+ },
+ {
+  "id": 704,
+  "word": "wonder",
+  "def": "something that is very surprising or amazing"
+ },
+ {
+  "id": 705,
+  "word": "wonderful",
+  "def": "very good"
+ },
+ {
+  "id": 706,
+  "word": "word",
+  "def": "a unit of language that has a meaning"
+ },
+ {
+  "id": 707,
+  "word": "work",
+  "def": "to have a job or activity involving mental or physical effort"
+ },
+ {
+  "id": 708,
+  "word": "world",
+  "def": "the earth and all people and things on it"
+ },
+ {
+  "id": 709,
+  "word": "worry",
+  "def": "to think about problems or fears"
+ },
+ {
+  "id": 710,
+  "word": "worth",
+  "def": "used to indicate the value of something"
+ },
+ {
+  "id": 711,
+  "word": "would",
+  "def": "indicating someone thinking about what will happen"
+ },
+ {
+  "id": 712,
+  "word": "write",
+  "def": "to compose letters and words on a surface"
+ },
+ {
+  "id": 713,
+  "word": "wrong",
+  "def": "not agreeing with the facts or truth : incorrect"
+ },
+ {
+  "id": 714,
+  "word": "yeah",
+  "def": "yes"
+ },
+ {
+  "id": 715,
+  "word": "year",
+  "def": "a unit of time equal to 12 months or 365 days"
+ },
+ {
+  "id": 716,
+  "word": "yes",
+  "def": "used to give a positive answer or reply to a question, request, or offer"
+ },
+ {
+  "id": 717,
+  "word": "yesterday",
+  "def": "the day before today"
+ },
+ {
+  "id": 718,
+  "word": "yet",
+  "def": "until now, up until the present"
+ },
+ {
+  "id": 719,
+  "word": "you",
+  "def": "used to refer to the person the speaker is addressing"
+ },
+ {
+  "id": 720,
+  "word": "young",
+  "def": "in an early stage of life or growth"
+ },
+ {
+  "id": 721,
+  "word": "yourself",
+  "def": "the reflexive form of the pronoun 'you'"
+ }
+]

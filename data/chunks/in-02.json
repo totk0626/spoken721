@@ -1,0 +1,607 @@
+[
+ {
+  "id": 122,
+  "word": "color",
+  "def": "a quality such as red, blue, green, etc."
+ },
+ {
+  "id": 123,
+  "word": "come",
+  "def": "to move toward someone, to approach"
+ },
+ {
+  "id": 124,
+  "word": "comment",
+  "def": "to discuss or write an opinion on something"
+ },
+ {
+  "id": 125,
+  "word": "committee",
+  "def": "a group of people who are chosen to make decisions about something"
+ },
+ {
+  "id": 126,
+  "word": "community",
+  "def": "a group of people who share a common idea or area"
+ },
+ {
+  "id": 127,
+  "word": "company",
+  "def": "a business that sells thing or provides services"
+ },
+ {
+  "id": 128,
+  "word": "completely",
+  "def": "in every way or as much as possible"
+ },
+ {
+  "id": 129,
+  "word": "computer",
+  "def": "an electronic machine that can store and process large amounts of information"
+ },
+ {
+  "id": 130,
+  "word": "concern",
+  "def": "a feeling of worry or anxiety"
+ },
+ {
+  "id": 131,
+  "word": "consider",
+  "def": "to think about carefully"
+ },
+ {
+  "id": 132,
+  "word": "contact",
+  "def": "the state or condition where two things are touching"
+ },
+ {
+  "id": 133,
+  "word": "continue",
+  "def": "to do something without stopping"
+ },
+ {
+  "id": 134,
+  "word": "control",
+  "def": "to direct or influence the behavior of something or someone"
+ },
+ {
+  "id": 135,
+  "word": "conversation",
+  "def": "an informal talk involving two people or a small group of people"
+ },
+ {
+  "id": 136,
+  "word": "cool",
+  "def": "somewhat cold : not warm or hot"
+ },
+ {
+  "id": 137,
+  "word": "copy",
+  "def": "something that is or looks exactly or almost exactly like something else"
+ },
+ {
+  "id": 138,
+  "word": "correct",
+  "def": "true or accurate; agreeing with facts"
+ },
+ {
+  "id": 139,
+  "word": "cost",
+  "def": "the price of something"
+ },
+ {
+  "id": 140,
+  "word": "cough",
+  "def": "to force air through your throat with a short, loud noise often because you are sick"
+ },
+ {
+  "id": 141,
+  "word": "could",
+  "def": "used as the past tense of can, to indicate possibility"
+ },
+ {
+  "id": 142,
+  "word": "council",
+  "def": "a group of people who are chosen to make rules, laws, or decisions about something"
+ },
+ {
+  "id": 143,
+  "word": "country",
+  "def": "an area, nation that is controlled by government"
+ },
+ {
+  "id": 144,
+  "word": "couple",
+  "def": "two people or things being together"
+ },
+ {
+  "id": 145,
+  "word": "course",
+  "def": "the route or direction that something moves along"
+ },
+ {
+  "id": 146,
+  "word": "cover",
+  "def": "put something over or on top of something else"
+ },
+ {
+  "id": 147,
+  "word": "create",
+  "def": "to make, cause, or bring into existence"
+ },
+ {
+  "id": 148,
+  "word": "cut",
+  "def": "to use a sharp tool or object to open or divide something"
+ },
+ {
+  "id": 149,
+  "word": "dad",
+  "def": "father"
+ },
+ {
+  "id": 150,
+  "word": "date",
+  "def": "a particular day of a month or year"
+ },
+ {
+  "id": 151,
+  "word": "day",
+  "def": "each of the 24 hours beginning at midnight"
+ },
+ {
+  "id": 152,
+  "word": "deal",
+  "def": "to trade or do business with someone"
+ },
+ {
+  "id": 153,
+  "word": "dear",
+  "def": "loved or valued very much"
+ },
+ {
+  "id": 154,
+  "word": "decide",
+  "def": "to make a choice about something or choose after thinking"
+ },
+ {
+  "id": 155,
+  "word": "decision",
+  "def": "a choice that you make about something after thinking about it"
+ },
+ {
+  "id": 156,
+  "word": "definitely",
+  "def": "without any doubt"
+ },
+ {
+  "id": 157,
+  "word": "degree",
+  "def": "a unit for measuring temperature or the size of an angle"
+ },
+ {
+  "id": 158,
+  "word": "depend",
+  "def": "to need (someone or something) for support, help, etc."
+ },
+ {
+  "id": 159,
+  "word": "detail",
+  "def": "a small part of something"
+ },
+ {
+  "id": 160,
+  "word": "develop",
+  "def": "to cause to grow or bigger or more advanced"
+ },
+ {
+  "id": 161,
+  "word": "development",
+  "def": "when someone or something grows or changes and becomes more advanced"
+ },
+ {
+  "id": 162,
+  "word": "die",
+  "def": "to stop living or end life"
+ },
+ {
+  "id": 163,
+  "word": "difference",
+  "def": "a quality that is unlike something else"
+ },
+ {
+  "id": 164,
+  "word": "different",
+  "def": "not of the same kind, unlike in nature"
+ },
+ {
+  "id": 165,
+  "word": "difficult",
+  "def": "not easy : requiring much work or skill to do or make"
+ },
+ {
+  "id": 166,
+  "word": "dinner",
+  "def": "the main meal of the day"
+ },
+ {
+  "id": 167,
+  "word": "discuss",
+  "def": "to talk about (something) with another person or group"
+ },
+ {
+  "id": 168,
+  "word": "discussion",
+  "def": "the act of talking about something with another person or a group of people : a conversation about something"
+ },
+ {
+  "id": 169,
+  "word": "do",
+  "def": "to perform an action or activity; to work on something"
+ },
+ {
+  "id": 170,
+  "word": "doctor",
+  "def": "a person who skilled to treat people who are ill, sick and injured"
+ },
+ {
+  "id": 171,
+  "word": "document",
+  "def": "an official record that gives information"
+ },
+ {
+  "id": 172,
+  "word": "dog",
+  "def": "a type of animal that is often kept as a pet or trained to work for people by guarding buildings, hunting, etc."
+ },
+ {
+  "id": 173,
+  "word": "dollar",
+  "def": "a basic unit of money in the U.S., Canada, Australia, and other countries that is equal to 100 cents"
+ },
+ {
+  "id": 174,
+  "word": "door",
+  "def": "a movable entrance to a building or room"
+ },
+ {
+  "id": 175,
+  "word": "down",
+  "def": "going from a higher position to a lower position"
+ },
+ {
+  "id": 176,
+  "word": "draw",
+  "def": "to produce by making lines on a paper"
+ },
+ {
+  "id": 177,
+  "word": "drink",
+  "def": "to take a liquid into your mouth and swallow it"
+ },
+ {
+  "id": 178,
+  "word": "drive",
+  "def": "to control the movement of a car"
+ },
+ {
+  "id": 179,
+  "word": "drop",
+  "def": "to let something fall"
+ },
+ {
+  "id": 180,
+  "word": "during",
+  "def": "throughout the entire time"
+ },
+ {
+  "id": 181,
+  "word": "each",
+  "def": "every one of two more things"
+ },
+ {
+  "id": 182,
+  "word": "early",
+  "def": "at or near the beginning of time, done before the expected time"
+ },
+ {
+  "id": 183,
+  "word": "easy",
+  "def": "not hard to do, not difficult"
+ },
+ {
+  "id": 184,
+  "word": "eat",
+  "def": "to take food into your mouth and swallow it"
+ },
+ {
+  "id": 185,
+  "word": "education",
+  "def": "the process of giving or receiving instruction"
+ },
+ {
+  "id": 186,
+  "word": "effect",
+  "def": "a change or results of something being done"
+ },
+ {
+  "id": 187,
+  "word": "effort",
+  "def": "work done by the mind or body"
+ },
+ {
+  "id": 188,
+  "word": "eight",
+  "def": "the number 8"
+ },
+ {
+  "id": 189,
+  "word": "eighty",
+  "def": "the number 80"
+ },
+ {
+  "id": 190,
+  "word": "either",
+  "def": "one or the other of two"
+ },
+ {
+  "id": 191,
+  "word": "eleven",
+  "def": "the number 11"
+ },
+ {
+  "id": 192,
+  "word": "else",
+  "def": "in a different or additional manner or place"
+ },
+ {
+  "id": 193,
+  "word": "end",
+  "def": "a point that marks the limit of something"
+ },
+ {
+  "id": 194,
+  "word": "enjoy",
+  "def": "to take pleasure in (something)"
+ },
+ {
+  "id": 195,
+  "word": "enough",
+  "def": "equal to what is needed, as much as required"
+ },
+ {
+  "id": 196,
+  "word": "especially",
+  "def": "more than usually; very, extremely"
+ },
+ {
+  "id": 197,
+  "word": "even",
+  "def": "being flat, equal or smooth"
+ },
+ {
+  "id": 198,
+  "word": "evening",
+  "def": "the last part of the day and early part of the night"
+ },
+ {
+  "id": 199,
+  "word": "ever",
+  "def": "at any time, at all times"
+ },
+ {
+  "id": 200,
+  "word": "every",
+  "def": "including each person or thing in a group"
+ },
+ {
+  "id": 201,
+  "word": "everybody",
+  "def": "every person; everyone"
+ },
+ {
+  "id": 202,
+  "word": "everyone",
+  "def": "every person; everybody"
+ },
+ {
+  "id": 203,
+  "word": "everything",
+  "def": "every thing there is or all that exists"
+ },
+ {
+  "id": 204,
+  "word": "exactly",
+  "def": "completely correct"
+ },
+ {
+  "id": 205,
+  "word": "example",
+  "def": "a thing which is seen as a model"
+ },
+ {
+  "id": 206,
+  "word": "expect",
+  "def": "to be regarded as likely to happen"
+ },
+ {
+  "id": 207,
+  "word": "experience",
+  "def": "the act of having things happen to you"
+ },
+ {
+  "id": 208,
+  "word": "explain",
+  "def": "to make clear or easy to understand by describing"
+ },
+ {
+  "id": 209,
+  "word": "extra",
+  "def": "more than is usual or necessary : additional"
+ },
+ {
+  "id": 210,
+  "word": "eye",
+  "def": "the part of the body that you see with"
+ },
+ {
+  "id": 211,
+  "word": "face",
+  "def": "the front part of a person's head, the surface of a thing"
+ },
+ {
+  "id": 212,
+  "word": "fact",
+  "def": "something that is known or proved to be true"
+ },
+ {
+  "id": 213,
+  "word": "fair",
+  "def": "agreeing with what is thought to be right or acceptable"
+ },
+ {
+  "id": 214,
+  "word": "fairly",
+  "def": "more than average, but less than very; something done in a fair way"
+ },
+ {
+  "id": 215,
+  "word": "fall",
+  "def": "to come or go down from a higher to a lower place"
+ },
+ {
+  "id": 216,
+  "word": "family",
+  "def": "a group of people who are related to each other"
+ },
+ {
+  "id": 217,
+  "word": "far",
+  "def": "to a great distance in space or time"
+ },
+ {
+  "id": 218,
+  "word": "father",
+  "def": "a male parent"
+ },
+ {
+  "id": 219,
+  "word": "feel",
+  "def": "to be aware of or experience an emotion or sensation"
+ },
+ {
+  "id": 220,
+  "word": "few",
+  "def": "not many, a small number"
+ },
+ {
+  "id": 221,
+  "word": "fifteen",
+  "def": "the number 15"
+ },
+ {
+  "id": 222,
+  "word": "fifty",
+  "def": "the number 50"
+ },
+ {
+  "id": 223,
+  "word": "figure",
+  "def": "a an amount that is expressed in numbers"
+ },
+ {
+  "id": 224,
+  "word": "fill",
+  "def": "to make something full or to spread through"
+ },
+ {
+  "id": 225,
+  "word": "find",
+  "def": "to discover something"
+ },
+ {
+  "id": 226,
+  "word": "fine",
+  "def": "good, acceptable, or satisfactory"
+ },
+ {
+  "id": 227,
+  "word": "finish",
+  "def": "to reach the end of (something) : to stop doing (something) because it is completed"
+ },
+ {
+  "id": 228,
+  "word": "fire",
+  "def": "the light, heat and the flame produced by burning something"
+ },
+ {
+  "id": 229,
+  "word": "first",
+  "def": "coming before all others in time or place"
+ },
+ {
+  "id": 230,
+  "word": "fit",
+  "def": "proper or acceptable : morally or socially correct"
+ },
+ {
+  "id": 231,
+  "word": "five",
+  "def": "the number 5"
+ },
+ {
+  "id": 232,
+  "word": "floor",
+  "def": "the part of a room on which you stand"
+ },
+ {
+  "id": 233,
+  "word": "focus",
+  "def": "the main purpose or center of interest or activity"
+ },
+ {
+  "id": 234,
+  "word": "follow",
+  "def": "to come after, to move or travel behind"
+ },
+ {
+  "id": 235,
+  "word": "food",
+  "def": "the things that people and animals eat"
+ },
+ {
+  "id": 236,
+  "word": "foot",
+  "def": "the part of the leg below ankle"
+ },
+ {
+  "id": 237,
+  "word": "for",
+  "def": "indicating the purpose or need of something"
+ },
+ {
+  "id": 238,
+  "word": "force",
+  "def": "to use physical strength, power, or energy used on something"
+ },
+ {
+  "id": 239,
+  "word": "forget",
+  "def": "to be unable to think of or remember (something)"
+ },
+ {
+  "id": 240,
+  "word": "form",
+  "def": "a type or kind of something, the visible shape, style"
+ },
+ {
+  "id": 241,
+  "word": "forty",
+  "def": "the number 40"
+ },
+ {
+  "id": 242,
+  "word": "forward",
+  "def": "toward the front : to or toward what is ahead or in front"
+ }
+]

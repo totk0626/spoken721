@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F4F5F8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="스포큰721">
+  <meta name="description" content="회화 고빈도 영단어 721개를 영어 정의와 한글 뜻, 퀴즈로 익혀요.">
+  <title>스포큰721</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="phone" id="phone">
+    <div class="app" id="app">
+      <main class="stage" id="stage"></main>
+      <nav class="tabbar is-hidden" id="tabbar" aria-label="메뉴"></nav>
+    </div>
+  </div>
+  <noscript>스포큰721은 자바스크립트를 켜야 쓸 수 있어요.</noscript>
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js');
+  </script>
+</body>
+</html>

@@ -1,0 +1,607 @@
+[
+ {
+  "id": 364,
+  "word": "matter",
+  "def": "the physical substance things are made of"
+ },
+ {
+  "id": 365,
+  "word": "may",
+  "def": "used to express possibility or probability"
+ },
+ {
+  "id": 366,
+  "word": "maybe",
+  "def": "possibly but not certainly : perhaps"
+ },
+ {
+  "id": 367,
+  "word": "mean",
+  "def": "to have in mind as your purpose or intention"
+ },
+ {
+  "id": 368,
+  "word": "meet",
+  "def": "to be introduced for the first time"
+ },
+ {
+  "id": 369,
+  "word": "member",
+  "def": "a person or country belonging to a group or team"
+ },
+ {
+  "id": 370,
+  "word": "mention",
+  "def": "to talk about, write about, or refer to (something or someone) especially in a brief way"
+ },
+ {
+  "id": 371,
+  "word": "middle",
+  "def": "equally distant from the ends or sides : halfway between two points"
+ },
+ {
+  "id": 372,
+  "word": "might",
+  "def": "to say something is possible"
+ },
+ {
+  "id": 373,
+  "word": "mile",
+  "def": "a unit of measurement used in the US that is about 1600 meters"
+ },
+ {
+  "id": 374,
+  "word": "million",
+  "def": "the number 1000000"
+ },
+ {
+  "id": 375,
+  "word": "mind",
+  "def": "the part of person that enables us to think, feel, and reason"
+ },
+ {
+  "id": 376,
+  "word": "mine",
+  "def": "that which belongs to me : my one : my ones"
+ },
+ {
+  "id": 377,
+  "word": "minute",
+  "def": "a period of time equal to 60 seconds"
+ },
+ {
+  "id": 378,
+  "word": "miss",
+  "def": "to fail to hit, catch, reach, or get (something)"
+ },
+ {
+  "id": 379,
+  "word": "moment",
+  "def": "a very short or brief period of time"
+ },
+ {
+  "id": 380,
+  "word": "money",
+  "def": "something used to pay for goods and services"
+ },
+ {
+  "id": 381,
+  "word": "month",
+  "def": "one of the 12 periods of time a year is broken into"
+ },
+ {
+  "id": 382,
+  "word": "more",
+  "def": "greater in amount, number, or size"
+ },
+ {
+  "id": 383,
+  "word": "morning",
+  "def": "the early part of the day"
+ },
+ {
+  "id": 384,
+  "word": "most",
+  "def": "almost all of something"
+ },
+ {
+  "id": 385,
+  "word": "mother",
+  "def": "a female who has a child or children"
+ },
+ {
+  "id": 386,
+  "word": "move",
+  "def": "to cause to go in a specified direction or manner"
+ },
+ {
+  "id": 387,
+  "word": "movie",
+  "def": "a film or video"
+ },
+ {
+  "id": 388,
+  "word": "much",
+  "def": "large in amount or extent"
+ },
+ {
+  "id": 389,
+  "word": "music",
+  "def": "the art of making sounds that are sung or played"
+ },
+ {
+  "id": 390,
+  "word": "must",
+  "def": "used to say that something is required or necessary"
+ },
+ {
+  "id": 391,
+  "word": "myself",
+  "def": "the reflexive form of the pronouns 'me' or 'I'"
+ },
+ {
+  "id": 392,
+  "word": "name",
+  "def": "a word that addressed or refers to a specific person"
+ },
+ {
+  "id": 393,
+  "word": "national",
+  "def": "relating to the whole of a country"
+ },
+ {
+  "id": 394,
+  "word": "near",
+  "def": "close to something"
+ },
+ {
+  "id": 395,
+  "word": "need",
+  "def": "require because it is essential or important"
+ },
+ {
+  "id": 396,
+  "word": "never",
+  "def": "not ever, not at any time"
+ },
+ {
+  "id": 397,
+  "word": "new",
+  "def": "not old, recently born, built or created"
+ },
+ {
+  "id": 398,
+  "word": "news",
+  "def": "new information or a report about something that has happened recently"
+ },
+ {
+  "id": 399,
+  "word": "next",
+  "def": "coming immediately after this time"
+ },
+ {
+  "id": 400,
+  "word": "nice",
+  "def": "giving pleasure or joy : good and enjoyable"
+ },
+ {
+  "id": 401,
+  "word": "night",
+  "def": "the period of time of darkness between sunset and sunrise"
+ },
+ {
+  "id": 402,
+  "word": "nine",
+  "def": "the number 9"
+ },
+ {
+  "id": 403,
+  "word": "nineteen",
+  "def": "the number 19"
+ },
+ {
+  "id": 404,
+  "word": "ninety",
+  "def": "the number 90"
+ },
+ {
+  "id": 405,
+  "word": "no",
+  "def": "not at all, in a way that shows a negative response"
+ },
+ {
+  "id": 406,
+  "word": "nobody",
+  "def": "no person, no one"
+ },
+ {
+  "id": 407,
+  "word": "noise",
+  "def": "a loud or unpleasant sound"
+ },
+ {
+  "id": 408,
+  "word": "normally",
+  "def": "usually"
+ },
+ {
+  "id": 409,
+  "word": "not",
+  "def": "used to make an expression negative"
+ },
+ {
+  "id": 410,
+  "word": "note",
+  "def": "a brief, short record of something"
+ },
+ {
+  "id": 411,
+  "word": "nothing",
+  "def": "not anything, no a single thing"
+ },
+ {
+  "id": 412,
+  "word": "notice",
+  "def": "to become aware of (something or someone) by seeing, hearing, etc."
+ },
+ {
+  "id": 413,
+  "word": "now",
+  "def": "at the present time or moment"
+ },
+ {
+  "id": 414,
+  "word": "number",
+  "def": "a word or symbol that stands for a specific amount or quantity"
+ },
+ {
+  "id": 415,
+  "word": "obviously",
+  "def": "in a way that is easy to understand or see"
+ },
+ {
+  "id": 416,
+  "word": "of",
+  "def": "belonging to or connected with something"
+ },
+ {
+  "id": 417,
+  "word": "off",
+  "def": "away from a place or at a distance"
+ },
+ {
+  "id": 418,
+  "word": "offer",
+  "def": "to give someone the opportunity to accept something"
+ },
+ {
+  "id": 419,
+  "word": "office",
+  "def": "a building of set of rooms used to do business or professional activities"
+ },
+ {
+  "id": 420,
+  "word": "often",
+  "def": "many times, frequently, on many occasions"
+ },
+ {
+  "id": 421,
+  "word": "okay",
+  "def": "used when agreeing to do something or when allowing someone to do something"
+ },
+ {
+  "id": 422,
+  "word": "old",
+  "def": "having lived for many years, no longer young"
+ },
+ {
+  "id": 423,
+  "word": "on",
+  "def": "touching and being supported or physically in contact by something"
+ },
+ {
+  "id": 424,
+  "word": "once",
+  "def": "one time only"
+ },
+ {
+  "id": 425,
+  "word": "one",
+  "def": "the number 1, a single person or thing"
+ },
+ {
+  "id": 426,
+  "word": "only",
+  "def": "alone in a class or category"
+ },
+ {
+  "id": 427,
+  "word": "open",
+  "def": "not closed"
+ },
+ {
+  "id": 428,
+  "word": "opportunity",
+  "def": "an amount of time or a situation in which something can be done"
+ },
+ {
+  "id": 429,
+  "word": "or",
+  "def": "used to link alternatives, to introduce another choice"
+ },
+ {
+  "id": 430,
+  "word": "order",
+  "def": "an instruction or direction that must be obeyed"
+ },
+ {
+  "id": 431,
+  "word": "other",
+  "def": "used to mention a person or thing is different from already mentioned"
+ },
+ {
+  "id": 432,
+  "word": "ought",
+  "def": "used to indicate what is expected"
+ },
+ {
+  "id": 433,
+  "word": "out",
+  "def": "in a direction or movement away from the inside or center"
+ },
+ {
+  "id": 434,
+  "word": "outside",
+  "def": "an area around or near something such as a building"
+ },
+ {
+  "id": 435,
+  "word": "over",
+  "def": "in an upward direction across something"
+ },
+ {
+  "id": 436,
+  "word": "own",
+  "def": "when something belongs to someone"
+ },
+ {
+  "id": 437,
+  "word": "page",
+  "def": "one side of a sheet of paper especially in a book, magazine, etc."
+ },
+ {
+  "id": 438,
+  "word": "paper",
+  "def": "the material that is used in the form of thin sheets for writing"
+ },
+ {
+  "id": 439,
+  "word": "parent",
+  "def": "a person who is a father or mother"
+ },
+ {
+  "id": 440,
+  "word": "park",
+  "def": "a piece of public land in or near a city that can be used for pleasure and exercise"
+ },
+ {
+  "id": 441,
+  "word": "part",
+  "def": "one of the pieces of a whole"
+ },
+ {
+  "id": 442,
+  "word": "particular",
+  "def": "used to single out an individual member"
+ },
+ {
+  "id": 443,
+  "word": "particularly",
+  "def": "especially"
+ },
+ {
+  "id": 444,
+  "word": "party",
+  "def": "an organization of people who have the same political beliefs"
+ },
+ {
+  "id": 445,
+  "word": "pass",
+  "def": "to move past something"
+ },
+ {
+  "id": 446,
+  "word": "past",
+  "def": "a time before the present"
+ },
+ {
+  "id": 447,
+  "word": "pause",
+  "def": "a temporary stop : a period of time in which something is stopped before it is started again"
+ },
+ {
+  "id": 448,
+  "word": "pay",
+  "def": "give money for goods or work done"
+ },
+ {
+  "id": 449,
+  "word": "people",
+  "def": "human beings in general, plural of person"
+ },
+ {
+  "id": 450,
+  "word": "per",
+  "def": "for each one, by means of, as directed by or stated in"
+ },
+ {
+  "id": 451,
+  "word": "percent",
+  "def": "a certain part of a whole"
+ },
+ {
+  "id": 452,
+  "word": "perhaps",
+  "def": "possibly but not certainly, maybe"
+ },
+ {
+  "id": 453,
+  "word": "period",
+  "def": "a length or portion of time during a series of events"
+ },
+ {
+  "id": 454,
+  "word": "person",
+  "def": "a human being"
+ },
+ {
+  "id": 455,
+  "word": "phone",
+  "def": "a communication system that is used to talk to someone who is in another place"
+ },
+ {
+  "id": 456,
+  "word": "pick",
+  "def": "to choose or select (someone or something) from a group"
+ },
+ {
+  "id": 457,
+  "word": "picture",
+  "def": "a painting, drawing or photograph on paper or screen"
+ },
+ {
+  "id": 458,
+  "word": "piece",
+  "def": "a part that is cut or separated from a whole"
+ },
+ {
+  "id": 459,
+  "word": "place",
+  "def": "a particular area or region"
+ },
+ {
+  "id": 460,
+  "word": "plan",
+  "def": "a set of actions as a way to do, detailed proposal for doing"
+ },
+ {
+  "id": 461,
+  "word": "play",
+  "def": "to do activities for fun or enjoyment"
+ },
+ {
+  "id": 462,
+  "word": "please",
+  "def": "used to ask for something in a polite way"
+ },
+ {
+  "id": 463,
+  "word": "plus",
+  "def": "having a value that is above zero"
+ },
+ {
+  "id": 464,
+  "word": "point",
+  "def": "an idea that you try to make others accept or understand"
+ },
+ {
+  "id": 465,
+  "word": "police",
+  "def": "the people or the department of people who enforce laws, investigate crimes, and make arrests"
+ },
+ {
+  "id": 466,
+  "word": "policy",
+  "def": "a course of action proposed by an organization"
+ },
+ {
+  "id": 467,
+  "word": "position",
+  "def": "the place something is located in"
+ },
+ {
+  "id": 468,
+  "word": "possible",
+  "def": "to be able to be done"
+ },
+ {
+  "id": 469,
+  "word": "pound",
+  "def": "a unit of weight that is equal to 16 ounces or 0.4536 kilograms"
+ },
+ {
+  "id": 470,
+  "word": "power",
+  "def": "the ability, capacity or right to control things"
+ },
+ {
+  "id": 471,
+  "word": "present",
+  "def": "existing or happening now, not in the past or future"
+ },
+ {
+  "id": 472,
+  "word": "press",
+  "def": "newspapers, magazines, and TV news reports"
+ },
+ {
+  "id": 473,
+  "word": "pretty",
+  "def": "large or impressive"
+ },
+ {
+  "id": 474,
+  "word": "price",
+  "def": "the amount of money that you pay for something or that something costs"
+ },
+ {
+  "id": 475,
+  "word": "probably",
+  "def": "used to mean that something is very likely"
+ },
+ {
+  "id": 476,
+  "word": "problem",
+  "def": "something that is difficult to deal with or needs to overcome"
+ },
+ {
+  "id": 477,
+  "word": "process",
+  "def": "a series of actions that produce achievement"
+ },
+ {
+  "id": 478,
+  "word": "produce",
+  "def": "to use machines to make something from raw materials"
+ },
+ {
+  "id": 479,
+  "word": "product",
+  "def": "something that is made or grown to be sold or used"
+ },
+ {
+  "id": 480,
+  "word": "program",
+  "def": "a plan of things that are done to achieve a result"
+ },
+ {
+  "id": 481,
+  "word": "project",
+  "def": "a planned piece of work for specific purpose"
+ },
+ {
+  "id": 482,
+  "word": "provide",
+  "def": "to make available, to supply for use"
+ },
+ {
+  "id": 483,
+  "word": "public",
+  "def": "concerning or affecting all or most of the people in a group"
+ },
+ {
+  "id": 484,
+  "word": "pull",
+  "def": "to hold onto and move (someone or something) in a particular direction and especially toward yourself"
+ }
+]

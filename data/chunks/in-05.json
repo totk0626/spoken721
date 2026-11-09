@@ -1,0 +1,607 @@
+[
+ {
+  "id": 485,
+  "word": "purpose",
+  "def": "the reason for which something is done"
+ },
+ {
+  "id": 486,
+  "word": "push",
+  "def": "to use force to move (someone or something) forward or away from you"
+ },
+ {
+  "id": 487,
+  "word": "put",
+  "def": "to move or place in a particular position"
+ },
+ {
+  "id": 488,
+  "word": "quality",
+  "def": "how good or bad something is"
+ },
+ {
+  "id": 489,
+  "word": "question",
+  "def": "to ask for or elicit information"
+ },
+ {
+  "id": 490,
+  "word": "quick",
+  "def": "done or happening in a short amount of time"
+ },
+ {
+  "id": 491,
+  "word": "quite",
+  "def": "to a very large degree, very"
+ },
+ {
+  "id": 492,
+  "word": "raise",
+  "def": "to lift or move something to a higher position"
+ },
+ {
+  "id": 493,
+  "word": "rate",
+  "def": "the measure of speed or frequency over a particular period of time"
+ },
+ {
+  "id": 494,
+  "word": "rather",
+  "def": "to a certain extent"
+ },
+ {
+  "id": 495,
+  "word": "read",
+  "def": "to look at and comprehend the meaning of something written"
+ },
+ {
+  "id": 496,
+  "word": "ready",
+  "def": "prepared to do something"
+ },
+ {
+  "id": 497,
+  "word": "real",
+  "def": "actually existing or happening, not imagined or supposed"
+ },
+ {
+  "id": 498,
+  "word": "realize",
+  "def": "to understand or become aware of something"
+ },
+ {
+  "id": 499,
+  "word": "really",
+  "def": "very or very much"
+ },
+ {
+  "id": 500,
+  "word": "reason",
+  "def": "a cause for an action or event"
+ },
+ {
+  "id": 501,
+  "word": "receive",
+  "def": "to get or be presented with something"
+ },
+ {
+  "id": 502,
+  "word": "record",
+  "def": "an official piece of evidence or document about past events"
+ },
+ {
+  "id": 503,
+  "word": "red",
+  "def": "having the color of blood"
+ },
+ {
+  "id": 504,
+  "word": "relate",
+  "def": "to show or make a connection between (two or more things)"
+ },
+ {
+  "id": 505,
+  "word": "relationship",
+  "def": "a connection between two or more people or things"
+ },
+ {
+  "id": 506,
+  "word": "remember",
+  "def": "to bring a previous image or idea to your mind"
+ },
+ {
+  "id": 507,
+  "word": "report",
+  "def": "a story given about a particular matter"
+ },
+ {
+  "id": 508,
+  "word": "require",
+  "def": "to need something, to make it necessary"
+ },
+ {
+  "id": 509,
+  "word": "research",
+  "def": "careful study to find and report new knowledge"
+ },
+ {
+  "id": 510,
+  "word": "response",
+  "def": "an answer or reaction to something that has been said or done"
+ },
+ {
+  "id": 511,
+  "word": "rest",
+  "def": "not at work, to have time to relax, sleep or do nothing"
+ },
+ {
+  "id": 512,
+  "word": "result",
+  "def": "a thing that is caused by something else that happened"
+ },
+ {
+  "id": 513,
+  "word": "review",
+  "def": "an act of carefully looking at or examining the quality or condition of something or someone"
+ },
+ {
+  "id": 514,
+  "word": "right",
+  "def": "to be true, correct or acceptable"
+ },
+ {
+  "id": 515,
+  "word": "ring",
+  "def": "a piece of jewelry that is worn usually on a finger"
+ },
+ {
+  "id": 516,
+  "word": "road",
+  "def": "a hard flat surface for people or vehicles can use"
+ },
+ {
+  "id": 517,
+  "word": "room",
+  "def": "a space that can be occupied which has its own floor and ceiling"
+ },
+ {
+  "id": 518,
+  "word": "round",
+  "def": "shaped like a circle or ball"
+ },
+ {
+  "id": 519,
+  "word": "rule",
+  "def": "something that is not allowed in some situations"
+ },
+ {
+  "id": 520,
+  "word": "run",
+  "def": "to move with your legs at a speed that is faster than walking"
+ },
+ {
+  "id": 521,
+  "word": "sale",
+  "def": "the act of selling something or exchanging for money"
+ },
+ {
+  "id": 522,
+  "word": "same",
+  "def": "identical, not different"
+ },
+ {
+  "id": 523,
+  "word": "save",
+  "def": "to keep (someone or something) safe : to stop (someone or something) from dying or being hurt, damaged, or lost"
+ },
+ {
+  "id": 524,
+  "word": "say",
+  "def": "to use your voice to express something with words"
+ },
+ {
+  "id": 525,
+  "word": "school",
+  "def": "a place where children go to learn"
+ },
+ {
+  "id": 526,
+  "word": "score",
+  "def": "the number of points someone gets in a game or test"
+ },
+ {
+  "id": 527,
+  "word": "second",
+  "def": "a unit of time, one sixtieth of a minute"
+ },
+ {
+  "id": 528,
+  "word": "see",
+  "def": "to notice or become aware of with the eyes"
+ },
+ {
+  "id": 529,
+  "word": "seem",
+  "def": "to appear to be something"
+ },
+ {
+  "id": 530,
+  "word": "sell",
+  "def": "to exchange (something) for money"
+ },
+ {
+  "id": 531,
+  "word": "send",
+  "def": "to cause to go to another destination"
+ },
+ {
+  "id": 532,
+  "word": "sense",
+  "def": "one of our natural abilities for receiving information"
+ },
+ {
+  "id": 533,
+  "word": "service",
+  "def": "the action of helping or doing work for someone"
+ },
+ {
+  "id": 534,
+  "word": "set",
+  "def": "to put or stand something in a place or position"
+ },
+ {
+  "id": 535,
+  "word": "seven",
+  "def": "the number 7"
+ },
+ {
+  "id": 536,
+  "word": "seventy",
+  "def": "the number 70"
+ },
+ {
+  "id": 537,
+  "word": "several",
+  "def": "more than two but not many"
+ },
+ {
+  "id": 538,
+  "word": "shall",
+  "def": "expressing the future tense, to expect to happen"
+ },
+ {
+  "id": 539,
+  "word": "share",
+  "def": "to have or use something with others"
+ },
+ {
+  "id": 540,
+  "word": "she",
+  "def": "used to refer to a female that is the subject"
+ },
+ {
+  "id": 541,
+  "word": "shop",
+  "def": "a building or room where goods and services are sold"
+ },
+ {
+  "id": 542,
+  "word": "short",
+  "def": "a small distance from one end to the other"
+ },
+ {
+  "id": 543,
+  "word": "should",
+  "def": "used to indicate what is proper or reasonable"
+ },
+ {
+  "id": 544,
+  "word": "show",
+  "def": "to cause or allow to be seen"
+ },
+ {
+  "id": 545,
+  "word": "side",
+  "def": "a position or direction that is away from the center"
+ },
+ {
+  "id": 546,
+  "word": "sign",
+  "def": "something which shows that something else exists, is true, or will happen"
+ },
+ {
+  "id": 547,
+  "word": "since",
+  "def": "because, for the reason that"
+ },
+ {
+  "id": 548,
+  "word": "sing",
+  "def": "to use your voice to make musical sounds in the form of a song or tune"
+ },
+ {
+  "id": 549,
+  "word": "single",
+  "def": "not having or including another, only one"
+ },
+ {
+  "id": 550,
+  "word": "sister",
+  "def": "a girl or woman who has one or both of the same parents as you"
+ },
+ {
+  "id": 551,
+  "word": "sit",
+  "def": "to be in a resting position on a chair or couch"
+ },
+ {
+  "id": 552,
+  "word": "site",
+  "def": "the place where something is, was, or will be located"
+ },
+ {
+  "id": 553,
+  "word": "situation",
+  "def": "a condition, location or position"
+ },
+ {
+  "id": 554,
+  "word": "six",
+  "def": "the number 6"
+ },
+ {
+  "id": 555,
+  "word": "sixty",
+  "def": "the number 60"
+ },
+ {
+  "id": 556,
+  "word": "size",
+  "def": "the total amount of physical space that a person or thing occupies"
+ },
+ {
+  "id": 557,
+  "word": "sleep",
+  "def": "to rest your mind and body by closing your eyes and becoming unconscious"
+ },
+ {
+  "id": 558,
+  "word": "small",
+  "def": "little in size, not great in amount"
+ },
+ {
+  "id": 559,
+  "word": "so",
+  "def": "to a degree that is suggested or stated"
+ },
+ {
+  "id": 560,
+  "word": "some",
+  "def": "used to refer to an unspecified amount or number"
+ },
+ {
+  "id": 561,
+  "word": "somebody",
+  "def": "person who is not known, named, or specified"
+ },
+ {
+  "id": 562,
+  "word": "someone",
+  "def": "some person; somebody"
+ },
+ {
+  "id": 563,
+  "word": "something",
+  "def": "a thing that is not yet know, specified or named"
+ },
+ {
+  "id": 564,
+  "word": "sometimes",
+  "def": "occasionally; only at certain times,"
+ },
+ {
+  "id": 565,
+  "word": "somewhere",
+  "def": "in, at, or to a place not known, named, or specified"
+ },
+ {
+  "id": 566,
+  "word": "soon",
+  "def": "at a time not long from now"
+ },
+ {
+  "id": 567,
+  "word": "sorry",
+  "def": "feeling sorrow or regret"
+ },
+ {
+  "id": 568,
+  "word": "sort",
+  "def": "a group of people or things that have some shared quality"
+ },
+ {
+  "id": 569,
+  "word": "sound",
+  "def": "something that is heard"
+ },
+ {
+  "id": 570,
+  "word": "speak",
+  "def": "to use words to tell information or express thoughts"
+ },
+ {
+  "id": 571,
+  "word": "special",
+  "def": "different from what is usual, better or greater than normal"
+ },
+ {
+  "id": 572,
+  "word": "specific",
+  "def": "special or particular, clearly presented or stated"
+ },
+ {
+  "id": 573,
+  "word": "spend",
+  "def": "to use money to pay for something"
+ },
+ {
+  "id": 574,
+  "word": "staff",
+  "def": "a group of people who work for an organization or business"
+ },
+ {
+  "id": 575,
+  "word": "stage",
+  "def": "a particular point in a process"
+ },
+ {
+  "id": 576,
+  "word": "stand",
+  "def": "to be in an upright position supported by on your feet"
+ },
+ {
+  "id": 577,
+  "word": "standard",
+  "def": "a level of quality or achievement that is considered acceptable"
+ },
+ {
+  "id": 578,
+  "word": "start",
+  "def": "to begin doing something"
+ },
+ {
+  "id": 579,
+  "word": "state",
+  "def": "a way of living or existing"
+ },
+ {
+  "id": 580,
+  "word": "statement",
+  "def": "something that someone says or writes officially"
+ },
+ {
+  "id": 581,
+  "word": "stay",
+  "def": "to continue to be in the same place; remain"
+ },
+ {
+  "id": 582,
+  "word": "step",
+  "def": "moving by lifting a foot and putting it down in a different place"
+ },
+ {
+  "id": 583,
+  "word": "stick",
+  "def": "a cut or broken branch or twig"
+ },
+ {
+  "id": 584,
+  "word": "still",
+  "def": "used to express that an action or condition continues"
+ },
+ {
+  "id": 585,
+  "word": "stop",
+  "def": "to not move or come to an end"
+ },
+ {
+  "id": 586,
+  "word": "story",
+  "def": "a description of how something happened"
+ },
+ {
+  "id": 587,
+  "word": "straight",
+  "def": "not having curves, bends, or angles"
+ },
+ {
+  "id": 588,
+  "word": "street",
+  "def": "a public road in a city or town"
+ },
+ {
+  "id": 589,
+  "word": "strong",
+  "def": "having physical power or strength"
+ },
+ {
+  "id": 590,
+  "word": "student",
+  "def": "a person who attends a school"
+ },
+ {
+  "id": 591,
+  "word": "study",
+  "def": "devoting time to learn about something"
+ },
+ {
+  "id": 592,
+  "word": "stuff",
+  "def": "materials, supplies, or equipment"
+ },
+ {
+  "id": 593,
+  "word": "subject",
+  "def": "the thing being discussed or described"
+ },
+ {
+  "id": 594,
+  "word": "such",
+  "def": "like or similar"
+ },
+ {
+  "id": 595,
+  "word": "suggest",
+  "def": "to mention something as a possible thing to be done"
+ },
+ {
+  "id": 596,
+  "word": "summer",
+  "def": "the warmest season of the year that is after spring and before autumn"
+ },
+ {
+  "id": 597,
+  "word": "support",
+  "def": "to give assistance to"
+ },
+ {
+  "id": 598,
+  "word": "suppose",
+  "def": "to think of something as happening or being true in order to imagine what might happen"
+ },
+ {
+  "id": 599,
+  "word": "sure",
+  "def": "completely confident of being right, not having any doubt"
+ },
+ {
+  "id": 600,
+  "word": "surprise",
+  "def": "an unexpected event, piece of information, etc."
+ },
+ {
+  "id": 601,
+  "word": "system",
+  "def": "a set of related parts that move or work together"
+ },
+ {
+  "id": 602,
+  "word": "table",
+  "def": "a piece of furniture with a flat top and legs"
+ },
+ {
+  "id": 603,
+  "word": "take",
+  "def": "to carry or move with one's hands, to reach for"
+ },
+ {
+  "id": 604,
+  "word": "talk",
+  "def": "using words to express opinions or give information"
+ },
+ {
+  "id": 605,
+  "word": "tape",
+  "def": "a long, narrow piece of material used to stick things"
+ }
+]

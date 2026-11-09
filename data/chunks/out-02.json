@@ -1,0 +1,4830 @@
+[
+ {
+  "id": 122,
+  "word": "color",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "색, 색깔",
+      "en": "the quality such as red, blue, or green that you see in things"
+     },
+     {
+      "ko": "혈색, 안색",
+      "en": "the natural healthy look of a person's skin"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "색칠하다",
+      "en": "to fill in a picture or shape with colors"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "What color is it?",
+    "ko": "그거 무슨 색이야?"
+   },
+   {
+    "t": "in color",
+    "ko": "컬러로"
+   },
+   {
+    "t": "full of color",
+    "ko": "다채로운, 화려한"
+   }
+  ],
+  "ex": {
+   "en": "What's your favorite color?",
+   "ko": "제일 좋아하는 색이 뭐야?"
+  }
+ },
+ {
+  "id": 123,
+  "word": "come",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "오다, 다가오다",
+      "en": "to move toward the speaker or toward a particular person or place"
+     },
+     {
+      "ko": "(어떤 상태가) 되다",
+      "en": "to reach a particular state or condition"
+     },
+     {
+      "ko": "(물건이) 나오다, 딸려 있다",
+      "en": "to be available or sold in a particular way"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Come on!",
+    "ko": "어서!; 에이, 왜 그래"
+   },
+   {
+    "t": "come up with",
+    "ko": "(생각을) 떠올리다"
+   },
+   {
+    "t": "come over",
+    "ko": "(집에) 놀러 오다"
+   }
+  ],
+  "ex": {
+   "en": "Can you come here for a second?",
+   "ko": "잠깐 이리 와 볼래?"
+  }
+ },
+ {
+  "id": 124,
+  "word": "comment",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "논평하다, 의견을 말하다",
+      "en": "to say or write what you think about something"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "논평, 의견",
+      "en": "something you say or write that gives your opinion"
+     },
+     {
+      "ko": "댓글",
+      "en": "a short message posted under something online"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "No comment.",
+    "ko": "드릴 말씀 없습니다"
+   },
+   {
+    "t": "make a comment",
+    "ko": "한마디 하다, 언급하다"
+   },
+   {
+    "t": "leave a comment",
+    "ko": "댓글을 남기다"
+   }
+  ],
+  "ex": {
+   "en": "He didn't comment on my new haircut.",
+   "ko": "걔는 내 새 머리에 대해 아무 말도 안 했어."
+  }
+ },
+ {
+  "id": 125,
+  "word": "committee",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "위원회",
+      "en": "a group of people chosen to make decisions or plans about something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "on a committee",
+    "ko": "위원회 소속인"
+   },
+   {
+    "t": "committee meeting",
+    "ko": "위원회 회의"
+   }
+  ],
+  "ex": {
+   "en": "She's on the planning committee this year.",
+   "ko": "그녀는 올해 기획 위원회에 있어."
+  }
+ },
+ {
+  "id": 126,
+  "word": "community",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "공동체, 지역 사회",
+      "en": "a group of people who live in the same area or share interests"
+     },
+     {
+      "ko": "동네 사람들, 주민",
+      "en": "the people living together in one place"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "community center",
+    "ko": "주민 센터, 문화 센터"
+   },
+   {
+    "t": "the local community",
+    "ko": "지역 사회"
+   },
+   {
+    "t": "online community",
+    "ko": "온라인 커뮤니티"
+   }
+  ],
+  "ex": {
+   "en": "Our community is really friendly.",
+   "ko": "우리 동네 사람들은 정말 친절해."
+  }
+ },
+ {
+  "id": 127,
+  "word": "company",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "회사",
+      "en": "a business that sells goods or provides services"
+     },
+     {
+      "ko": "함께 있음, 동행",
+      "en": "the fact of being with someone so you are not alone"
+     },
+     {
+      "ko": "손님, 일행",
+      "en": "a visitor or visitors in your home"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "keep someone company",
+    "ko": "~와 함께 있어 주다"
+   },
+   {
+    "t": "have company",
+    "ko": "손님이 와 있다"
+   },
+   {
+    "t": "work for a company",
+    "ko": "회사에 다니다"
+   }
+  ],
+  "ex": {
+   "en": "What company do you work for?",
+   "ko": "어느 회사 다녀?"
+  }
+ },
+ {
+  "id": 128,
+  "word": "completely",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "완전히, 전적으로",
+      "en": "in every way or as much as possible"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "completely different",
+    "ko": "완전히 다른"
+   },
+   {
+    "t": "I completely forgot.",
+    "ko": "완전히 깜빡했어"
+   },
+   {
+    "t": "completely agree",
+    "ko": "전적으로 동의하다"
+   }
+  ],
+  "ex": {
+   "en": "Sorry, I completely forgot about it.",
+   "ko": "미안, 완전히 까먹었어."
+  }
+ },
+ {
+  "id": 129,
+  "word": "computer",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "컴퓨터",
+      "en": "an electronic machine that stores and processes information"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "on the computer",
+    "ko": "컴퓨터로, 컴퓨터를 하는 중"
+   },
+   {
+    "t": "computer game",
+    "ko": "컴퓨터 게임"
+   },
+   {
+    "t": "turn on the computer",
+    "ko": "컴퓨터를 켜다"
+   }
+  ],
+  "ex": {
+   "en": "My computer keeps freezing today.",
+   "ko": "오늘 내 컴퓨터가 계속 멈춰."
+  }
+ },
+ {
+  "id": 130,
+  "word": "concern",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "걱정, 우려",
+      "en": "a feeling of worry about something or someone"
+     },
+     {
+      "ko": "관심사, 중요한 일",
+      "en": "something that is important to you or that affects you"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "걱정시키다",
+      "en": "to make someone feel worried"
+     },
+     {
+      "ko": "~와 관련되다",
+      "en": "to be about or affect someone or something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "not my concern",
+    "ko": "내 알 바 아니야"
+   },
+   {
+    "t": "as far as I'm concerned",
+    "ko": "내 생각으로는"
+   },
+   {
+    "t": "concerned about",
+    "ko": "~을 걱정하는"
+   }
+  ],
+  "ex": {
+   "en": "Thanks for your concern, but I'm fine.",
+   "ko": "걱정해 줘서 고마워, 근데 난 괜찮아."
+  }
+ },
+ {
+  "id": 131,
+  "word": "consider",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "곰곰이 생각하다, 고려하다",
+      "en": "to think about something carefully before deciding"
+     },
+     {
+      "ko": "~라고 여기다",
+      "en": "to think of someone or something in a particular way"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "consider it done",
+    "ko": "맡겨만 줘, 그렇게 할게"
+   },
+   {
+    "t": "all things considered",
+    "ko": "모든 걸 고려하면"
+   }
+  ],
+  "ex": {
+   "en": "I'm considering moving to Busan.",
+   "ko": "부산으로 이사 갈까 생각 중이야."
+  }
+ },
+ {
+  "id": 132,
+  "word": "contact",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "접촉, 닿음",
+      "en": "the state of two people or things touching each other"
+     },
+     {
+      "ko": "연락",
+      "en": "communication with someone by phone, email, or meeting"
+     },
+     {
+      "ko": "연줄, 아는 사람",
+      "en": "a person you know who can help you"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "연락하다",
+      "en": "to call, write, or email someone"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "keep in contact",
+    "ko": "계속 연락하다"
+   },
+   {
+    "t": "eye contact",
+    "ko": "눈 맞춤"
+   },
+   {
+    "t": "contact lenses",
+    "ko": "콘택트렌즈"
+   }
+  ],
+  "ex": {
+   "en": "Avoid contact with your eyes.",
+   "ko": "눈에 닿지 않게 해."
+  }
+ },
+ {
+  "id": 133,
+  "word": "continue",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "계속하다",
+      "en": "to keep doing something without stopping"
+     },
+     {
+      "ko": "(중단 후) 다시 시작하다",
+      "en": "to start again after a pause"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "continue with",
+    "ko": "~을 계속하다"
+   },
+   {
+    "t": "to be continued",
+    "ko": "다음 편에 계속"
+   }
+  ],
+  "ex": {
+   "en": "Let's continue after lunch.",
+   "ko": "점심 먹고 계속하자."
+  }
+ },
+ {
+  "id": 134,
+  "word": "control",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "통제하다, 조종하다",
+      "en": "to direct or influence how someone or something behaves"
+     },
+     {
+      "ko": "억제하다, 참다",
+      "en": "to stop yourself from showing a strong feeling"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "통제, 지배",
+      "en": "the power to make someone or something do what you want"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "out of control",
+    "ko": "통제 불능인"
+   },
+   {
+    "t": "under control",
+    "ko": "잘 처리되고 있는"
+   },
+   {
+    "t": "lose control",
+    "ko": "자제력을 잃다"
+   }
+  ],
+  "ex": {
+   "en": "I can't control my dog in the park.",
+   "ko": "공원에선 우리 개를 감당할 수가 없어."
+  }
+ },
+ {
+  "id": 135,
+  "word": "conversation",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "대화",
+      "en": "an informal talk between two people or a small group"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "have a conversation",
+    "ko": "대화를 나누다"
+   },
+   {
+    "t": "make conversation",
+    "ko": "(어색함을 피하려) 말을 붙이다"
+   },
+   {
+    "t": "start a conversation",
+    "ko": "말을 걸다"
+   }
+  ],
+  "ex": {
+   "en": "We had a long conversation last night.",
+   "ko": "어젯밤에 우리 오래 얘기했어."
+  }
+ },
+ {
+  "id": 136,
+  "word": "cool",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "시원한, 서늘한",
+      "en": "a little cold in a pleasant way"
+     },
+     {
+      "ko": "멋진, 괜찮은",
+      "en": "very good, fashionable, or attractive"
+     },
+     {
+      "ko": "침착한, 차분한",
+      "en": "calm and not nervous or excited"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "식히다, 식다",
+      "en": "to become or make something less warm"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "That's cool.",
+    "ko": "좋아, 괜찮아"
+   },
+   {
+    "t": "cool down",
+    "ko": "식다; 진정하다"
+   },
+   {
+    "t": "keep your cool",
+    "ko": "침착함을 유지하다"
+   }
+  ],
+  "ex": {
+   "en": "It's a bit cool outside tonight.",
+   "ko": "오늘 밤 밖이 좀 쌀쌀해."
+  }
+ },
+ {
+  "id": 137,
+  "word": "copy",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "복사본, 사본",
+      "en": "something made to look exactly or almost exactly like another thing"
+     },
+     {
+      "ko": "(책 등의) 한 부, 한 권",
+      "en": "a single book, magazine, or record of many made"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "복사하다",
+      "en": "to make something that is exactly like something else"
+     },
+     {
+      "ko": "베끼다, 따라 하다",
+      "en": "to do the same thing as someone else"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "make a copy",
+    "ko": "복사하다"
+   },
+   {
+    "t": "copy and paste",
+    "ko": "복사해서 붙여넣다"
+   },
+   {
+    "t": "Copy that.",
+    "ko": "알았다, 잘 들었다"
+   }
+  ],
+  "ex": {
+   "en": "Can you make me a copy of this?",
+   "ko": "이거 한 부 복사해 줄래?"
+  }
+ },
+ {
+  "id": 138,
+  "word": "correct",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "맞는, 정확한",
+      "en": "true or accurate and agreeing with the facts"
+     },
+     {
+      "ko": "적절한, 올바른",
+      "en": "suitable or right for a particular situation"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "바로잡다, 고치다",
+      "en": "to fix a mistake or make something right"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "That's correct.",
+    "ko": "맞아요"
+   },
+   {
+    "t": "Correct me if I'm wrong.",
+    "ko": "내 말이 틀리면 말해 줘"
+   }
+  ],
+  "ex": {
+   "en": "Is this the correct address?",
+   "ko": "이 주소 맞아?"
+  }
+ },
+ {
+  "id": 139,
+  "word": "cost",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "비용, 가격",
+      "en": "the amount of money you need to pay for something"
+     },
+     {
+      "ko": "대가, 희생",
+      "en": "something you lose or give up to get something"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "(비용이) 들다",
+      "en": "to have a particular price"
+     },
+     {
+      "ko": "(~을) 잃게 하다",
+      "en": "to make someone lose something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "How much does it cost?",
+    "ko": "이거 얼마예요?"
+   },
+   {
+    "t": "at all costs",
+    "ko": "무슨 수를 써서라도"
+   },
+   {
+    "t": "cost a fortune",
+    "ko": "돈이 엄청 들다"
+   }
+  ],
+  "ex": {
+   "en": "The cost of living here is crazy.",
+   "ko": "여기 생활비가 장난 아니야."
+  }
+ },
+ {
+  "id": 140,
+  "word": "cough",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "기침하다",
+      "en": "to push air out of your throat suddenly with a short loud noise"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "기침",
+      "en": "the act or sound of coughing, or an illness that causes it"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "have a cough",
+    "ko": "기침이 나다"
+   },
+   {
+    "t": "cough up",
+    "ko": "(마지못해) 돈을 내놓다"
+   }
+  ],
+  "ex": {
+   "en": "I've been coughing all night.",
+   "ko": "밤새 기침했어."
+  }
+ },
+ {
+  "id": 141,
+  "word": "could",
+  "pos": [
+   {
+    "p": "modal",
+    "senses": [
+     {
+      "ko": "~할 수 있었다",
+      "en": "used as the past form of can to talk about ability"
+     },
+     {
+      "ko": "~일 수도 있다",
+      "en": "used to say that something is possible"
+     },
+     {
+      "ko": "~해 주시겠어요?",
+      "en": "used to ask for something politely"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Could you ...?",
+    "ko": "~해 주실 수 있나요?"
+   },
+   {
+    "t": "couldn't care less",
+    "ko": "전혀 관심 없다"
+   },
+   {
+    "t": "I could use ...",
+    "ko": "~이 있으면 좋겠다"
+   }
+  ],
+  "ex": {
+   "en": "It could rain later, so bring an umbrella.",
+   "ko": "이따 비 올 수도 있으니까 우산 챙겨."
+  }
+ },
+ {
+  "id": 142,
+  "word": "council",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "의회, 협의회",
+      "en": "a group of people chosen to make rules or decisions for an area or group"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "city council",
+    "ko": "시의회"
+   },
+   {
+    "t": "student council",
+    "ko": "학생회"
+   }
+  ],
+  "ex": {
+   "en": "My sister is on the student council.",
+   "ko": "우리 언니 학생회 해."
+  }
+ },
+ {
+  "id": 143,
+  "word": "country",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "나라, 국가",
+      "en": "an area of land with its own government"
+     },
+     {
+      "ko": "시골, 전원",
+      "en": "land outside cities and towns, with fields and farms"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "in the country",
+    "ko": "시골에서"
+   },
+   {
+    "t": "all over the country",
+    "ko": "전국적으로"
+   },
+   {
+    "t": "country music",
+    "ko": "컨트리 음악"
+   }
+  ],
+  "ex": {
+   "en": "Which country are you from?",
+   "ko": "어느 나라에서 왔어요?"
+  }
+ },
+ {
+  "id": 144,
+  "word": "couple",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "커플, 한 쌍",
+      "en": "two people or things that are together, especially a romantic pair"
+     },
+     {
+      "ko": "두어 개, 몇 개",
+      "en": "a small number of people or things, about two"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "a couple of",
+    "ko": "두어 개의, 몇몇의"
+   },
+   {
+    "t": "a couple of days",
+    "ko": "이틀 정도, 며칠"
+   },
+   {
+    "t": "married couple",
+    "ko": "부부"
+   }
+  ],
+  "ex": {
+   "en": "They're such a cute couple.",
+   "ko": "걔네 진짜 귀여운 커플이야."
+  }
+ },
+ {
+  "id": 145,
+  "word": "course",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "진로, 방향",
+      "en": "the route or direction that something moves along"
+     },
+     {
+      "ko": "강좌, 과목",
+      "en": "a series of lessons on a particular subject"
+     },
+     {
+      "ko": "(식사의) 코스",
+      "en": "one part of a meal served at one time"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "of course",
+    "ko": "물론이지"
+   },
+   {
+    "t": "in the course of",
+    "ko": "~하는 동안에"
+   },
+   {
+    "t": "golf course",
+    "ko": "골프장"
+   }
+  ],
+  "ex": {
+   "en": "The plane had to change course because of the storm.",
+   "ko": "폭풍 때문에 비행기가 항로를 바꿨어."
+  }
+ },
+ {
+  "id": 146,
+  "word": "cover",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "덮다, 가리다",
+      "en": "to put something over or on top of something else"
+     },
+     {
+      "ko": "다루다, 포함하다",
+      "en": "to deal with or include a subject"
+     },
+     {
+      "ko": "대신 일해 주다",
+      "en": "to do someone's work while they are away"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "덮개, 표지",
+      "en": "a thing that is put over something to protect or hide it"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "cover for someone",
+    "ko": "~ 대신 일하다; 감싸 주다"
+   },
+   {
+    "t": "take cover",
+    "ko": "몸을 숨기다, 대피하다"
+   },
+   {
+    "t": "cover up",
+    "ko": "숨기다, 은폐하다"
+   }
+  ],
+  "ex": {
+   "en": "Cover the pot so it doesn't boil over.",
+   "ko": "넘치지 않게 냄비 뚜껑 덮어."
+  }
+ },
+ {
+  "id": 147,
+  "word": "create",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "만들다, 창조하다",
+      "en": "to make or bring into existence something new"
+     },
+     {
+      "ko": "일으키다, 야기하다",
+      "en": "to cause a situation or feeling to happen"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "create a problem",
+    "ko": "문제를 일으키다"
+   },
+   {
+    "t": "create an account",
+    "ko": "계정을 만들다"
+   }
+  ],
+  "ex": {
+   "en": "I need to create a new password.",
+   "ko": "새 비밀번호 만들어야 해."
+  }
+ },
+ {
+  "id": 148,
+  "word": "cut",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "자르다, 베다",
+      "en": "to divide or open something with a knife or sharp tool"
+     },
+     {
+      "ko": "줄이다, 삭감하다",
+      "en": "to make something smaller in amount or size"
+     },
+     {
+      "ko": "(머리를) 깎다",
+      "en": "to make hair or grass shorter"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "베인 상처",
+      "en": "an injury where the skin has been cut"
+     },
+     {
+      "ko": "삭감, 인하",
+      "en": "a reduction in amount or size"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Cut it out!",
+    "ko": "그만해!"
+   },
+   {
+    "t": "cut in line",
+    "ko": "새치기하다"
+   },
+   {
+    "t": "cut down on",
+    "ko": "~을 줄이다"
+   }
+  ],
+  "ex": {
+   "en": "Can you cut the cake for us?",
+   "ko": "케이크 좀 잘라 줄래?"
+  }
+ },
+ {
+  "id": 149,
+  "word": "dad",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "아빠",
+      "en": "an informal word for a father"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "my dad",
+    "ko": "우리 아빠"
+   },
+   {
+    "t": "Dad!",
+    "ko": "아빠!"
+   }
+  ],
+  "ex": {
+   "en": "My dad makes the best pancakes.",
+   "ko": "우리 아빠 팬케이크 진짜 잘 만들어."
+  }
+ },
+ {
+  "id": 150,
+  "word": "date",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "날짜",
+      "en": "a particular day of the month or year"
+     },
+     {
+      "ko": "데이트, 데이트 상대",
+      "en": "a romantic meeting, or the person you meet"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "사귀다, 데이트하다",
+      "en": "to have a romantic relationship with someone"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "save the date",
+    "ko": "날짜를 비워 둬"
+   },
+   {
+    "t": "up to date",
+    "ko": "최신의"
+   },
+   {
+    "t": "go on a date",
+    "ko": "데이트하다"
+   }
+  ],
+  "ex": {
+   "en": "What's the date today?",
+   "ko": "오늘 며칠이야?"
+  }
+ },
+ {
+  "id": 151,
+  "word": "day",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "하루, 날",
+      "en": "a period of 24 hours, starting at midnight"
+     },
+     {
+      "ko": "낮",
+      "en": "the time between sunrise and sunset when it is light"
+     },
+     {
+      "ko": "(일하는) 날, 근무일",
+      "en": "the hours of the day when you work"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Have a nice day!",
+    "ko": "좋은 하루 보내!"
+   },
+   {
+    "t": "one day",
+    "ko": "언젠가, 어느 날"
+   },
+   {
+    "t": "call it a day",
+    "ko": "그만 끝내다"
+   }
+  ],
+  "ex": {
+   "en": "I'm off work for two days.",
+   "ko": "나 이틀 쉬어."
+  }
+ },
+ {
+  "id": 152,
+  "word": "deal",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "거래하다, 장사하다",
+      "en": "to buy and sell goods or do business with someone"
+     },
+     {
+      "ko": "(카드를) 나눠 주다",
+      "en": "to give out playing cards to each player"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "거래, 합의",
+      "en": "an agreement, especially in business"
+     },
+     {
+      "ko": "싸게 산 물건",
+      "en": "something bought at a good price"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "deal with",
+    "ko": "처리하다, 다루다"
+   },
+   {
+    "t": "It's a deal.",
+    "ko": "좋아, 그렇게 하자"
+   },
+   {
+    "t": "big deal",
+    "ko": "큰일; 별것 아냐"
+   }
+  ],
+  "ex": {
+   "en": "We only deal with local suppliers.",
+   "ko": "우리는 지역 업체하고만 거래해."
+  }
+ },
+ {
+  "id": 153,
+  "word": "dear",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "소중한, 사랑하는",
+      "en": "loved or valued very much"
+     },
+     {
+      "ko": "~에게 (편지 첫머리)",
+      "en": "used before a name at the start of a letter"
+     }
+    ]
+   },
+   {
+    "p": "interjection",
+    "senses": [
+     {
+      "ko": "이런, 어머",
+      "en": "used to show surprise, worry, or sadness"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Oh dear!",
+    "ko": "이런!, 어쩌나"
+   },
+   {
+    "t": "my dear",
+    "ko": "얘야, 자기야"
+   },
+   {
+    "t": "hold dear",
+    "ko": "소중히 여기다"
+   }
+  ],
+  "ex": {
+   "en": "She's a very dear friend of mine.",
+   "ko": "걔는 나한테 정말 소중한 친구야."
+  }
+ },
+ {
+  "id": 154,
+  "word": "decide",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "결정하다, 정하다",
+      "en": "to make a choice about something after thinking about it"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "decide on",
+    "ko": "~으로 정하다"
+   },
+   {
+    "t": "I can't decide.",
+    "ko": "못 고르겠어"
+   },
+   {
+    "t": "decide to",
+    "ko": "~하기로 하다"
+   }
+  ],
+  "ex": {
+   "en": "I can't decide what to order.",
+   "ko": "뭘 시킬지 못 고르겠어."
+  }
+ },
+ {
+  "id": 155,
+  "word": "decision",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "결정, 판단",
+      "en": "a choice you make after thinking about something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "make a decision",
+    "ko": "결정을 내리다"
+   },
+   {
+    "t": "tough decision",
+    "ko": "어려운 결정"
+   },
+   {
+    "t": "final decision",
+    "ko": "최종 결정"
+   }
+  ],
+  "ex": {
+   "en": "It's your decision, not mine.",
+   "ko": "그건 내가 아니라 네가 결정할 일이야."
+  }
+ },
+ {
+  "id": 156,
+  "word": "definitely",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "확실히, 분명히",
+      "en": "in a way that leaves no doubt at all"
+     },
+     {
+      "ko": "물론이지, 당연하지",
+      "en": "used to strongly agree or say yes"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "definitely not",
+    "ko": "절대 아니야"
+   },
+   {
+    "t": "I'll definitely be there.",
+    "ko": "나 꼭 갈게"
+   }
+  ],
+  "ex": {
+   "en": "I'm definitely coming to your party.",
+   "ko": "네 파티 꼭 갈게."
+  }
+ },
+ {
+  "id": 157,
+  "word": "degree",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "(온도, 각도의) 도",
+      "en": "a unit for measuring temperature or the size of an angle"
+     },
+     {
+      "ko": "학위",
+      "en": "an official title a university gives when you finish a course"
+     },
+     {
+      "ko": "정도, 수준",
+      "en": "the amount or level of something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "to some degree",
+    "ko": "어느 정도는"
+   },
+   {
+    "t": "college degree",
+    "ko": "대학 학위"
+   }
+  ],
+  "ex": {
+   "en": "It's thirty degrees outside today.",
+   "ko": "오늘 밖이 30도야."
+  }
+ },
+ {
+  "id": 158,
+  "word": "depend",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "의지하다, 기대다",
+      "en": "to need someone or something for help or support"
+     },
+     {
+      "ko": "~에 달려 있다",
+      "en": "to be decided by or change because of something else"
+     },
+     {
+      "ko": "믿다, 신뢰하다",
+      "en": "to trust that someone will do what you expect"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "It depends.",
+    "ko": "상황에 따라 달라"
+   },
+   {
+    "t": "depending on",
+    "ko": "~에 따라"
+   },
+   {
+    "t": "You can depend on me.",
+    "ko": "나만 믿어"
+   }
+  ],
+  "ex": {
+   "en": "Kids depend on their parents for everything.",
+   "ko": "애들은 모든 걸 부모한테 의지해."
+  }
+ },
+ {
+  "id": 159,
+  "word": "detail",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "세부 사항, 디테일",
+      "en": "a small part or fact about something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "in detail",
+    "ko": "자세히"
+   },
+   {
+    "t": "go into detail",
+    "ko": "자세히 설명하다"
+   },
+   {
+    "t": "attention to detail",
+    "ko": "꼼꼼함"
+   }
+  ],
+  "ex": {
+   "en": "I'll text you the details later.",
+   "ko": "자세한 건 나중에 문자할게."
+  }
+ },
+ {
+  "id": 160,
+  "word": "develop",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "발전시키다, 성장하다",
+      "en": "to grow or make something grow bigger or more advanced"
+     },
+     {
+      "ko": "개발하다",
+      "en": "to create a new product or idea over time"
+     },
+     {
+      "ko": "(병, 문제가) 생기다",
+      "en": "to start to have an illness, problem, or habit"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "develop a habit",
+    "ko": "습관이 생기다"
+   },
+   {
+    "t": "develop an app",
+    "ko": "앱을 개발하다"
+   }
+  ],
+  "ex": {
+   "en": "She's really developed as a player this year.",
+   "ko": "걔 올해 선수로서 정말 성장했어."
+  }
+ },
+ {
+  "id": 161,
+  "word": "development",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "발달, 발전",
+      "en": "the process of growing or becoming more advanced"
+     },
+     {
+      "ko": "개발",
+      "en": "the work of creating new products or ideas"
+     },
+     {
+      "ko": "새로운 상황, 진전",
+      "en": "a new event that changes a situation"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "child development",
+    "ko": "아동 발달"
+   },
+   {
+    "t": "new development",
+    "ko": "새로운 진전, 새 소식"
+   }
+  ],
+  "ex": {
+   "en": "Sleep is important for a baby's development.",
+   "ko": "잠은 아기 발달에 중요해."
+  }
+ },
+ {
+  "id": 162,
+  "word": "die",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "죽다",
+      "en": "to stop being alive"
+     },
+     {
+      "ko": "(기계 등이) 꺼지다, 멈추다",
+      "en": "to stop working, like a battery or engine"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "be dying to",
+    "ko": "~하고 싶어 죽겠다"
+   },
+   {
+    "t": "die down",
+    "ko": "잦아들다, 약해지다"
+   },
+   {
+    "t": "die of laughter",
+    "ko": "웃겨 죽다"
+   }
+  ],
+  "ex": {
+   "en": "My phone just died.",
+   "ko": "방금 폰 배터리 나갔어."
+  }
+ },
+ {
+  "id": 163,
+  "word": "difference",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "차이, 다른 점",
+      "en": "the way in which two things are not like each other"
+     },
+     {
+      "ko": "(수량의) 차이",
+      "en": "the amount by which one number is bigger than another"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "make a difference",
+    "ko": "변화를 가져오다, 영향을 주다"
+   },
+   {
+    "t": "What's the difference?",
+    "ko": "뭐가 달라?"
+   },
+   {
+    "t": "tell the difference",
+    "ko": "차이를 구별하다"
+   }
+  ],
+  "ex": {
+   "en": "I can't tell the difference between them.",
+   "ko": "둘이 뭐가 다른지 모르겠어."
+  }
+ },
+ {
+  "id": 164,
+  "word": "different",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "다른, 차이가 있는",
+      "en": "not the same as another person or thing"
+     },
+     {
+      "ko": "여러 가지의, 각각 다른",
+      "en": "used to talk about several separate things of one type"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "different from",
+    "ko": "~와 다른"
+   },
+   {
+    "t": "something different",
+    "ko": "색다른 것"
+   },
+   {
+    "t": "a different story",
+    "ko": "또 다른 얘기"
+   }
+  ],
+  "ex": {
+   "en": "You look different today.",
+   "ko": "너 오늘 좀 달라 보인다."
+  }
+ },
+ {
+  "id": 165,
+  "word": "difficult",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "어려운, 힘든",
+      "en": "not easy and needing a lot of work or skill"
+     },
+     {
+      "ko": "까다로운, 다루기 힘든",
+      "en": "not friendly and hard to please or deal with"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "have a difficult time",
+    "ko": "힘든 시간을 보내다"
+   },
+   {
+    "t": "make it difficult",
+    "ko": "어렵게 만들다"
+   }
+  ],
+  "ex": {
+   "en": "This test is really difficult.",
+   "ko": "이 시험 진짜 어려워."
+  }
+ },
+ {
+  "id": 166,
+  "word": "dinner",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "저녁 식사",
+      "en": "the main meal of the day, usually eaten in the evening"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "have dinner",
+    "ko": "저녁을 먹다"
+   },
+   {
+    "t": "dinner's ready",
+    "ko": "저녁 다 됐어"
+   },
+   {
+    "t": "go out for dinner",
+    "ko": "외식하다"
+   }
+  ],
+  "ex": {
+   "en": "What do you want for dinner?",
+   "ko": "저녁 뭐 먹고 싶어?"
+  }
+ },
+ {
+  "id": 167,
+  "word": "discuss",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "논의하다, 이야기하다",
+      "en": "to talk about something with another person or group"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "discuss it later",
+    "ko": "나중에 얘기하다"
+   },
+   {
+    "t": "Let's discuss it.",
+    "ko": "얘기 좀 해 보자"
+   }
+  ],
+  "ex": {
+   "en": "We need to discuss this with your mom.",
+   "ko": "이거 너희 엄마랑 얘기해 봐야 해."
+  }
+ },
+ {
+  "id": 168,
+  "word": "discussion",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "논의, 토론",
+      "en": "a talk about something between two or more people"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "have a discussion",
+    "ko": "의논하다"
+   },
+   {
+    "t": "under discussion",
+    "ko": "논의 중인"
+   },
+   {
+    "t": "group discussion",
+    "ko": "그룹 토론"
+   }
+  ],
+  "ex": {
+   "en": "We had a long discussion about money.",
+   "ko": "우리 돈 문제로 오래 얘기했어."
+  }
+ },
+ {
+  "id": 169,
+  "word": "do",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "하다, 행하다",
+      "en": "to perform an action or activity, or to work on something"
+     },
+     {
+      "ko": "(의문문, 부정문을 만듦)",
+      "en": "used with another verb to make questions and negative sentences"
+     },
+     {
+      "ko": "(일, 직업으로) 하다",
+      "en": "to have something as your job or study"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "How are you doing?",
+    "ko": "잘 지내?"
+   },
+   {
+    "t": "do someone a favor",
+    "ko": "~의 부탁을 들어주다"
+   },
+   {
+    "t": "That'll do.",
+    "ko": "그거면 됐어"
+   }
+  ],
+  "ex": {
+   "en": "I have to do my homework first.",
+   "ko": "나 먼저 숙제해야 돼."
+  }
+ },
+ {
+  "id": 170,
+  "word": "doctor",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "의사",
+      "en": "a person trained to treat people who are sick or injured"
+     },
+     {
+      "ko": "박사",
+      "en": "a person who has the highest university degree"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "see a doctor",
+    "ko": "진찰을 받다"
+   },
+   {
+    "t": "go to the doctor",
+    "ko": "병원에 가다"
+   },
+   {
+    "t": "doctor's appointment",
+    "ko": "병원 예약"
+   }
+  ],
+  "ex": {
+   "en": "You should see a doctor about that.",
+   "ko": "그거 병원 가 봐야겠다."
+  }
+ },
+ {
+  "id": 171,
+  "word": "document",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "문서, 서류",
+      "en": "an official paper or file that gives information"
+     },
+     {
+      "ko": "(컴퓨터) 문서 파일",
+      "en": "a computer file that contains text"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "기록하다",
+      "en": "to record details about something in writing or pictures"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "sign a document",
+    "ko": "서류에 서명하다"
+   },
+   {
+    "t": "open a document",
+    "ko": "문서를 열다"
+   }
+  ],
+  "ex": {
+   "en": "Please bring all your documents tomorrow.",
+   "ko": "내일 서류 전부 가져와 주세요."
+  }
+ },
+ {
+  "id": 172,
+  "word": "dog",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "개",
+      "en": "an animal often kept as a pet or trained to guard or hunt"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "walk the dog",
+    "ko": "개를 산책시키다"
+   },
+   {
+    "t": "dog person",
+    "ko": "개를 좋아하는 사람"
+   },
+   {
+    "t": "hot dog",
+    "ko": "핫도그"
+   }
+  ],
+  "ex": {
+   "en": "I have to walk the dog.",
+   "ko": "나 개 산책시켜야 돼."
+  }
+ },
+ {
+  "id": 173,
+  "word": "dollar",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "달러",
+      "en": "a unit of money in the US, Canada, and other countries, worth 100 cents"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "a few dollars",
+    "ko": "몇 달러"
+   },
+   {
+    "t": "dollar store",
+    "ko": "천원숍 같은 할인 매장"
+   },
+   {
+    "t": "million-dollar question",
+    "ko": "가장 중요한 질문"
+   }
+  ],
+  "ex": {
+   "en": "It's only five dollars.",
+   "ko": "겨우 5달러야."
+  }
+ },
+ {
+  "id": 174,
+  "word": "door",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "문",
+      "en": "a part of a building or room that opens and closes to let you in"
+     },
+     {
+      "ko": "(한) 집, 건물",
+      "en": "a house or building, when counting how far away it is"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Get the door.",
+    "ko": "문 좀 열어 줘"
+   },
+   {
+    "t": "next door",
+    "ko": "옆집"
+   },
+   {
+    "t": "answer the door",
+    "ko": "(누가 와서) 문을 열어 주다"
+   }
+  ],
+  "ex": {
+   "en": "Can you close the door, please?",
+   "ko": "문 좀 닫아 줄래?"
+  }
+ },
+ {
+  "id": 175,
+  "word": "down",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "아래로, 밑으로",
+      "en": "from a higher place or position to a lower one"
+     },
+     {
+      "ko": "(양, 수준이) 줄어서",
+      "en": "to a lower amount, level, or volume"
+     }
+    ]
+   },
+   {
+    "p": "preposition",
+    "senses": [
+     {
+      "ko": "~을 따라, ~ 아래로",
+      "en": "along or toward the lower part of something"
+     }
+    ]
+   },
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "우울한, 기운 없는",
+      "en": "sad or not feeling happy"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "sit down",
+    "ko": "앉다"
+   },
+   {
+    "t": "calm down",
+    "ko": "진정하다"
+   },
+   {
+    "t": "I'm down.",
+    "ko": "나 콜, 좋아"
+   }
+  ],
+  "ex": {
+   "en": "Can you turn the music down a bit?",
+   "ko": "음악 소리 좀 줄여 줄래?"
+  }
+ },
+ {
+  "id": 176,
+  "word": "draw",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "그리다",
+      "en": "to make a picture by making lines on paper"
+     },
+     {
+      "ko": "끌다, 당기다",
+      "en": "to pull or move something somewhere"
+     },
+     {
+      "ko": "(관심, 사람을) 끌다",
+      "en": "to attract people or attention"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "무승부",
+      "en": "a game that ends with both sides having the same score"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "draw the line",
+    "ko": "선을 긋다, 한계를 정하다"
+   },
+   {
+    "t": "draw attention",
+    "ko": "관심을 끌다"
+   },
+   {
+    "t": "draw the curtains",
+    "ko": "커튼을 치다"
+   }
+  ],
+  "ex": {
+   "en": "My son loves to draw animals.",
+   "ko": "우리 아들은 동물 그리는 걸 좋아해."
+  }
+ },
+ {
+  "id": 177,
+  "word": "drink",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "마시다",
+      "en": "to take liquid into your mouth and swallow it"
+     },
+     {
+      "ko": "술을 마시다",
+      "en": "to drink alcohol, especially regularly"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "음료, 마실 것",
+      "en": "a liquid for drinking, or an amount of it"
+     },
+     {
+      "ko": "술, 한잔",
+      "en": "a drink that contains alcohol, like beer or wine"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "grab a drink",
+    "ko": "한잔하다"
+   },
+   {
+    "t": "Drinks are on me.",
+    "ko": "술은 내가 살게"
+   },
+   {
+    "t": "drink up",
+    "ko": "다 마시다"
+   }
+  ],
+  "ex": {
+   "en": "You should drink more water.",
+   "ko": "너 물 좀 더 마셔야겠다."
+  }
+ },
+ {
+  "id": 178,
+  "word": "drive",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "운전하다",
+      "en": "to control a car or other vehicle and make it move"
+     },
+     {
+      "ko": "태워다 주다",
+      "en": "to take someone somewhere in a car"
+     },
+     {
+      "ko": "(어떤 상태로) 몰아가다",
+      "en": "to make someone feel a strong emotion or act a certain way"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "드라이브, 차로 가는 길",
+      "en": "a trip in a car, or the time it takes"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "drive someone crazy",
+    "ko": "~를 미치게 하다"
+   },
+   {
+    "t": "go for a drive",
+    "ko": "드라이브하러 가다"
+   },
+   {
+    "t": "drive-thru",
+    "ko": "드라이브스루"
+   }
+  ],
+  "ex": {
+   "en": "Can you drive me to the station?",
+   "ko": "역까지 태워다 줄 수 있어?"
+  }
+ },
+ {
+  "id": 179,
+  "word": "drop",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "떨어뜨리다, 떨어지다",
+      "en": "to let something fall, or to fall"
+     },
+     {
+      "ko": "(수준이) 떨어지다, 줄다",
+      "en": "to become lower in amount or level"
+     },
+     {
+      "ko": "(차로) 내려 주다",
+      "en": "to take someone somewhere and leave them there"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "방울",
+      "en": "a very small amount of liquid in a round shape"
+     },
+     {
+      "ko": "하락, 감소",
+      "en": "a fall in amount or level"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "drop by",
+    "ko": "잠깐 들르다"
+   },
+   {
+    "t": "drop off",
+    "ko": "내려 주다; 깜빡 잠들다"
+   },
+   {
+    "t": "Drop it.",
+    "ko": "그 얘긴 그만해"
+   }
+  ],
+  "ex": {
+   "en": "Oops, I dropped my phone again.",
+   "ko": "아이고, 또 폰 떨어뜨렸어."
+  }
+ },
+ {
+  "id": 180,
+  "word": "during",
+  "pos": [
+   {
+    "p": "preposition",
+    "senses": [
+     {
+      "ko": "~ 동안 내내",
+      "en": "throughout the whole time that something happens"
+     },
+     {
+      "ko": "~ 중에, ~ 동안에",
+      "en": "at some point while something else is happening"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "during the day",
+    "ko": "낮 동안에"
+   },
+   {
+    "t": "during the week",
+    "ko": "주중에"
+   }
+  ],
+  "ex": {
+   "en": "I fell asleep during the movie.",
+   "ko": "영화 보다가 잠들었어."
+  }
+ },
+ {
+  "id": 181,
+  "word": "each",
+  "pos": [
+   {
+    "p": "determiner",
+    "senses": [
+     {
+      "ko": "각각의, 각자의",
+      "en": "every one of two or more people or things, seen separately"
+     }
+    ]
+   },
+   {
+    "p": "pronoun",
+    "senses": [
+     {
+      "ko": "각자, 각각",
+      "en": "every single one of a group"
+     }
+    ]
+   },
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "하나에, 한 개당",
+      "en": "for every one, as in prices"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "each other",
+    "ko": "서로"
+   },
+   {
+    "t": "each time",
+    "ko": "~할 때마다"
+   },
+   {
+    "t": "each and every",
+    "ko": "하나하나 모두"
+   }
+  ],
+  "ex": {
+   "en": "Each kid gets one cookie.",
+   "ko": "애들마다 쿠키 하나씩이야."
+  }
+ },
+ {
+  "id": 182,
+  "word": "early",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "이른, 초기의",
+      "en": "near the beginning of a period of time"
+     },
+     {
+      "ko": "예정보다 이른",
+      "en": "happening before the usual or expected time"
+     }
+    ]
+   },
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "일찍, 초기에",
+      "en": "before the usual or expected time"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "early bird",
+    "ko": "아침형 인간, 일찍 오는 사람"
+   },
+   {
+    "t": "early on",
+    "ko": "초반에"
+   },
+   {
+    "t": "It's too early.",
+    "ko": "너무 이르다"
+   }
+  ],
+  "ex": {
+   "en": "I'm an early riser.",
+   "ko": "나 아침에 일찍 일어나는 편이야."
+  }
+ },
+ {
+  "id": 183,
+  "word": "easy",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "쉬운, 수월한",
+      "en": "not difficult and needing little work or effort"
+     },
+     {
+      "ko": "편안한, 느긋한",
+      "en": "relaxed and without worry or problems"
+     }
+    ]
+   },
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "쉽게, 살살",
+      "en": "in a relaxed or careful way, without hurrying"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Take it easy.",
+    "ko": "진정해; 잘 지내"
+   },
+   {
+    "t": "Easy does it.",
+    "ko": "천천히, 조심조심"
+   },
+   {
+    "t": "easy-going",
+    "ko": "느긋한, 무던한"
+   }
+  ],
+  "ex": {
+   "en": "The test was easier than I thought.",
+   "ko": "시험 생각보다 쉬웠어."
+  }
+ },
+ {
+  "id": 184,
+  "word": "eat",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "먹다",
+      "en": "to take food into your mouth and swallow it"
+     },
+     {
+      "ko": "식사하다",
+      "en": "to have a meal"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "eat out",
+    "ko": "외식하다"
+   },
+   {
+    "t": "grab something to eat",
+    "ko": "뭐 좀 먹다"
+   },
+   {
+    "t": "What's eating you?",
+    "ko": "무슨 걱정 있어?"
+   }
+  ],
+  "ex": {
+   "en": "Have you eaten yet?",
+   "ko": "밥 먹었어?"
+  }
+ },
+ {
+  "id": 185,
+  "word": "education",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "교육",
+      "en": "the process of teaching or learning, especially at school"
+     },
+     {
+      "ko": "학력, 받은 교육",
+      "en": "the knowledge and training a person gets from school"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "higher education",
+    "ko": "고등 교육, 대학 교육"
+   },
+   {
+    "t": "get an education",
+    "ko": "교육을 받다"
+   }
+  ],
+  "ex": {
+   "en": "Education is really expensive here.",
+   "ko": "여기는 교육비가 진짜 비싸."
+  }
+ },
+ {
+  "id": 186,
+  "word": "effect",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "영향, 효과, 결과",
+      "en": "a change that happens because of something else"
+     },
+     {
+      "ko": "(영화 등의) 특수 효과",
+      "en": "sounds or images made to look or seem real"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "have an effect on",
+    "ko": "~에 영향을 주다"
+   },
+   {
+    "t": "side effect",
+    "ko": "부작용"
+   },
+   {
+    "t": "take effect",
+    "ko": "효과가 나타나다; 시행되다"
+   }
+  ],
+  "ex": {
+   "en": "The medicine had no effect on me.",
+   "ko": "그 약 나한텐 전혀 안 들었어."
+  }
+ },
+ {
+  "id": 187,
+  "word": "effort",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "노력, 수고",
+      "en": "the physical or mental work used to do something"
+     },
+     {
+      "ko": "시도",
+      "en": "an attempt to do something difficult"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "make an effort",
+    "ko": "노력하다"
+   },
+   {
+    "t": "worth the effort",
+    "ko": "애쓸 만한 가치가 있는"
+   },
+   {
+    "t": "put effort into",
+    "ko": "~에 공들이다"
+   }
+  ],
+  "ex": {
+   "en": "Thanks for making the effort to come.",
+   "ko": "일부러 와 줘서 고마워."
+  }
+ },
+ {
+  "id": 188,
+  "word": "eight",
+  "pos": [
+   {
+    "p": "number",
+    "senses": [
+     {
+      "ko": "8, 여덟",
+      "en": "the number 8"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "eight o'clock",
+    "ko": "8시"
+   }
+  ],
+  "ex": {
+   "en": "Let's meet at eight.",
+   "ko": "8시에 만나자."
+  }
+ },
+ {
+  "id": 189,
+  "word": "eighty",
+  "pos": [
+   {
+    "p": "number",
+    "senses": [
+     {
+      "ko": "80, 여든",
+      "en": "the number 80"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "in your eighties",
+    "ko": "80대인"
+   }
+  ],
+  "ex": {
+   "en": "My grandma is eighty this year.",
+   "ko": "우리 할머니 올해 여든이셔."
+  }
+ },
+ {
+  "id": 190,
+  "word": "either",
+  "pos": [
+   {
+    "p": "determiner",
+    "senses": [
+     {
+      "ko": "(둘 중) 어느 하나의",
+      "en": "one or the other of two people or things"
+     },
+     {
+      "ko": "양쪽의, 각각의",
+      "en": "both of two things"
+     }
+    ]
+   },
+   {
+    "p": "pronoun",
+    "senses": [
+     {
+      "ko": "(둘 중) 어느 쪽이든",
+      "en": "one or the other of two"
+     }
+    ]
+   },
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "(부정문에서) ~도 역시",
+      "en": "used in negative sentences to mean also"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "either way",
+    "ko": "어느 쪽이든"
+   },
+   {
+    "t": "Me either.",
+    "ko": "나도 아니야"
+   },
+   {
+    "t": "either ... or ...",
+    "ko": "~이거나 ~이거나"
+   }
+  ],
+  "ex": {
+   "en": "You can sit in either seat.",
+   "ko": "아무 자리에나 앉아도 돼."
+  }
+ },
+ {
+  "id": 191,
+  "word": "eleven",
+  "pos": [
+   {
+    "p": "number",
+    "senses": [
+     {
+      "ko": "11, 열하나",
+      "en": "the number 11"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "eleven o'clock",
+    "ko": "11시"
+   }
+  ],
+  "ex": {
+   "en": "The store opens at eleven.",
+   "ko": "가게 11시에 문 열어."
+  }
+ },
+ {
+  "id": 192,
+  "word": "else",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "그 밖에, 다른",
+      "en": "in addition to or different from what was mentioned"
+     },
+     {
+      "ko": "그렇지 않으면",
+      "en": "used in or else to mean otherwise"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "anything else?",
+    "ko": "더 필요한 거 있어요?"
+   },
+   {
+    "t": "or else",
+    "ko": "안 그러면"
+   },
+   {
+    "t": "someone else",
+    "ko": "다른 사람"
+   }
+  ],
+  "ex": {
+   "en": "Do you want anything else?",
+   "ko": "다른 거 더 필요해?"
+  }
+ },
+ {
+  "id": 193,
+  "word": "end",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "끝, 마지막",
+      "en": "the final point or part of something"
+     },
+     {
+      "ko": "끝부분, 가장자리",
+      "en": "the part that marks the limit of something"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "끝나다, 끝내다",
+      "en": "to finish or make something finish"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "in the end",
+    "ko": "결국"
+   },
+   {
+    "t": "at the end of the day",
+    "ko": "결국, 따지고 보면"
+   },
+   {
+    "t": "end up",
+    "ko": "결국 ~하게 되다"
+   }
+  ],
+  "ex": {
+   "en": "I'll see you at the end of the week.",
+   "ko": "주말쯤에 보자."
+  }
+ },
+ {
+  "id": 194,
+  "word": "enjoy",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "즐기다, 좋아하다",
+      "en": "to get pleasure from something"
+     },
+     {
+      "ko": "(좋은 것을) 누리다",
+      "en": "to have something good, like good health"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Enjoy!",
+    "ko": "맛있게 드세요, 즐겨"
+   },
+   {
+    "t": "enjoy yourself",
+    "ko": "즐거운 시간을 보내다"
+   },
+   {
+    "t": "Enjoy your meal.",
+    "ko": "맛있게 드세요"
+   }
+  ],
+  "ex": {
+   "en": "Did you enjoy the movie?",
+   "ko": "영화 재밌었어?"
+  }
+ },
+ {
+  "id": 195,
+  "word": "enough",
+  "pos": [
+   {
+    "p": "determiner",
+    "senses": [
+     {
+      "ko": "충분한",
+      "en": "as much or as many as you need"
+     }
+    ]
+   },
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "충분히, ~할 만큼",
+      "en": "to the necessary degree or amount"
+     }
+    ]
+   },
+   {
+    "p": "pronoun",
+    "senses": [
+     {
+      "ko": "충분한 양",
+      "en": "as much as is needed or wanted"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "That's enough!",
+    "ko": "그만해!"
+   },
+   {
+    "t": "Enough is enough.",
+    "ko": "이제 됐어, 참을 만큼 참았어"
+   },
+   {
+    "t": "fair enough",
+    "ko": "그래, 일리 있네"
+   }
+  ],
+  "ex": {
+   "en": "Do we have enough time?",
+   "ko": "우리 시간 충분해?"
+  }
+ },
+ {
+  "id": 196,
+  "word": "especially",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "특히, 특별히",
+      "en": "more than usual or more than others"
+     },
+     {
+      "ko": "특별히 ~을 위해",
+      "en": "for one particular purpose or person"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "especially for you",
+    "ko": "특별히 너를 위해"
+   },
+   {
+    "t": "not especially",
+    "ko": "딱히 그렇진 않아"
+   }
+  ],
+  "ex": {
+   "en": "I love fruit, especially strawberries.",
+   "ko": "과일 좋아해, 특히 딸기."
+  }
+ },
+ {
+  "id": 197,
+  "word": "even",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "평평한, 고른",
+      "en": "flat, smooth, or equal in level or amount"
+     },
+     {
+      "ko": "대등한, 동점인",
+      "en": "equal, with neither side ahead"
+     },
+     {
+      "ko": "짝수의",
+      "en": "able to be divided by two exactly"
+     }
+    ]
+   },
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "심지어, ~조차",
+      "en": "used to say that something is surprising"
+     },
+     {
+      "ko": "훨씬, 더욱",
+      "en": "used to make a comparison stronger"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "even if",
+    "ko": "~라 하더라도"
+   },
+   {
+    "t": "even though",
+    "ko": "~인데도"
+   },
+   {
+    "t": "get even",
+    "ko": "복수하다, 앙갚음하다"
+   }
+  ],
+  "ex": {
+   "en": "Make sure the table is even.",
+   "ko": "테이블이 평평한지 확인해."
+  }
+ },
+ {
+  "id": 198,
+  "word": "evening",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "저녁",
+      "en": "the end of the day and the early part of the night"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Good evening.",
+    "ko": "안녕하세요 (저녁 인사)"
+   },
+   {
+    "t": "this evening",
+    "ko": "오늘 저녁"
+   },
+   {
+    "t": "in the evening",
+    "ko": "저녁에"
+   }
+  ],
+  "ex": {
+   "en": "What are you doing this evening?",
+   "ko": "오늘 저녁에 뭐 해?"
+  }
+ },
+ {
+  "id": 199,
+  "word": "ever",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "언제든, 한 번이라도",
+      "en": "at any time, used in questions and negatives"
+     },
+     {
+      "ko": "늘, 항상",
+      "en": "at all times or always"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Have you ever ...?",
+    "ko": "~해 본 적 있어?"
+   },
+   {
+    "t": "ever since",
+    "ko": "~ 이후로 줄곧"
+   },
+   {
+    "t": "best ever",
+    "ko": "역대 최고의"
+   }
+  ],
+  "ex": {
+   "en": "Have you ever been to Japan?",
+   "ko": "일본 가 본 적 있어?"
+  }
+ },
+ {
+  "id": 200,
+  "word": "every",
+  "pos": [
+   {
+    "p": "determiner",
+    "senses": [
+     {
+      "ko": "모든, 하나하나 다",
+      "en": "each person or thing in a group, without exception"
+     },
+     {
+      "ko": "~마다",
+      "en": "used to say how often something happens"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "every day",
+    "ko": "매일"
+   },
+   {
+    "t": "every other day",
+    "ko": "이틀에 한 번"
+   },
+   {
+    "t": "every time",
+    "ko": "~할 때마다"
+   }
+  ],
+  "ex": {
+   "en": "I go to the gym every morning.",
+   "ko": "나 매일 아침 헬스장 가."
+  }
+ },
+ {
+  "id": 201,
+  "word": "everybody",
+  "pos": [
+   {
+    "p": "pronoun",
+    "senses": [
+     {
+      "ko": "모든 사람, 모두",
+      "en": "every person in a group or place"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Hi, everybody!",
+    "ko": "여러분, 안녕!"
+   },
+   {
+    "t": "everybody else",
+    "ko": "다른 사람들 모두"
+   }
+  ],
+  "ex": {
+   "en": "Everybody loves her cooking.",
+   "ko": "다들 걔 요리 좋아해."
+  }
+ },
+ {
+  "id": 202,
+  "word": "everyone",
+  "pos": [
+   {
+    "p": "pronoun",
+    "senses": [
+     {
+      "ko": "모든 사람, 모두",
+      "en": "all the people in a group or place"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "everyone else",
+    "ko": "다른 사람들 모두"
+   },
+   {
+    "t": "Thanks, everyone.",
+    "ko": "모두 고마워요"
+   }
+  ],
+  "ex": {
+   "en": "Is everyone here?",
+   "ko": "다들 왔어?"
+  }
+ },
+ {
+  "id": 203,
+  "word": "everything",
+  "pos": [
+   {
+    "p": "pronoun",
+    "senses": [
+     {
+      "ko": "모든 것",
+      "en": "all things, or all that exists"
+     },
+     {
+      "ko": "가장 중요한 것",
+      "en": "the most important thing to someone"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Is everything okay?",
+    "ko": "괜찮아?, 별일 없어?"
+   },
+   {
+    "t": "everything's fine",
+    "ko": "다 괜찮아"
+   },
+   {
+    "t": "mean everything",
+    "ko": "전부나 다름없다"
+   }
+  ],
+  "ex": {
+   "en": "Thanks for everything.",
+   "ko": "여러모로 고마워."
+  }
+ },
+ {
+  "id": 204,
+  "word": "exactly",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "정확히, 꼭",
+      "en": "in a completely correct way, with no difference"
+     },
+     {
+      "ko": "바로 그거야",
+      "en": "used to agree completely with someone"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Exactly!",
+    "ko": "바로 그거야!"
+   },
+   {
+    "t": "not exactly",
+    "ko": "꼭 그렇진 않아"
+   },
+   {
+    "t": "exactly the same",
+    "ko": "완전히 똑같은"
+   }
+  ],
+  "ex": {
+   "en": "That's exactly what I meant.",
+   "ko": "내 말이 바로 그거야."
+  }
+ },
+ {
+  "id": 205,
+  "word": "example",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "모범, 본보기",
+      "en": "a person or thing seen as a good model to copy"
+     },
+     {
+      "ko": "예, 사례",
+      "en": "something that shows what other things of the same kind are like"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "for example",
+    "ko": "예를 들어"
+   },
+   {
+    "t": "set an example",
+    "ko": "모범을 보이다"
+   },
+   {
+    "t": "give an example",
+    "ko": "예를 들다"
+   }
+  ],
+  "ex": {
+   "en": "You should set a good example for your brother.",
+   "ko": "네가 동생한테 좋은 본보기가 돼야지."
+  }
+ },
+ {
+  "id": 206,
+  "word": "expect",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "예상하다, 기대하다",
+      "en": "to think that something is likely to happen"
+     },
+     {
+      "ko": "(당연히) 바라다, 요구하다",
+      "en": "to think someone should do something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "I expect so.",
+    "ko": "아마 그럴 거야"
+   },
+   {
+    "t": "be expecting",
+    "ko": "임신 중이다"
+   },
+   {
+    "t": "as expected",
+    "ko": "예상대로"
+   }
+  ],
+  "ex": {
+   "en": "I didn't expect to see you here.",
+   "ko": "여기서 너 볼 줄은 몰랐어."
+  }
+ },
+ {
+  "id": 207,
+  "word": "experience",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "경험, 체험",
+      "en": "something that happens to you, or knowledge you get from doing things"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "경험하다, 겪다",
+      "en": "to have something happen to you or feel something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "work experience",
+    "ko": "경력, 실무 경험"
+   },
+   {
+    "t": "from experience",
+    "ko": "경험상"
+   },
+   {
+    "t": "learning experience",
+    "ko": "배움이 된 경험"
+   }
+  ],
+  "ex": {
+   "en": "It was an amazing experience.",
+   "ko": "정말 멋진 경험이었어."
+  }
+ },
+ {
+  "id": 208,
+  "word": "explain",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "설명하다",
+      "en": "to make something clear or easy to understand by describing it"
+     },
+     {
+      "ko": "해명하다, 이유를 대다",
+      "en": "to give a reason for something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Let me explain.",
+    "ko": "내가 설명할게"
+   },
+   {
+    "t": "explain yourself",
+    "ko": "어떻게 된 건지 말해 봐"
+   }
+  ],
+  "ex": {
+   "en": "Can you explain that again?",
+   "ko": "그거 다시 설명해 줄래?"
+  }
+ },
+ {
+  "id": 209,
+  "word": "extra",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "추가의, 여분의",
+      "en": "more than is usual or needed"
+     },
+     {
+      "ko": "(좀) 오버하는, 과한",
+      "en": "acting in a dramatic way, used informally"
+     }
+    ]
+   },
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "특별히, 더",
+      "en": "more than usual or more than expected"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "추가 요금, 추가분",
+      "en": "something added that costs more"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "go the extra mile",
+    "ko": "한층 더 노력하다"
+   },
+   {
+    "t": "extra cheese",
+    "ko": "치즈 추가"
+   },
+   {
+    "t": "at no extra cost",
+    "ko": "추가 비용 없이"
+   }
+  ],
+  "ex": {
+   "en": "Do you have an extra pen?",
+   "ko": "펜 하나 남는 거 있어?"
+  }
+ },
+ {
+  "id": 210,
+  "word": "eye",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "눈",
+      "en": "one of the two parts of the face that you see with"
+     },
+     {
+      "ko": "보는 눈, 안목",
+      "en": "the ability to notice or judge things well"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "keep an eye on",
+    "ko": "~을 지켜보다, 봐 주다"
+   },
+   {
+    "t": "catch someone's eye",
+    "ko": "~의 눈길을 끌다"
+   },
+   {
+    "t": "see eye to eye",
+    "ko": "의견이 일치하다"
+   }
+  ],
+  "ex": {
+   "en": "Close your eyes for a second.",
+   "ko": "잠깐 눈 감아 봐."
+  }
+ },
+ {
+  "id": 211,
+  "word": "face",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "얼굴",
+      "en": "the front part of the head, with the eyes, nose, and mouth"
+     },
+     {
+      "ko": "표면, 면",
+      "en": "the front or main surface of something"
+     },
+     {
+      "ko": "표정",
+      "en": "a look on someone's face that shows a feeling"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "마주하다, 향하다",
+      "en": "to look toward or be in front of something"
+     },
+     {
+      "ko": "직면하다, 맞서다",
+      "en": "to deal with a difficult situation or person"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "make a face",
+    "ko": "얼굴을 찡그리다"
+   },
+   {
+    "t": "Let's face it.",
+    "ko": "현실을 인정하자"
+   },
+   {
+    "t": "face to face",
+    "ko": "얼굴을 맞대고"
+   }
+  ],
+  "ex": {
+   "en": "Go wash your face.",
+   "ko": "가서 세수해."
+  }
+ },
+ {
+  "id": 212,
+  "word": "fact",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "사실",
+      "en": "something that is known or proven to be true"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "in fact",
+    "ko": "사실은, 실제로"
+   },
+   {
+    "t": "the fact is",
+    "ko": "사실은 말이야"
+   },
+   {
+    "t": "as a matter of fact",
+    "ko": "실은"
+   }
+  ],
+  "ex": {
+   "en": "It's a fact that I'm always late.",
+   "ko": "내가 맨날 늦는 건 사실이야."
+  }
+ },
+ {
+  "id": 213,
+  "word": "fair",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "공정한, 공평한",
+      "en": "treating people equally in a way that is right"
+     },
+     {
+      "ko": "꽤 괜찮은, 상당한",
+      "en": "fairly large or good, but not very"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "박람회, 장터",
+      "en": "an event where people show or sell things"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "That's not fair!",
+    "ko": "불공평해!"
+   },
+   {
+    "t": "fair enough",
+    "ko": "그래, 일리 있네"
+   },
+   {
+    "t": "to be fair",
+    "ko": "공정하게 말하자면"
+   }
+  ],
+  "ex": {
+   "en": "It's not fair that he gets more.",
+   "ko": "걔만 더 받는 건 불공평해."
+  }
+ },
+ {
+  "id": 214,
+  "word": "fairly",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "꽤, 상당히",
+      "en": "more than average but less than very"
+     },
+     {
+      "ko": "공정하게",
+      "en": "in a fair or honest way"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "fairly good",
+    "ko": "꽤 괜찮은"
+   },
+   {
+    "t": "fairly sure",
+    "ko": "꽤 확신하는"
+   },
+   {
+    "t": "treat fairly",
+    "ko": "공평하게 대하다"
+   }
+  ],
+  "ex": {
+   "en": "I'm fairly sure he's coming.",
+   "ko": "걔 올 거라고 꽤 확신해."
+  }
+ },
+ {
+  "id": 215,
+  "word": "fall",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "떨어지다, 넘어지다",
+      "en": "to come or go down from a higher to a lower place"
+     },
+     {
+      "ko": "(수량이) 줄다, 떨어지다",
+      "en": "to become lower in amount or level"
+     },
+     {
+      "ko": "(어떤 상태가) 되다",
+      "en": "to change into a new state"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "가을",
+      "en": "the season between summer and winter, used in American English"
+     },
+     {
+      "ko": "넘어짐, 추락",
+      "en": "an act of falling down"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "fall asleep",
+    "ko": "잠들다"
+   },
+   {
+    "t": "fall in love",
+    "ko": "사랑에 빠지다"
+   },
+   {
+    "t": "fall apart",
+    "ko": "무너지다, 망가지다"
+   }
+  ],
+  "ex": {
+   "en": "Be careful not to fall.",
+   "ko": "넘어지지 않게 조심해."
+  }
+ },
+ {
+  "id": 216,
+  "word": "family",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "가족, 가정",
+      "en": "a group of people who are related to each other"
+     },
+     {
+      "ko": "자녀, 아이들",
+      "en": "the children of a parent"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "start a family",
+    "ko": "아이를 갖다"
+   },
+   {
+    "t": "run in the family",
+    "ko": "집안 내력이다"
+   },
+   {
+    "t": "family friend",
+    "ko": "집안끼리 아는 사람"
+   }
+  ],
+  "ex": {
+   "en": "I'm visiting my family this weekend.",
+   "ko": "이번 주말에 가족 보러 가."
+  }
+ },
+ {
+  "id": 217,
+  "word": "far",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "멀리, 먼",
+      "en": "to or at a great distance in space or time"
+     },
+     {
+      "ko": "훨씬, 크게",
+      "en": "very much, used to make a comparison stronger"
+     }
+    ]
+   },
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "먼, 멀리 있는",
+      "en": "a long way away"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "so far",
+    "ko": "지금까지"
+   },
+   {
+    "t": "How far is it?",
+    "ko": "얼마나 멀어?"
+   },
+   {
+    "t": "far from it",
+    "ko": "전혀 그렇지 않아"
+   }
+  ],
+  "ex": {
+   "en": "Is the hotel far from here?",
+   "ko": "호텔 여기서 멀어?"
+  }
+ },
+ {
+  "id": 218,
+  "word": "father",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "아버지",
+      "en": "a male parent of a child"
+     },
+     {
+      "ko": "신부님",
+      "en": "a title for a Catholic priest"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "father-in-law",
+    "ko": "시아버지, 장인"
+   },
+   {
+    "t": "Father's Day",
+    "ko": "아버지의 날"
+   }
+  ],
+  "ex": {
+   "en": "My father works in a bank.",
+   "ko": "우리 아버지는 은행에서 일하셔."
+  }
+ },
+ {
+  "id": 219,
+  "word": "feel",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "느끼다",
+      "en": "to experience an emotion or a physical sensation"
+     },
+     {
+      "ko": "(만져서) 느끼다, 만져 보다",
+      "en": "to touch something to learn what it is like"
+     },
+     {
+      "ko": "~라고 생각하다",
+      "en": "to have a particular opinion"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "feel like",
+    "ko": "~하고 싶다"
+   },
+   {
+    "t": "feel free to",
+    "ko": "얼마든지 ~해도 돼"
+   },
+   {
+    "t": "I feel you.",
+    "ko": "무슨 말인지 알아"
+   }
+  ],
+  "ex": {
+   "en": "I feel so tired today.",
+   "ko": "오늘 너무 피곤해."
+  }
+ },
+ {
+  "id": 220,
+  "word": "few",
+  "pos": [
+   {
+    "p": "determiner",
+    "senses": [
+     {
+      "ko": "거의 없는, 많지 않은",
+      "en": "not many, only a small number"
+     },
+     {
+      "ko": "(a few) 몇몇의, 조금",
+      "en": "a small number of, but some"
+     }
+    ]
+   },
+   {
+    "p": "pronoun",
+    "senses": [
+     {
+      "ko": "소수, 몇 명",
+      "en": "a small number of people or things"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "a few",
+    "ko": "몇몇의, 조금"
+   },
+   {
+    "t": "quite a few",
+    "ko": "꽤 많은"
+   },
+   {
+    "t": "every few days",
+    "ko": "며칠마다"
+   }
+  ],
+  "ex": {
+   "en": "Very few people came to the party.",
+   "ko": "파티에 온 사람이 거의 없었어."
+  }
+ },
+ {
+  "id": 221,
+  "word": "fifteen",
+  "pos": [
+   {
+    "p": "number",
+    "senses": [
+     {
+      "ko": "15, 열다섯",
+      "en": "the number 15"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "fifteen minutes",
+    "ko": "15분"
+   }
+  ],
+  "ex": {
+   "en": "The bus comes in fifteen minutes.",
+   "ko": "버스 15분 뒤에 와."
+  }
+ },
+ {
+  "id": 222,
+  "word": "fifty",
+  "pos": [
+   {
+    "p": "number",
+    "senses": [
+     {
+      "ko": "50, 쉰",
+      "en": "the number 50"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "fifty-fifty",
+    "ko": "반반으로; 반반의 확률"
+   }
+  ],
+  "ex": {
+   "en": "I paid fifty bucks for these shoes.",
+   "ko": "이 신발 50달러 줬어."
+  }
+ },
+ {
+  "id": 223,
+  "word": "figure",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "수치, 숫자",
+      "en": "an amount expressed in numbers"
+     },
+     {
+      "ko": "인물, 사람",
+      "en": "a person, especially an important or well-known one"
+     },
+     {
+      "ko": "몸매, 체형",
+      "en": "the shape of a person's body"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "생각하다, 판단하다",
+      "en": "to think or decide something is likely"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "figure out",
+    "ko": "알아내다, 이해하다"
+   },
+   {
+    "t": "Go figure.",
+    "ko": "이해가 안 가네, 별일이야"
+   },
+   {
+    "t": "That figures.",
+    "ko": "그럴 줄 알았어"
+   }
+  ],
+  "ex": {
+   "en": "The sales figures look good this month.",
+   "ko": "이번 달 매출 수치 좋아 보여."
+  }
+ },
+ {
+  "id": 224,
+  "word": "fill",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "채우다, 가득 차다",
+      "en": "to make something full, or to become full"
+     },
+     {
+      "ko": "(공간에) 퍼지다",
+      "en": "to spread through a space"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "fill out",
+    "ko": "(서류를) 작성하다"
+   },
+   {
+    "t": "fill in for",
+    "ko": "~ 대신 일하다"
+   },
+   {
+    "t": "fill up",
+    "ko": "가득 채우다; 배부르다"
+   }
+  ],
+  "ex": {
+   "en": "Can you fill this bottle with water?",
+   "ko": "이 병에 물 좀 채워 줄래?"
+  }
+ },
+ {
+  "id": 225,
+  "word": "find",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "찾다, 발견하다",
+      "en": "to discover or get something by looking for it"
+     },
+     {
+      "ko": "(~라고) 생각하다, 느끼다",
+      "en": "to have a particular feeling or opinion about something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "find out",
+    "ko": "알아내다"
+   },
+   {
+    "t": "find it hard to",
+    "ko": "~하기 어렵다고 느끼다"
+   }
+  ],
+  "ex": {
+   "en": "I can't find my keys anywhere.",
+   "ko": "열쇠가 아무 데도 없어."
+  }
+ },
+ {
+  "id": 226,
+  "word": "fine",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "괜찮은, 좋은",
+      "en": "good, acceptable, or satisfactory"
+     },
+     {
+      "ko": "건강한, 잘 지내는",
+      "en": "in good health and feeling well"
+     },
+     {
+      "ko": "가는, 고운",
+      "en": "very thin or made of very small pieces"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "벌금",
+      "en": "money you must pay as a punishment"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "I'm fine.",
+    "ko": "난 괜찮아"
+   },
+   {
+    "t": "That's fine.",
+    "ko": "그거 괜찮아"
+   },
+   {
+    "t": "fine with me",
+    "ko": "난 상관없어"
+   }
+  ],
+  "ex": {
+   "en": "Don't worry, everything's fine.",
+   "ko": "걱정 마, 다 괜찮아."
+  }
+ },
+ {
+  "id": 227,
+  "word": "finish",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "끝내다, 마치다",
+      "en": "to complete something or stop doing it because it is done"
+     },
+     {
+      "ko": "다 먹다, 다 쓰다",
+      "en": "to eat, drink, or use all of something"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "끝, 결승점",
+      "en": "the end or last part of something, like a race"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "finish up",
+    "ko": "마무리하다"
+   },
+   {
+    "t": "finish off",
+    "ko": "다 먹어 치우다"
+   },
+   {
+    "t": "finish line",
+    "ko": "결승선"
+   }
+  ],
+  "ex": {
+   "en": "Let me finish my coffee first.",
+   "ko": "커피 좀 다 마시고 갈게."
+  }
+ },
+ {
+  "id": 228,
+  "word": "fire",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "불, 화재",
+      "en": "the heat, light, and flames made when something burns"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "해고하다",
+      "en": "to make someone leave their job"
+     },
+     {
+      "ko": "(총을) 쏘다, 발사하다",
+      "en": "to shoot a gun or other weapon"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "on fire",
+    "ko": "불이 난; 잘나가는"
+   },
+   {
+    "t": "catch fire",
+    "ko": "불이 붙다"
+   },
+   {
+    "t": "You're fired!",
+    "ko": "넌 해고야!"
+   }
+  ],
+  "ex": {
+   "en": "Call 119, there's a fire!",
+   "ko": "119 불러, 불났어!"
+  }
+ },
+ {
+  "id": 229,
+  "word": "first",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "첫 번째의, 최초의",
+      "en": "coming before all others in time, order, or place"
+     },
+     {
+      "ko": "가장 중요한, 으뜸의",
+      "en": "most important or best"
+     }
+    ]
+   },
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "먼저, 우선",
+      "en": "before anything or anyone else"
+     },
+     {
+      "ko": "처음으로",
+      "en": "for the first time"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "at first",
+    "ko": "처음에는"
+   },
+   {
+    "t": "first of all",
+    "ko": "우선, 무엇보다도"
+   },
+   {
+    "t": "first thing",
+    "ko": "맨 먼저, 일어나자마자"
+   }
+  ],
+  "ex": {
+   "en": "Is this your first time in Seoul?",
+   "ko": "서울은 처음이야?"
+  }
+ },
+ {
+  "id": 230,
+  "word": "fit",
+  "pos": [
+   {
+    "p": "adjective",
+    "senses": [
+     {
+      "ko": "적합한, 알맞은",
+      "en": "suitable or good enough for a purpose or situation"
+     },
+     {
+      "ko": "건강한, 탄탄한",
+      "en": "healthy and strong, especially from exercise"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "(크기가) 맞다",
+      "en": "to be the right size or shape for someone or something"
+     },
+     {
+      "ko": "들어가다, 맞추어 넣다",
+      "en": "to have enough space for something"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "(옷의) 맞음새, 핏",
+      "en": "the way clothes fit your body"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "fit in",
+    "ko": "어울리다, 적응하다"
+   },
+   {
+    "t": "keep fit",
+    "ko": "건강을 유지하다"
+   },
+   {
+    "t": "see fit",
+    "ko": "적절하다고 여기다"
+   }
+  ],
+  "ex": {
+   "en": "This movie isn't fit for kids.",
+   "ko": "이 영화는 애들 보기엔 안 맞아."
+  }
+ },
+ {
+  "id": 231,
+  "word": "five",
+  "pos": [
+   {
+    "p": "number",
+    "senses": [
+     {
+      "ko": "5, 다섯",
+      "en": "the number 5"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "high five",
+    "ko": "하이파이브"
+   },
+   {
+    "t": "take five",
+    "ko": "잠깐 쉬다"
+   }
+  ],
+  "ex": {
+   "en": "Give me five minutes.",
+   "ko": "5분만 줘."
+  }
+ },
+ {
+  "id": 232,
+  "word": "floor",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "바닥, 마루",
+      "en": "the flat surface of a room that you walk on"
+     },
+     {
+      "ko": "(건물의) 층",
+      "en": "a level in a building"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "on the floor",
+    "ko": "바닥에"
+   },
+   {
+    "t": "ground floor",
+    "ko": "1층"
+   },
+   {
+    "t": "the floor is yours",
+    "ko": "말씀하세요"
+   }
+  ],
+  "ex": {
+   "en": "Don't leave your clothes on the floor.",
+   "ko": "옷 바닥에 두지 마."
+  }
+ },
+ {
+  "id": 233,
+  "word": "focus",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "초점, 중심",
+      "en": "the main purpose or center of interest or activity"
+     },
+     {
+      "ko": "(사진의) 초점",
+      "en": "the point where an image looks clear and sharp"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "집중하다",
+      "en": "to give all your attention to one thing"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "focus on",
+    "ko": "~에 집중하다"
+   },
+   {
+    "t": "out of focus",
+    "ko": "초점이 안 맞는"
+   },
+   {
+    "t": "lose focus",
+    "ko": "집중력을 잃다"
+   }
+  ],
+  "ex": {
+   "en": "The main focus today is the budget.",
+   "ko": "오늘의 핵심은 예산이야."
+  }
+ },
+ {
+  "id": 234,
+  "word": "follow",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "따라가다, 뒤따르다",
+      "en": "to come or go after someone or something"
+     },
+     {
+      "ko": "(지시를) 따르다",
+      "en": "to do what someone tells you or what rules say"
+     },
+     {
+      "ko": "이해하다, 따라가다",
+      "en": "to understand what someone is saying"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "follow up",
+    "ko": "후속 조치를 하다"
+   },
+   {
+    "t": "I don't follow.",
+    "ko": "무슨 말인지 모르겠어"
+   },
+   {
+    "t": "follow me",
+    "ko": "날 따라와"
+   }
+  ],
+  "ex": {
+   "en": "Just follow me, I know the way.",
+   "ko": "그냥 나 따라와, 길 알아."
+  }
+ },
+ {
+  "id": 235,
+  "word": "food",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "음식, 먹을 것",
+      "en": "the things that people and animals eat"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "fast food",
+    "ko": "패스트푸드"
+   },
+   {
+    "t": "food poisoning",
+    "ko": "식중독"
+   },
+   {
+    "t": "food for thought",
+    "ko": "생각해 볼 거리"
+   }
+  ],
+  "ex": {
+   "en": "The food here is amazing.",
+   "ko": "여기 음식 진짜 맛있어."
+  }
+ },
+ {
+  "id": 236,
+  "word": "foot",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "발",
+      "en": "the part of the body at the end of the leg, below the ankle"
+     },
+     {
+      "ko": "피트 (길이 단위)",
+      "en": "a unit for measuring length, equal to 12 inches"
+     },
+     {
+      "ko": "(산, 계단의) 아랫부분",
+      "en": "the bottom or lowest part of something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "on foot",
+    "ko": "걸어서"
+   },
+   {
+    "t": "put your foot down",
+    "ko": "단호하게 나서다"
+   },
+   {
+    "t": "get cold feet",
+    "ko": "겁이 나다, 망설이다"
+   }
+  ],
+  "ex": {
+   "en": "My foot really hurts.",
+   "ko": "발이 너무 아파."
+  }
+ },
+ {
+  "id": 237,
+  "word": "for",
+  "pos": [
+   {
+    "p": "preposition",
+    "senses": [
+     {
+      "ko": "~을 위해, ~용으로",
+      "en": "used to show the purpose or need of something"
+     },
+     {
+      "ko": "~ 동안",
+      "en": "used to show how long something lasts"
+     },
+     {
+      "ko": "~에게 주려고",
+      "en": "intended to be given to someone"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "for now",
+    "ko": "당분간, 일단은"
+   },
+   {
+    "t": "for sure",
+    "ko": "확실히"
+   },
+   {
+    "t": "What for?",
+    "ko": "뭐 때문에?"
+   }
+  ],
+  "ex": {
+   "en": "This knife is for cutting bread.",
+   "ko": "이 칼은 빵 자르는 용이야."
+  }
+ },
+ {
+  "id": 238,
+  "word": "force",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "(힘으로) 밀다, 억지로 하다",
+      "en": "to use physical strength or power to make something move or open"
+     },
+     {
+      "ko": "강요하다, 억지로 ~하게 하다",
+      "en": "to make someone do something they do not want to do"
+     }
+    ]
+   },
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "힘, 물리력",
+      "en": "physical strength, power, or energy"
+     },
+     {
+      "ko": "(군대 등의) 부대",
+      "en": "a group of people such as soldiers or police"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "force yourself",
+    "ko": "억지로 하다"
+   },
+   {
+    "t": "join forces",
+    "ko": "힘을 합치다"
+   },
+   {
+    "t": "by force",
+    "ko": "강제로"
+   }
+  ],
+  "ex": {
+   "en": "We had to force the door open.",
+   "ko": "우리 문을 억지로 열어야 했어."
+  }
+ },
+ {
+  "id": 239,
+  "word": "forget",
+  "pos": [
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "잊다, 기억하지 못하다",
+      "en": "to be unable to remember something"
+     },
+     {
+      "ko": "깜빡하다, 두고 오다",
+      "en": "to fail to do or bring something"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "Forget it.",
+    "ko": "됐어, 신경 쓰지 마"
+   },
+   {
+    "t": "Don't forget to ...",
+    "ko": "~하는 거 잊지 마"
+   },
+   {
+    "t": "forget about it",
+    "ko": "잊어버려"
+   }
+  ],
+  "ex": {
+   "en": "I forgot her name again.",
+   "ko": "또 걔 이름 까먹었어."
+  }
+ },
+ {
+  "id": 240,
+  "word": "form",
+  "pos": [
+   {
+    "p": "noun",
+    "senses": [
+     {
+      "ko": "종류, 형태",
+      "en": "a type or kind of something, or its shape"
+     },
+     {
+      "ko": "서식, 양식",
+      "en": "a paper with spaces where you write information"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "형성하다, 만들다",
+      "en": "to make something or come into existence"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "fill out a form",
+    "ko": "양식을 작성하다"
+   },
+   {
+    "t": "in the form of",
+    "ko": "~의 형태로"
+   },
+   {
+    "t": "in good form",
+    "ko": "컨디션이 좋은"
+   }
+  ],
+  "ex": {
+   "en": "Walking is a great form of exercise.",
+   "ko": "걷기는 아주 좋은 운동이야."
+  }
+ },
+ {
+  "id": 241,
+  "word": "forty",
+  "pos": [
+   {
+    "p": "number",
+    "senses": [
+     {
+      "ko": "40, 마흔",
+      "en": "the number 40"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "in your forties",
+    "ko": "40대인"
+   }
+  ],
+  "ex": {
+   "en": "My dad just turned forty.",
+   "ko": "우리 아빠 이제 막 마흔 되셨어."
+  }
+ },
+ {
+  "id": 242,
+  "word": "forward",
+  "pos": [
+   {
+    "p": "adverb",
+    "senses": [
+     {
+      "ko": "앞으로",
+      "en": "toward the front or toward what is ahead"
+     },
+     {
+      "ko": "(미래로) 앞으로, 장래에",
+      "en": "toward the future or a later time"
+     }
+    ]
+   },
+   {
+    "p": "verb",
+    "senses": [
+     {
+      "ko": "(메일 등을) 전달하다",
+      "en": "to send an email or letter on to another person"
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   {
+    "t": "look forward to",
+    "ko": "~을 기대하다, 고대하다"
+   },
+   {
+    "t": "move forward",
+    "ko": "앞으로 나아가다"
+   },
+   {
+    "t": "fast-forward",
+    "ko": "빨리 감기"
+   }
+  ],
+  "ex": {
+   "en": "Take one step forward.",
+   "ko": "한 발짝 앞으로 나와."
+  }
+ }
+]
