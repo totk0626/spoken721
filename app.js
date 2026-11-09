@@ -988,7 +988,7 @@ function setCount(el, n) {
   animate(el.parentNode, [{ transform: 'scale(1)' }, { transform: 'scale(1.12)' }, { transform: 'scale(1)' }], 320, { easing: EASE_OUT });
 }
 
-const doneStat = (label, n, tone) => h('section', { class: `card stat stat-${tone}` },
+const doneStat = (label, n) => h('section', { class: 'card stat' },
   h('p', { class: 'stat-label' }, label),
   h('p', { class: 'stat-value' }, count(n), h('span', {}, '개')));
 
@@ -1001,9 +1001,9 @@ function LearnScreen({ ids }) {
   const counter = h('span', { class: 'progress-text' });
   const unsureCount = h('b', {}, '0');
   const knownCount = h('b', {}, '0');
-  const body = h('div', { class: 'scroll scroll-flush' });
+  const body = h('div', { class: 'scroll scroll-flush learn-body' });
   const hint = h('p', { class: 'swipe-hint', 'aria-hidden': 'true' },
-    h('span', { class: 'hint-unsure' }, '← 헷갈려요'), ' · ', h('span', { class: 'hint-know' }, '알아요 →'));
+    '← 헷갈려요 · 알아요 →');
   const unsure = btn('헷갈려요', 'unsure', () => act('unsure'));
   const know = btn('알아요', 'primary', () => act('know'));
   const confirm = btn('확인했어요', 'primary', () => act('unsure'));
@@ -1011,8 +1011,8 @@ function LearnScreen({ ids }) {
   screen.append(
     topbar(fill, counter),
     h('div', { class: 'tally', 'data-enter': '' },
-      h('span', { class: 'pill pill-warn' }, '헷갈려요', unsureCount),
-      h('span', { class: 'pill pill-ok' }, '알아요', knownCount)),
+      h('span', { class: 'pill' }, '헷갈려요', unsureCount),
+      h('span', { class: 'pill' }, '알아요', knownCount)),
     body,
     bar);
 
@@ -1045,7 +1045,8 @@ function LearnScreen({ ids }) {
       },
     });
     if (bar.firstChild === confirm) bar.replaceChildren(unsure, know);
-    body.replaceChildren(el, hint);
+    body.replaceChildren(h('div', { class: 'learn-stack' }, el, hint));
+    body.classList.add('is-centered');
     body.scrollTop = 0;
     sync();
     if (enter) animate(el, [{ opacity: 0, transform: 'scale(.94)' }, { opacity: 1, transform: 'none' }], 320, { easing: EASE_OUT });
@@ -1053,7 +1054,11 @@ function LearnScreen({ ids }) {
 
   function turnOver() {
     if (card.reveal.isConnected) {
+      const from = card.el.getBoundingClientRect().top;
+      body.classList.remove('is-centered');
       card.reveal.replaceWith(card.detail);
+      const shift = from - card.el.getBoundingClientRect().top;
+      if (shift) animate(card.el, [{ transform: `translateY(${shift}px)` }, { transform: 'none' }], 460);
       playEntrance(card.detail);
     }
     if (session.phase === 'confirm') {
@@ -1073,8 +1078,8 @@ function LearnScreen({ ids }) {
         h('p', { class: 'done-count', 'data-enter': '' }, count(t.total), h('span', {}, '개')),
         title('오늘의 단어를 익혔어요', 'title center'),
         h('div', { class: 'stats done-split', 'data-enter': '' },
-          doneStat('한 번에 알았어요', t.total - t.reviewed, 'ok'),
-          doneStat('다시 보고 외웠어요', t.reviewed, 'warn')),
+          doneStat('한 번에 알았어요', t.total - t.reviewed),
+          doneStat('다시 보고 외웠어요', t.reviewed)),
         h('p', { class: 'body center', 'data-enter': '' }, t.reviewed
           ? `다시 본 ${t.reviewed}개는 내일 복습 퀴즈에 나와요.`
           : '복습 일정에 맞춰 퀴즈로 다시 만나요.')),

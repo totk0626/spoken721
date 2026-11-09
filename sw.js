@@ -1,4 +1,4 @@
-const CACHE = 'spoken721-v4';
+const CACHE = 'spoken721-v5';
 const FILES = [
   './',
   'index.html',

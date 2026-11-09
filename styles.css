@@ -20,8 +20,6 @@
   --ok: #2F8F5B;
   --ok-bg: #E6F4EC;
   --ok-text: #28794D;
-  --warn: #C13C3B;
-  --warn-bg: #FFEBE9;
   --err: #C13C3B;
   --err-bg: #FFEBE9;
   --page: #E6E9F0;
@@ -248,7 +246,7 @@ input { font: inherit; letter-spacing: inherit; color: inherit; }
 .btn:disabled { opacity: .4; cursor: default; }
 .btn-primary { background: var(--acc-strong); color: #fff; }
 .btn-secondary { background: var(--acc-subtle); color: var(--acc-text); }
-.btn-unsure { background: var(--warn-bg); color: var(--warn); }
+.btn-unsure { background: #E6E8ED; color: var(--ink); }
 .btn-danger { background: var(--err); color: #fff; }
 .btn-danger-soft { background: var(--err-bg); color: var(--err); }
 .btn-sm {
@@ -867,10 +865,16 @@ button.review:active { transform: scale(.98); }
   font-weight: 700;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
+  background: var(--card);
+  color: var(--sub);
 }
-.pill b { font-weight: 800; }
-.pill-warn { background: var(--warn-bg); color: var(--warn); }
-.pill-ok { background: var(--ok-bg); color: var(--ok-text); }
+.pill b { font-weight: 800; color: var(--ink); }
+
+.learn-body { display: flex; flex-direction: column; }
+.learn-stack { flex: none; }
+/* Auto margins center the front card but, unlike justify-content, never push the revealed card out of scroll reach. */
+.learn-body.is-centered { padding-bottom: 56px; }
+.learn-body.is-centered > .learn-stack { margin: auto 0; }
 
 .learn-card {
   position: relative;
@@ -897,8 +901,8 @@ button.review:active { transform: scale(.98); }
   letter-spacing: -0.02em;
   opacity: 0;
 }
-.stamp-know { left: -6px; color: var(--ok-text); background: var(--ok-bg); transform: rotate(-10deg); }
-.stamp-unsure { right: -6px; color: var(--warn); background: var(--warn-bg); transform: rotate(10deg); }
+.stamp-know { left: -6px; color: var(--ink); background: var(--card); transform: rotate(-10deg); }
+.stamp-unsure { right: -6px; color: var(--ink); background: var(--card); transform: rotate(10deg); }
 
 .swipe-hint {
   margin-top: 14px;
@@ -907,8 +911,6 @@ button.review:active { transform: scale(.98); }
   font-weight: 700;
   color: var(--sub);
 }
-.hint-unsure { color: var(--warn); }
-.hint-know { color: var(--ok-text); }
 
 .done, .result { display: flex; flex-direction: column; align-items: center; text-align: center; }
 /* Auto margins center short content but, unlike justify-content, never push overflow out of scroll reach. */
@@ -932,8 +934,6 @@ button.review:active { transform: scale(.98); }
 }
 .done-count span { font-size: var(--fs-20); font-weight: 700; margin-left: 2px; }
 .done-split { align-self: stretch; margin-top: 20px; }
-.stat-ok .stat-value b { color: var(--ok-text); }
-.stat-warn .stat-value b { color: var(--warn); }
 
 /* ---------- quiz ---------- */
 
