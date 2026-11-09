@@ -1004,7 +1004,7 @@ function LearnScreen({ ids }) {
   const body = h('div', { class: 'scroll scroll-flush' });
   const hint = h('p', { class: 'swipe-hint', 'aria-hidden': 'true' },
     h('span', { class: 'hint-unsure' }, '← 헷갈려요'), ' · ', h('span', { class: 'hint-know' }, '알아요 →'));
-  const unsure = btn('헷갈려요', 'secondary', () => act('unsure'));
+  const unsure = btn('헷갈려요', 'unsure', () => act('unsure'));
   const know = btn('알아요', 'primary', () => act('know'));
   const confirm = btn('확인했어요', 'primary', () => act('unsure'));
   const bar = h('div', { class: 'bar', 'data-bar': '' }, unsure, know);

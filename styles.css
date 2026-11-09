@@ -20,8 +20,8 @@
   --ok: #2F8F5B;
   --ok-bg: #E6F4EC;
   --ok-text: #28794D;
-  --warn: #AD5300;
-  --warn-bg: #FFF3E5;
+  --warn: #C13C3B;
+  --warn-bg: #FFEBE9;
   --err: #C13C3B;
   --err-bg: #FFEBE9;
   --page: #E6E9F0;
@@ -248,6 +248,7 @@ input { font: inherit; letter-spacing: inherit; color: inherit; }
 .btn:disabled { opacity: .4; cursor: default; }
 .btn-primary { background: var(--acc-strong); color: #fff; }
 .btn-secondary { background: var(--acc-subtle); color: var(--acc-text); }
+.btn-unsure { background: var(--warn-bg); color: var(--warn); }
 .btn-danger { background: var(--err); color: #fff; }
 .btn-danger-soft { background: var(--err-bg); color: var(--err); }
 .btn-sm {
